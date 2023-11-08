@@ -1,6 +1,5 @@
-
-export default function About(){
-return <>
+export default function My_account(){
+    return <>
     <div className="header-section section section-fluid bg-white d-none d-xl-block">
         <div className="container">
             <div className="row align-items-center">
@@ -10,6 +9,7 @@ return <>
                         <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
                     </div>
                 </div>
+
 
                 <div className="col-auto me-auto">
                     <nav className="site-main-menu site-main-menu-left menu-height-100 justify-content-center">
@@ -141,7 +141,6 @@ return <>
                     </nav>
                 </div>
 
-
                 <div className="col-auto d-none d-xl-block">
                     <div className="header2-search">
                         <form action="#">
@@ -150,7 +149,6 @@ return <>
                         </form>
                     </div>
                 </div>
-
 
                 <div className="col-auto">
                     <div className="header-tools justify-content-end">
@@ -171,7 +169,7 @@ return <>
 
     </div>
 
-    <div className="sticky-header section bg-white section-fluid d-none d-xl-block">
+        <div className="sticky-header section bg-white section-fluid d-none d-xl-block">
         <div className="container">
             <div className="row align-items-center">
 
@@ -312,7 +310,6 @@ return <>
                 </div>
 
 
-
                 <div className="col-auto d-none d-xl-block">
                     <div className="header2-search">
                         <form action="#">
@@ -321,7 +318,6 @@ return <>
                         </form>
                     </div>
                 </div>
-
 
 
                 <div className="col-auto">
@@ -350,13 +346,12 @@ return <>
                     </div>
                 </div>
 
-
             </div>
         </div>
 
     </div>
 
-        <div className="mobile-header bg-white section d-xl-none">
+    <div className="mobile-header bg-white section d-xl-none">
         <div className="container">
             <div className="row align-items-center">
 
@@ -396,7 +391,7 @@ return <>
         </div>
     </div>
 
-        <div className="mobile-header sticky-header bg-white section d-xl-none">
+    <div className="mobile-header sticky-header bg-white section d-xl-none">
         <div className="container">
             <div className="row align-items-center">
 
@@ -436,7 +431,7 @@ return <>
         </div>
     </div>
 
-        <div id="offcanvas-search" className="offcanvas offcanvas-search">
+    <div id="offcanvas-search" className="offcanvas offcanvas-search">
         <div className="inner">
             <div className="offcanvas-search-form">
                 <button className="offcanvas-close">×</button>
@@ -463,7 +458,7 @@ return <>
         </div>
     </div>
 
-        <div id="offcanvas-wishlist" className="offcanvas offcanvas-wishlist">
+    <div id="offcanvas-wishlist" className="offcanvas offcanvas-wishlist">
         <div className="inner">
             <div className="head">
                 <span className="title">Wishlist</span>
@@ -505,7 +500,8 @@ return <>
         </div>
     </div>
 
-        <div id="offcanvas-cart" className="offcanvas offcanvas-cart">
+
+    <div id="offcanvas-cart" className="offcanvas offcanvas-cart">
         <div className="inner">
             <div className="head">
                 <span className="title">Cart</span>
@@ -553,7 +549,8 @@ return <>
         </div>
     </div>
 
-        <div id="offcanvas-mobile-menu" className="offcanvas offcanvas-mobile-menu">
+
+    <div id="offcanvas-mobile-menu" className="offcanvas offcanvas-mobile-menu">
         <div className="inner customScroll">
             <div className="offcanvas-menu-search-form">
                 <form action="#">
@@ -751,7 +748,7 @@ return <>
         </div>
     </div>
 
- <div className="offcanvas-overlay"></div>
+    <div className="offcanvas-overlay"></div>
 
     <div className="page-title-section section" data-bg-image="assets/images/bg/page-title-1.webp">
         <div className="container">
@@ -759,10 +756,10 @@ return <>
                 <div className="col">
 
                     <div className="page-title">
-                        <h1 className="title">About us</h1>
+                        <h1 className="title">My account</h1>
                         <ul className="breadcrumb">
                             <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li className="breadcrumb-item active">About us</li>
+                            <li className="breadcrumb-item active">My Account</li>
                         </ul>
                     </div>
 
@@ -771,215 +768,191 @@ return <>
         </div>
     </div>
 
-        <div className="section section-padding pb-0">
+    <div className="section section-padding">
         <div className="container">
             <div className="row learts-mb-n30">
 
-                <div className="col-md-6 col-12 align-self-center learts-mb-30">
-                    <div className="about-us3">
-                        <span className="sub-title">Live out your life.</span>
-                        <h2 className="title">The happiness of</h2>
-                        <h2 className="title">crafting artworks </h2>
-                        <div className="desc">
-                            <p>It’s all about the joy when finally you have done something beautiful on your own and observe it with quite a great deal of proud & successful feeling.</p>
-                        </div>
-                        <a href="#" className="link">Learn more</a>
-                    </div>
-                </div>
-                <div className="col-md-6 col-12 text-center learts-mb-30">
-                    <img src="assets/images/about/about-5.webp" alt=""/>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-
-    <div className="section section-padding">
-        <div className="container">
-            <div className="row row-cols-md-3 row-cols-1 learts-mb-n30">
-
-                <div className="col learts-mb-30">
-                    <div className="icon-box4">
-                        <div className="inner">
-                            <div className="content">
-                                <h6 className="title">FREE SHIPPING</h6>
-                                <p>Once receiving your order, we will turn your products around in 3- 5 business days.</p>
-                            </div>
-                        </div>
+                <div className="col-lg-4 col-12 learts-mb-30">
+                    <div className="myaccount-tab-list nav">
+                        <a href="#dashboad" className="active" data-bs-toggle="tab">Dashboard <i className="far fa-home"></i></a>
+                        <a href="#orders" data-bs-toggle="tab">Orders <i className="far fa-file-alt"></i></a>
+                        <a href="#download" data-bs-toggle="tab">Download <i className="far fa-arrow-to-bottom"></i></a>
+                        <a href="#address" data-bs-toggle="tab">address <i className="far fa-map-marker-alt"></i></a>
+                        <a href="#account-info" data-bs-toggle="tab">Account Details <i className="far fa-user"></i></a>
+                        <a href="login-register.html">Logout <i className="far fa-sign-out-alt"></i></a>
                     </div>
                 </div>
 
-                <div className="col border-left border-right learts-mb-30">
-                    <div className="icon-box4">
-                        <div className="inner">
-                            <div className="content">
-                                <h6 className="title">FREE RETURNS</h6>
-                                <p>We accept returns for freshly purchased products within 7 days from the payment.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col learts-mb-30">
-                    <div className="icon-box4">
-                        <div className="inner">
-                            <div className="content">
-                                <h6 className="title">SECURE PAYMENT</h6>
-                                <img className="img-hover-color " src="assets/images/others/pay.webp" alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div className="section section-padding">
-        <div className="container">
-
-            <div className="section-title2 row justify-content-between align-items-center">
-                <div className="col-md-auto col-12">
-                    <h2 className="title title-icon-right">We love our cilents</h2>
-                </div>
-                <div className="col-md-auto col-12 mt-4 mt-md-0">
-                    <a href="#" className="btn btn-light btn-hover-black">view all</a>
-                </div>
-            </div>
-
-            <div className="testimonial-carousel">
-                <div className="col">
-                    <div className="testimonial">
-                        <p>There is nothing would satisfy me much more than a worry-free clean and responsive theme for my high-traffic site.</p>
-                        <div className="author">
-                            <img src="assets/images/testimonial/testimonial-1.webp" alt=""/>
-                            <div className="content">
-                                <h6 className="name">Anais Coulon</h6>
-                                <span className="title">Actor</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="testimonial">
-                        <p>Really good design/documentation, pretty much everything is nicely setup. The best choice for Woocommerce shop.</p>
-                        <div className="author">
-                            <img src="assets/images/testimonial/testimonial-2.webp" alt=""/>
-                            <div className="content">
-                                <h6 className="name">Ian Schneider</h6>
-                                <span className="title">Actor</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="testimonial">
-                        <p>ThemeMove deserves 5 star for theme’s features, design quality, flexibility, customizability and support service!</p>
-                        <div className="author">
-                            <img src="assets/images/testimonial/testimonial-3.webp" alt=""/>
-                            <div className="content">
-                                <h6 className="name">Florence Polla</h6>
-                                <span className="title">Customer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="testimonial">
-                        <p>Thanks for always keeping your WordPress themes up to date. Your level of support is second to none.</p>
-                        <div className="author">
-                            <img src="assets/images/testimonial/testimonial-4.webp" alt=""/>
-                            <div className="content">
-                                <h6 className="name">Sally Ramsey</h6>
-                                <span className="title">Reporter</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div className="section section-padding">
-        <div className="container">
-
-            <div className="row learts-mb-n30">
-
-                <div className="col-xl-3 col-lg-4 col-12 me-auto learts-mb-30">
-                    <h1 className="fw-400">The difference when you shop Learts!</h1>
-                </div>
                 <div className="col-lg-8 col-12 learts-mb-30">
-                    <div className="row learts-mb-n30">
+                    <div className="tab-content">
 
-                        <div className="col-md-6 col-12 learts-mb-30">
-                            <p className="text-heading fw-600 learts-mb-10">Free Shipping</p>
-                            <p>Once receiving your order, we will turn your products around in 3-5 business days.</p>
+                        <div className="tab-pane fade show active" id="dashboad">
+                            <div className="myaccount-content dashboad">
+                                <p>Hello <strong>didiv91396</strong> (not <strong>didiv91396</strong>? <a href="login-register.html">Log out</a>)</p>
+                                <p>From your account dashboard you can view your <span>recent orders</span>, manage your <span>shipping and billing addresses</span>, and <span>edit your password and account details</span>.</p>
+                            </div>
                         </div>
 
-                        <div className="col-md-6 col-12 learts-mb-30">
-                            <p className="text-heading fw-600 learts-mb-10">Free Returns</p>
-                            <p>We accept returns for freshly purchased products within 7 days from the payment.</p>
+                        <div className="tab-pane fade" id="orders">
+                            <div className="myaccount-content order">
+                                <div className="table-responsive">
+                                    <table className="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Order</th>
+                                                <th>Date</th>
+                                                <th>Status</th>
+                                                <th>Total</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Aug 22, 2018</td>
+                                                <td>Pending</td>
+                                                <td>$3000</td>
+                                                <td><a href="shopping-cart.html">View</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>July 22, 2018</td>
+                                                <td>Approved</td>
+                                                <td>$200</td>
+                                                <td><a href="shopping-cart.html">View</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>June 12, 2017</td>
+                                                <td>On Hold</td>
+                                                <td>$990</td>
+                                                <td><a href="shopping-cart.html">View</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
 
-                        <div className="col-md-6 col-12 learts-mb-30">
-                            <p className="text-heading fw-600 learts-mb-10">Superb Quality</p>
-                            <p>We make commitments that the quality of our products will and always will be superb.</p>
+                        <div className="tab-pane fade" id="download">
+                            <div className="myaccount-content download">
+                                <div className="table-responsive">
+                                    <table className="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Product</th>
+                                                <th>Date</th>
+                                                <th>Expire</th>
+                                                <th>Download</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Haven - Free Real Estate PSD Template</td>
+                                                <td>Aug 22, 2018</td>
+                                                <td>Yes</td>
+                                                <td><a href="#"><i className="far fa-arrow-to-bottom mr-1"></i> Download File</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>HasTech - Profolio Business Template</td>
+                                                <td>Sep 12, 2018</td>
+                                                <td>Never</td>
+                                                <td><a href="#"><i className="far fa-arrow-to-bottom mr-1"></i> Download File</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
 
-                        <div className="col-md-6 col-12 learts-mb-30">
-                            <p className="text-heading fw-600 learts-mb-10">Free Wrapping</p>
-                            <p>Upon request, items bought as gifts from our store can receive free wrapping service.</p>
+                        <div className="tab-pane fade" id="address">
+                            <div className="myaccount-content address">
+                                <p>The following addresses will be used on the checkout page by default.</p>
+                                <div className="row learts-mb-n30">
+                                    <div className="col-md-6 col-12 learts-mb-30">
+                                        <h4 className="title">Billing Address <a href="#" className="edit-link">edit</a></h4>
+                                        <address>
+                                            <p><strong>Alex Tuntuni</strong></p>
+                                            <p>1355 Market St, Suite 900 <br></br>
+                                                San Francisco, CA 94103</p>
+                                            <p>Mobile: (123) 456-7890</p>
+                                        </address>
+                                    </div>
+                                    <div className="col-md-6 col-12 learts-mb-30">
+                                        <h4 className="title">Shipping Address <a href="#" className="edit-link">edit</a></h4>
+                                        <address>
+                                            <p><strong>Alex Tuntuni</strong></p>
+                                            <p>1355 Market St, Suite 900 <br></br>
+                                                San Francisco, CA 94103</p>
+                                            <p>Mobile: (123) 456-7890</p>
+                                        </address>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="tab-pane fade" id="account-info">
+                            <div className="myaccount-content account-details">
+                                <div className="account-details-form">
+                                    <form action="#">
+                                        <div className="row learts-mb-n30">
+                                            <div className="col-md-6 col-12 learts-mb-30">
+                                                <div className="single-input-item">
+                                                    <label htmlFor="first-name">First Name <abbr className="required">*</abbr></label>
+                                                    <input type="text" id="first-name"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-md-6 col-12 learts-mb-30">
+                                                <div className="single-input-item">
+                                                    <label htmlFor="last-name">Last Name <abbr className="required">*</abbr></label>
+                                                    <input type="text" id="last-name"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-12 learts-mb-30">
+                                                <label htmlFor="display-name">Display Name <abbr className="required">*</abbr></label>
+                                                <input type="text" id="display-name" value="didiv91396"/>
+                                                <p>This will be how your name will be displayed in the account section and in reviews</p>
+                                            </div>
+                                            <div className="col-12 learts-mb-30">
+                                                <label htmlFor="email">Email Addres <abbr className="required">*</abbr></label>
+                                                <input type="email" id="email" value="didiv91396@ismailgul.net"/>
+                                            </div>
+                                            <div className="col-12 learts-mb-30 learts-mt-30">
+                                                <fieldset>
+                                                    <legend>Password change</legend>
+                                                    <div className="row learts-mb-n30">
+                                                        <div className="col-12 learts-mb-30">
+                                                            <label htmlFor="current-pwd">Current password (leave blank to leave unchanged)</label>
+                                                            <input type="password" id="current-pwd"/>
+                                                        </div>
+                                                        <div className="col-12 learts-mb-30">
+                                                            <label htmlFor="new-pwd">New password (leave blank to leave unchanged)</label>
+                                                            <input type="password" id="new-pwd"/>
+                                                        </div>
+                                                        <div className="col-12 learts-mb-30">
+                                                            <label htmlFor="confirm-pwd">Confirm new password</label>
+                                                            <input type="password" id="confirm-pwd"/>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                            <div className="col-12 learts-mb-30">
+                                                <button className="btn btn-dark btn-outline-hover-dark">Save Changes</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
                 </div>
-
             </div>
-
         </div>
     </div>
 
-    <div className="section section-padding border-top">
-        <div className="container">
 
-            <div className="section-title2 text-center">
-                <h3 className="sub-title">Follow us on Instagram</h3>
-                <h2 className="title">@learts_shop</h2>
-            </div>
-
-            <div className="instafeed instafeed-carousel instafeed-carousel1">
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-1.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-2.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-3.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-4.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-2.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-3.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-            </div>
-
-        </div>
-    </div>
-
-    <div className="footer2-section section section-padding">
+        <div className="footer2-section section section-padding">
         <div className="container">
             <div className="row learts-mb-n40">
 
@@ -1024,14 +997,10 @@ return <>
         </div>
     </div>
 
-    <div className="footer2-copyright section">
+            <div className="footer2-copyright section">
         <div className="container">
             <p className="copyright text-center">&copy; 2023 learts. All Rights Reserved</p>
         </div>
     </div>
-
-</>
-
-
-
+    </>
 }

@@ -92,14 +92,6 @@ export default function Lost_password(){
                                     </li>
                                 </ul>
                             </li>
-                            <li className="has-children"><a href="#"><span className="menu-text">Project</span></a>
-                                <ul className="sub-menu">
-                                    <li><a href="portfolio-3-columns.html"><span className="menu-text">Portfolio 3 Columns</span></a></li>
-                                    <li><a href="portfolio-4-columns.html"><span className="menu-text">Portfolio 4 Columns</span></a></li>
-                                    <li><a href="portfolio-5-columns.html"><span className="menu-text">Portfolio 5 Columns</span></a></li>
-                                    <li><a href="portfolio-details.html"><span className="menu-text">Portfolio Details</span></a></li>
-                                </ul>
-                            </li>
                             <li className="has-children"><a href="#"><span className="menu-text">Elements</span></a>
                                 <ul className="sub-menu mega-menu">
                                     <li>
@@ -132,45 +124,6 @@ export default function Lost_password(){
                                             <li><a href="elements-buttons.html"><span className="menu-text">Buttons</span></a></li>
                                             <li><a href="elements-faq.html"><span className="menu-text">FAQs / Toggles</span></a></li>
                                             <li><a href="elements-brands.html"><span className="menu-text">Brands</span></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="has-children"><a href="#"><span className="menu-text">Blog</span></a>
-                                <ul className="sub-menu">
-                                    <li className="has-children"><a href="blog-right-sidebar.html"><span className="menu-text">Standard Layout</span></a>
-                                        <ul className="sub-menu">
-                                            <li><a href="blog-right-sidebar.html"><span className="menu-text">Right Sidebar</span></a></li>
-                                            <li><a href="blog-left-sidebar.html"><span className="menu-text">Left Sidebar</span></a></li>
-                                            <li><a href="blog-fullwidth.html"><span className="menu-text">Full Width</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="has-children"><a href="blog-grid-right-sidebar.html"><span className="menu-text">Grid Layout</span></a>
-                                        <ul className="sub-menu">
-                                            <li><a href="blog-grid-right-sidebar.html"><span className="menu-text">Right Sidebar</span></a></li>
-                                            <li><a href="blog-grid-left-sidebar.html"><span className="menu-text">Left Sidebar</span></a></li>
-                                            <li><a href="blog-grid-fullwidth.html"><span className="menu-text">Full Width</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="has-children"><a href="blog-list-right-sidebar.html"><span className="menu-text">List Layout</span></a>
-                                        <ul className="sub-menu">
-                                            <li><a href="blog-list-right-sidebar.html"><span className="menu-text">Right Sidebar</span></a></li>
-                                            <li><a href="blog-list-left-sidebar.html"><span className="menu-text">Left Sidebar</span></a></li>
-                                            <li><a href="blog-list-fullwidth.html"><span className="menu-text">Full Width</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="has-children"><a href="blog-masonry-right-sidebar.html"><span className="menu-text">Masonry Layout</span></a>
-                                        <ul className="sub-menu">
-                                            <li><a href="blog-masonry-right-sidebar.html"><span className="menu-text">Right Sidebar</span></a></li>
-                                            <li><a href="blog-masonry-left-sidebar.html"><span className="menu-text">Left Sidebar</span></a></li>
-                                            <li><a href="blog-masonry-fullwidth.html"><span className="menu-text">Full Width</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="has-children"><a href="blog-details-right-sidebar.html"><span className="menu-text">Single Post Layout</span></a>
-                                        <ul className="sub-menu">
-                                            <li><a href="blog-details-right-sidebar.html"><span className="menu-text">Right Sidebar</span></a></li>
-                                            <li><a href="blog-details-left-sidebar.html"><span className="menu-text">Left Sidebar</span></a></li>
-                                            <li><a href="blog-details-fullwidth.html"><span className="menu-text">Full Width</span></a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -307,14 +260,6 @@ export default function Lost_password(){
                                     </li>
                                 </ul>
                             </li>
-                            <li className="has-children"><a href="#"><span className="menu-text">Project</span></a>
-                                <ul className="sub-menu">
-                                    <li><a href="portfolio-3-columns.html"><span className="menu-text">Portfolio 3 Columns</span></a></li>
-                                    <li><a href="portfolio-4-columns.html"><span className="menu-text">Portfolio 4 Columns</span></a></li>
-                                    <li><a href="portfolio-5-columns.html"><span className="menu-text">Portfolio 5 Columns</span></a></li>
-                                    <li><a href="portfolio-details.html"><span className="menu-text">Portfolio Details</span></a></li>
-                                </ul>
-                            </li>
                             <li className="has-children"><a href="#"><span className="menu-text">Elements</span></a>
                                 <ul className="sub-menu mega-menu">
                                     <li>
@@ -347,45 +292,6 @@ export default function Lost_password(){
                                             <li><a href="elements-buttons.html"><span className="menu-text">Buttons</span></a></li>
                                             <li><a href="elements-faq.html"><span className="menu-text">FAQs / Toggles</span></a></li>
                                             <li><a href="elements-brands.html"><span className="menu-text">Brands</span></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="has-children"><a href="#"><span className="menu-text">Blog</span></a>
-                                <ul className="sub-menu">
-                                    <li className="has-children"><a href="blog-right-sidebar.html"><span className="menu-text">Standard Layout</span></a>
-                                        <ul className="sub-menu">
-                                            <li><a href="blog-right-sidebar.html"><span className="menu-text">Right Sidebar</span></a></li>
-                                            <li><a href="blog-left-sidebar.html"><span className="menu-text">Left Sidebar</span></a></li>
-                                            <li><a href="blog-fullwidth.html"><span className="menu-text">Full Width</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="has-children"><a href="blog-grid-right-sidebar.html"><span className="menu-text">Grid Layout</span></a>
-                                        <ul className="sub-menu">
-                                            <li><a href="blog-grid-right-sidebar.html"><span className="menu-text">Right Sidebar</span></a></li>
-                                            <li><a href="blog-grid-left-sidebar.html"><span className="menu-text">Left Sidebar</span></a></li>
-                                            <li><a href="blog-grid-fullwidth.html"><span className="menu-text">Full Width</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="has-children"><a href="blog-list-right-sidebar.html"><span className="menu-text">List Layout</span></a>
-                                        <ul className="sub-menu">
-                                            <li><a href="blog-list-right-sidebar.html"><span className="menu-text">Right Sidebar</span></a></li>
-                                            <li><a href="blog-list-left-sidebar.html"><span className="menu-text">Left Sidebar</span></a></li>
-                                            <li><a href="blog-list-fullwidth.html"><span className="menu-text">Full Width</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="has-children"><a href="blog-masonry-right-sidebar.html"><span className="menu-text">Masonry Layout</span></a>
-                                        <ul className="sub-menu">
-                                            <li><a href="blog-masonry-right-sidebar.html"><span className="menu-text">Right Sidebar</span></a></li>
-                                            <li><a href="blog-masonry-left-sidebar.html"><span className="menu-text">Left Sidebar</span></a></li>
-                                            <li><a href="blog-masonry-fullwidth.html"><span className="menu-text">Full Width</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="has-children"><a href="blog-details-right-sidebar.html"><span className="menu-text">Single Post Layout</span></a>
-                                        <ul className="sub-menu">
-                                            <li><a href="blog-details-right-sidebar.html"><span className="menu-text">Right Sidebar</span></a></li>
-                                            <li><a href="blog-details-left-sidebar.html"><span className="menu-text">Left Sidebar</span></a></li>
-                                            <li><a href="blog-details-fullwidth.html"><span className="menu-text">Full Width</span></a></li>
                                         </ul>
                                     </li>
                                 </ul>

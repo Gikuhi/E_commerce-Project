@@ -1,7 +1,6 @@
-
-export default function About(){
-return <>
-    <div className="header-section section section-fluid bg-white d-none d-xl-block">
+export default function Order_tracking(){
+    return <>
+        <div className="header-section section section-fluid bg-white d-none d-xl-block">
         <div className="container">
             <div className="row align-items-center">
 
@@ -10,6 +9,7 @@ return <>
                         <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
                     </div>
                 </div>
+
 
                 <div className="col-auto me-auto">
                     <nav className="site-main-menu site-main-menu-left menu-height-100 justify-content-center">
@@ -141,7 +141,6 @@ return <>
                     </nav>
                 </div>
 
-
                 <div className="col-auto d-none d-xl-block">
                     <div className="header2-search">
                         <form action="#">
@@ -150,7 +149,6 @@ return <>
                         </form>
                     </div>
                 </div>
-
 
                 <div className="col-auto">
                     <div className="header-tools justify-content-end">
@@ -171,7 +169,7 @@ return <>
 
     </div>
 
-    <div className="sticky-header section bg-white section-fluid d-none d-xl-block">
+        <div className="sticky-header section bg-white section-fluid d-none d-xl-block">
         <div className="container">
             <div className="row align-items-center">
 
@@ -312,7 +310,6 @@ return <>
                 </div>
 
 
-
                 <div className="col-auto d-none d-xl-block">
                     <div className="header2-search">
                         <form action="#">
@@ -321,7 +318,6 @@ return <>
                         </form>
                     </div>
                 </div>
-
 
 
                 <div className="col-auto">
@@ -350,13 +346,12 @@ return <>
                     </div>
                 </div>
 
-
             </div>
         </div>
 
     </div>
 
-        <div className="mobile-header bg-white section d-xl-none">
+    <div className="mobile-header bg-white section d-xl-none">
         <div className="container">
             <div className="row align-items-center">
 
@@ -396,7 +391,7 @@ return <>
         </div>
     </div>
 
-        <div className="mobile-header sticky-header bg-white section d-xl-none">
+    <div className="mobile-header sticky-header bg-white section d-xl-none">
         <div className="container">
             <div className="row align-items-center">
 
@@ -436,7 +431,7 @@ return <>
         </div>
     </div>
 
-        <div id="offcanvas-search" className="offcanvas offcanvas-search">
+    <div id="offcanvas-search" className="offcanvas offcanvas-search">
         <div className="inner">
             <div className="offcanvas-search-form">
                 <button className="offcanvas-close">×</button>
@@ -463,7 +458,7 @@ return <>
         </div>
     </div>
 
-        <div id="offcanvas-wishlist" className="offcanvas offcanvas-wishlist">
+    <div id="offcanvas-wishlist" className="offcanvas offcanvas-wishlist">
         <div className="inner">
             <div className="head">
                 <span className="title">Wishlist</span>
@@ -505,7 +500,8 @@ return <>
         </div>
     </div>
 
-        <div id="offcanvas-cart" className="offcanvas offcanvas-cart">
+
+    <div id="offcanvas-cart" className="offcanvas offcanvas-cart">
         <div className="inner">
             <div className="head">
                 <span className="title">Cart</span>
@@ -553,7 +549,8 @@ return <>
         </div>
     </div>
 
-        <div id="offcanvas-mobile-menu" className="offcanvas offcanvas-mobile-menu">
+
+    <div id="offcanvas-mobile-menu" className="offcanvas offcanvas-mobile-menu">
         <div className="inner customScroll">
             <div className="offcanvas-menu-search-form">
                 <form action="#">
@@ -751,7 +748,7 @@ return <>
         </div>
     </div>
 
- <div className="offcanvas-overlay"></div>
+    <div className="offcanvas-overlay"></div>
 
     <div className="page-title-section section" data-bg-image="assets/images/bg/page-title-1.webp">
         <div className="container">
@@ -759,10 +756,10 @@ return <>
                 <div className="col">
 
                     <div className="page-title">
-                        <h1 className="title">About us</h1>
+                        <h1 className="title">Order Tracking</h1>
                         <ul className="breadcrumb">
                             <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li className="breadcrumb-item active">About us</li>
+                            <li className="breadcrumb-item active">Order Tracking</li>
                         </ul>
                     </div>
 
@@ -771,215 +768,34 @@ return <>
         </div>
     </div>
 
-        <div className="section section-padding pb-0">
-        <div className="container">
-            <div className="row learts-mb-n30">
-
-                <div className="col-md-6 col-12 align-self-center learts-mb-30">
-                    <div className="about-us3">
-                        <span className="sub-title">Live out your life.</span>
-                        <h2 className="title">The happiness of</h2>
-                        <h2 className="title">crafting artworks </h2>
-                        <div className="desc">
-                            <p>It’s all about the joy when finally you have done something beautiful on your own and observe it with quite a great deal of proud & successful feeling.</p>
-                        </div>
-                        <a href="#" className="link">Learn more</a>
-                    </div>
-                </div>
-                <div className="col-md-6 col-12 text-center learts-mb-30">
-                    <img src="assets/images/about/about-5.webp" alt=""/>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-
-    <div className="section section-padding">
-        <div className="container">
-            <div className="row row-cols-md-3 row-cols-1 learts-mb-n30">
-
-                <div className="col learts-mb-30">
-                    <div className="icon-box4">
-                        <div className="inner">
-                            <div className="content">
-                                <h6 className="title">FREE SHIPPING</h6>
-                                <p>Once receiving your order, we will turn your products around in 3- 5 business days.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col border-left border-right learts-mb-30">
-                    <div className="icon-box4">
-                        <div className="inner">
-                            <div className="content">
-                                <h6 className="title">FREE RETURNS</h6>
-                                <p>We accept returns for freshly purchased products within 7 days from the payment.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col learts-mb-30">
-                    <div className="icon-box4">
-                        <div className="inner">
-                            <div className="content">
-                                <h6 className="title">SECURE PAYMENT</h6>
-                                <img className="img-hover-color " src="assets/images/others/pay.webp" alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div className="section section-padding">
+            <div className="section section-padding">
         <div className="container">
 
-            <div className="section-title2 row justify-content-between align-items-center">
-                <div className="col-md-auto col-12">
-                    <h2 className="title title-icon-right">We love our cilents</h2>
-                </div>
-                <div className="col-md-auto col-12 mt-4 mt-md-0">
-                    <a href="#" className="btn btn-light btn-hover-black">view all</a>
-                </div>
-            </div>
-
-            <div className="testimonial-carousel">
-                <div className="col">
-                    <div className="testimonial">
-                        <p>There is nothing would satisfy me much more than a worry-free clean and responsive theme for my high-traffic site.</p>
-                        <div className="author">
-                            <img src="assets/images/testimonial/testimonial-1.webp" alt=""/>
-                            <div className="content">
-                                <h6 className="name">Anais Coulon</h6>
-                                <span className="title">Actor</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="testimonial">
-                        <p>Really good design/documentation, pretty much everything is nicely setup. The best choice for Woocommerce shop.</p>
-                        <div className="author">
-                            <img src="assets/images/testimonial/testimonial-2.webp" alt=""/>
-                            <div className="content">
-                                <h6 className="name">Ian Schneider</h6>
-                                <span className="title">Actor</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="testimonial">
-                        <p>ThemeMove deserves 5 star for theme’s features, design quality, flexibility, customizability and support service!</p>
-                        <div className="author">
-                            <img src="assets/images/testimonial/testimonial-3.webp" alt=""/>
-                            <div className="content">
-                                <h6 className="name">Florence Polla</h6>
-                                <span className="title">Customer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="testimonial">
-                        <p>Thanks for always keeping your WordPress themes up to date. Your level of support is second to none.</p>
-                        <div className="author">
-                            <img src="assets/images/testimonial/testimonial-4.webp" alt=""/>
-                            <div className="content">
-                                <h6 className="name">Sally Ramsey</h6>
-                                <span className="title">Reporter</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div className="section section-padding">
-        <div className="container">
-
-            <div className="row learts-mb-n30">
-
-                <div className="col-xl-3 col-lg-4 col-12 me-auto learts-mb-30">
-                    <h1 className="fw-400">The difference when you shop Learts!</h1>
-                </div>
-                <div className="col-lg-8 col-12 learts-mb-30">
+            <div className="order-tracking">
+                <p>To track your order please enter your Order ID in the box below and press the "Track" button. This was given to you on your receipt and in the confirmation email you should have received.</p>
+                <form action="#">
                     <div className="row learts-mb-n30">
-
-                        <div className="col-md-6 col-12 learts-mb-30">
-                            <p className="text-heading fw-600 learts-mb-10">Free Shipping</p>
-                            <p>Once receiving your order, we will turn your products around in 3-5 business days.</p>
+                        <div className="col-12 learts-mb-30">
+                            <label htmlFor="orderID">Order ID</label>
+                            <input id="orderID" type="text" placeholder="Found in your order confirmation email."/>
                         </div>
-
-                        <div className="col-md-6 col-12 learts-mb-30">
-                            <p className="text-heading fw-600 learts-mb-10">Free Returns</p>
-                            <p>We accept returns for freshly purchased products within 7 days from the payment.</p>
+                        <div className="col-12 learts-mb-30">
+                            <label htmlFor="billingEmail">Billing email</label>
+                            <input id="billingEmail" type="text" placeholder="Email you used during checkout."/>
                         </div>
-
-                        <div className="col-md-6 col-12 learts-mb-30">
-                            <p className="text-heading fw-600 learts-mb-10">Superb Quality</p>
-                            <p>We make commitments that the quality of our products will and always will be superb.</p>
+                        <div className="col-12 text-center learts-mb-30">
+                            <button className="btn btn-dark btn-outline-hover-dark">Track</button>
                         </div>
-
-                        <div className="col-md-6 col-12 learts-mb-30">
-                            <p className="text-heading fw-600 learts-mb-10">Free Wrapping</p>
-                            <p>Upon request, items bought as gifts from our store can receive free wrapping service.</p>
-                        </div>
-
                     </div>
-                </div>
-
+                </form>
             </div>
 
         </div>
+
     </div>
 
-    <div className="section section-padding border-top">
-        <div className="container">
 
-            <div className="section-title2 text-center">
-                <h3 className="sub-title">Follow us on Instagram</h3>
-                <h2 className="title">@learts_shop</h2>
-            </div>
-
-            <div className="instafeed instafeed-carousel instafeed-carousel1">
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-1.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-2.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-3.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-4.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-2.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-3.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-            </div>
-
-        </div>
-    </div>
-
-    <div className="footer2-section section section-padding">
+        <div className="footer2-section section section-padding">
         <div className="container">
             <div className="row learts-mb-n40">
 
@@ -1024,14 +840,10 @@ return <>
         </div>
     </div>
 
-    <div className="footer2-copyright section">
+            <div className="footer2-copyright section">
         <div className="container">
             <p className="copyright text-center">&copy; 2023 learts. All Rights Reserved</p>
         </div>
     </div>
-
-</>
-
-
-
+    </>
 }

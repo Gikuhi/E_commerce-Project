@@ -1,6 +1,6 @@
+export default function Contact_us(){
+    return <>
 
-export default function About(){
-return <>
     <div className="header-section section section-fluid bg-white d-none d-xl-block">
         <div className="container">
             <div className="row align-items-center">
@@ -171,7 +171,7 @@ return <>
 
     </div>
 
-    <div className="sticky-header section bg-white section-fluid d-none d-xl-block">
+        <div className="sticky-header section bg-white section-fluid d-none d-xl-block">
         <div className="container">
             <div className="row align-items-center">
 
@@ -356,7 +356,7 @@ return <>
 
     </div>
 
-        <div className="mobile-header bg-white section d-xl-none">
+    <div className="mobile-header bg-white section d-xl-none">
         <div className="container">
             <div className="row align-items-center">
 
@@ -396,7 +396,7 @@ return <>
         </div>
     </div>
 
-        <div className="mobile-header sticky-header bg-white section d-xl-none">
+    <div className="mobile-header sticky-header bg-white section d-xl-none">
         <div className="container">
             <div className="row align-items-center">
 
@@ -436,7 +436,7 @@ return <>
         </div>
     </div>
 
-        <div id="offcanvas-search" className="offcanvas offcanvas-search">
+    <div id="offcanvas-search" className="offcanvas offcanvas-search">
         <div className="inner">
             <div className="offcanvas-search-form">
                 <button className="offcanvas-close">×</button>
@@ -463,7 +463,7 @@ return <>
         </div>
     </div>
 
-        <div id="offcanvas-wishlist" className="offcanvas offcanvas-wishlist">
+    <div id="offcanvas-wishlist" className="offcanvas offcanvas-wishlist">
         <div className="inner">
             <div className="head">
                 <span className="title">Wishlist</span>
@@ -505,7 +505,8 @@ return <>
         </div>
     </div>
 
-        <div id="offcanvas-cart" className="offcanvas offcanvas-cart">
+
+    <div id="offcanvas-cart" className="offcanvas offcanvas-cart">
         <div className="inner">
             <div className="head">
                 <span className="title">Cart</span>
@@ -553,7 +554,8 @@ return <>
         </div>
     </div>
 
-        <div id="offcanvas-mobile-menu" className="offcanvas offcanvas-mobile-menu">
+
+    <div id="offcanvas-mobile-menu" className="offcanvas offcanvas-mobile-menu">
         <div className="inner customScroll">
             <div className="offcanvas-menu-search-form">
                 <form action="#">
@@ -751,7 +753,7 @@ return <>
         </div>
     </div>
 
- <div className="offcanvas-overlay"></div>
+    <div className="offcanvas-overlay"></div>
 
     <div className="page-title-section section" data-bg-image="assets/images/bg/page-title-1.webp">
         <div className="container">
@@ -759,10 +761,10 @@ return <>
                 <div className="col">
 
                     <div className="page-title">
-                        <h1 className="title">About us</h1>
+                        <h1 className="title">Contact us</h1>
                         <ul className="breadcrumb">
                             <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li className="breadcrumb-item active">About us</li>
+                            <li className="breadcrumb-item active">Contact us</li>
                         </ul>
                     </div>
 
@@ -771,215 +773,70 @@ return <>
         </div>
     </div>
 
-        <div className="section section-padding pb-0">
-        <div className="container">
-            <div className="row learts-mb-n30">
-
-                <div className="col-md-6 col-12 align-self-center learts-mb-30">
-                    <div className="about-us3">
-                        <span className="sub-title">Live out your life.</span>
-                        <h2 className="title">The happiness of</h2>
-                        <h2 className="title">crafting artworks </h2>
-                        <div className="desc">
-                            <p>It’s all about the joy when finally you have done something beautiful on your own and observe it with quite a great deal of proud & successful feeling.</p>
-                        </div>
-                        <a href="#" className="link">Learn more</a>
-                    </div>
-                </div>
-                <div className="col-md-6 col-12 text-center learts-mb-30">
-                    <img src="assets/images/about/about-5.webp" alt=""/>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-
     <div className="section section-padding">
         <div className="container">
-            <div className="row row-cols-md-3 row-cols-1 learts-mb-n30">
-
-                <div className="col learts-mb-30">
-                    <div className="icon-box4">
-                        <div className="inner">
-                            <div className="content">
-                                <h6 className="title">FREE SHIPPING</h6>
-                                <p>Once receiving your order, we will turn your products around in 3- 5 business days.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col border-left border-right learts-mb-30">
-                    <div className="icon-box4">
-                        <div className="inner">
-                            <div className="content">
-                                <h6 className="title">FREE RETURNS</h6>
-                                <p>We accept returns for freshly purchased products within 7 days from the payment.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col learts-mb-30">
-                    <div className="icon-box4">
-                        <div className="inner">
-                            <div className="content">
-                                <h6 className="title">SECURE PAYMENT</h6>
-                                <img className="img-hover-color " src="assets/images/others/pay.webp" alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div className="section section-padding">
-        <div className="container">
-
-            <div className="section-title2 row justify-content-between align-items-center">
-                <div className="col-md-auto col-12">
-                    <h2 className="title title-icon-right">We love our cilents</h2>
-                </div>
-                <div className="col-md-auto col-12 mt-4 mt-md-0">
-                    <a href="#" className="btn btn-light btn-hover-black">view all</a>
-                </div>
-            </div>
-
-            <div className="testimonial-carousel">
-                <div className="col">
-                    <div className="testimonial">
-                        <p>There is nothing would satisfy me much more than a worry-free clean and responsive theme for my high-traffic site.</p>
-                        <div className="author">
-                            <img src="assets/images/testimonial/testimonial-1.webp" alt=""/>
-                            <div className="content">
-                                <h6 className="name">Anais Coulon</h6>
-                                <span className="title">Actor</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="testimonial">
-                        <p>Really good design/documentation, pretty much everything is nicely setup. The best choice for Woocommerce shop.</p>
-                        <div className="author">
-                            <img src="assets/images/testimonial/testimonial-2.webp" alt=""/>
-                            <div className="content">
-                                <h6 className="name">Ian Schneider</h6>
-                                <span className="title">Actor</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="testimonial">
-                        <p>ThemeMove deserves 5 star for theme’s features, design quality, flexibility, customizability and support service!</p>
-                        <div className="author">
-                            <img src="assets/images/testimonial/testimonial-3.webp" alt=""/>
-                            <div className="content">
-                                <h6 className="name">Florence Polla</h6>
-                                <span className="title">Customer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="testimonial">
-                        <p>Thanks for always keeping your WordPress themes up to date. Your level of support is second to none.</p>
-                        <div className="author">
-                            <img src="assets/images/testimonial/testimonial-4.webp" alt=""/>
-                            <div className="content">
-                                <h6 className="name">Sally Ramsey</h6>
-                                <span className="title">Reporter</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div className="section section-padding">
-        <div className="container">
-
-            <div className="row learts-mb-n30">
-
-                <div className="col-xl-3 col-lg-4 col-12 me-auto learts-mb-30">
-                    <h1 className="fw-400">The difference when you shop Learts!</h1>
-                </div>
-                <div className="col-lg-8 col-12 learts-mb-30">
-                    <div className="row learts-mb-n30">
-
-                        <div className="col-md-6 col-12 learts-mb-30">
-                            <p className="text-heading fw-600 learts-mb-10">Free Shipping</p>
-                            <p>Once receiving your order, we will turn your products around in 3-5 business days.</p>
-                        </div>
-
-                        <div className="col-md-6 col-12 learts-mb-30">
-                            <p className="text-heading fw-600 learts-mb-10">Free Returns</p>
-                            <p>We accept returns for freshly purchased products within 7 days from the payment.</p>
-                        </div>
-
-                        <div className="col-md-6 col-12 learts-mb-30">
-                            <p className="text-heading fw-600 learts-mb-10">Superb Quality</p>
-                            <p>We make commitments that the quality of our products will and always will be superb.</p>
-                        </div>
-
-                        <div className="col-md-6 col-12 learts-mb-30">
-                            <p className="text-heading fw-600 learts-mb-10">Free Wrapping</p>
-                            <p>Upon request, items bought as gifts from our store can receive free wrapping service.</p>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
-    <div className="section section-padding border-top">
-        <div className="container">
-
             <div className="section-title2 text-center">
-                <h3 className="sub-title">Follow us on Instagram</h3>
-                <h2 className="title">@learts_shop</h2>
+                <h2 className="title">Keep in touch with us</h2>
+                <p>Been tearing your hair out to find the perfect gift for your loved ones? Try visiting our nationwide local stores. You can also contact us to become partner or distributor. Call us, send us an email or make an appointment now.</p>
             </div>
 
-            <div className="instafeed instafeed-carousel instafeed-carousel1">
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-1.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-2.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-3.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-4.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-2.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a className="instafeed-item" href="#">
-                    <img src="assets/images/instagram/instagram-3.webp" alt="instagram image" />
-                    <i className="fab fa-instagram"></i>
-                </a>
+            <div className="row learts-mb-n30">
+                <div className="col-lg-4 col-md-6 col-12 learts-mb-30">
+                    <div className="contact-info">
+                        <h4 className="title">ADDRESS</h4>
+                        <span className="info"><i className="icon fas fa-map-marker-alt"></i> 1800 Abbot Kinney Blvd. Unit D & E Venice</span>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-12 learts-mb-30">
+                    <div className="contact-info">
+                        <h4 className="title">CONTACT</h4>
+                        <span className="info"><i className="icon fas fa-phone-alt"></i> Mobile: (+88) – 1990 – 6886 <br></br> Hotline: 1800 – 1102</span>
+                        <span className="info"><i className="icon far fa-envelope"></i> Mail: <a href="#">contact@leartsstore.com</a></span>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-12 learts-mb-30">
+                    <div className="contact-info">
+                        <h4 className="title"> HOUR OF OPERATION</h4>
+                        <span className="info"><i className="icon far fa-clock"></i> Monday – Friday : 09:00 – 20:00 <br></br> Sunday & Saturday: 10:30 – 22:00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row learts-mt-60">
+                <div className="col">
+                    <iframe className="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2136.986005919501!2d-73.9685579655238!3d40.75862446708152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e4a1c884e5%3A0x24fe1071086b36d5!2sThe%20Atrium!5e0!3m2!1sen!2sbd!4v1585132512970!5m2!1sen!2sbd"  aria-hidden="false" ></iframe>
+                </div>
             </div>
 
         </div>
     </div>
 
-    <div className="footer2-section section section-padding">
+    <div className="section section-padding pt-0">
+        <div className="container">
+            <div className="section-title2 text-center">
+                <h2 className="title">Send a message</h2>
+            </div>
+
+            <div className="row">
+                <div className="col-lg-8 col-12 mx-auto">
+                    <div className="contact-form">
+                        <form action="https://htmldemo.net/learts/learts/assets/php/contact-mail.php" id="contact-form" method="post">
+                            <div className="row learts-mb-n30">
+                                <div className="col-md-6 col-12 learts-mb-30"><input type="text" placeholder="Your Name *" name="name"/></div>
+                                <div className="col-md-6 col-12 learts-mb-30"><input type="email" placeholder="Email *" name="email"/></div>
+                                <div className="col-12 learts-mb-30"><textarea name="message" placeholder="Message"></textarea></div>
+                                <div className="col-12 text-center learts-mb-30"><button className="btn btn-dark btn-outline-hover-dark">Submit</button></div>
+                            </div>
+                        </form>
+                        <p className="form-messege"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<div className="footer2-section section section-padding">
         <div className="container">
             <div className="row learts-mb-n40">
 
@@ -1024,14 +881,10 @@ return <>
         </div>
     </div>
 
-    <div className="footer2-copyright section">
+            <div className="footer2-copyright section">
         <div className="container">
             <p className="copyright text-center">&copy; 2023 learts. All Rights Reserved</p>
         </div>
     </div>
-
-</>
-
-
-
+    </>
 }

@@ -9,11 +9,15 @@ import Lost_password from "./components/Lost_password.jsx";
 import Shopping_cart from "./components/Shopping_cart.jsx";
 import Wishlist from "./components/Wishlist.jsx";
 import Product_details from "./components/Product_details.jsx";
+import Order_tracking from "./components/Order_tracking.jsx";
+import My_account from "./components/My_account.jsx";
+import Contact_us from "./components/Contact_us.jsx";
+import Coming_soon from "./components/Coming_soon.jsx";
 function App() {
 
   return (
     <>
-        {/*<Home/>*/}
+        <Home/>
         {/*<About/>*/}
         {/*<Error/>*/}
         {/*<Checkout/>*/}
@@ -22,7 +26,11 @@ function App() {
       {/*  <Lost_password/>*/}
       {/*  <Shopping_cart/>*/}
       {/*  <Wishlist/>*/}
-        <Product_details/>
+      {/*  <Product_details/>*/}
+      {/*  <Order_tracking/>*/}
+      {/*  <My_account/>*/}
+      {/*  <Contact_us/>*/}
+      {/*  <Coming_soon/>*/}
 
 
     </>
