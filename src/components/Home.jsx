@@ -1,7 +1,21 @@
+import {Dimensions, Image} from 'react-native';
+
+const dimensions = Dimensions.get('window');
+const imageWidth = dimensions.width;
+const imageHeight = dimensions.height;
 
 export default function Home(){
 return <>
-    <div className="topbar-section section bg-primary2">
+
+    <Image
+     style={{height: imageHeight, width: imageWidth}}
+     resizeMode="contain"
+     source={{
+       uri: 'public/assets/media/logo(600px).png',
+     }}
+   />
+
+    <div className="topbar-section section bg-success">
         <div className="container">
             <div className="row justify-content-between align-items-center">
                 <div className="col-md-auto col-12">
@@ -42,7 +56,7 @@ return <>
 
                 <div className="col">
                     <div className="header-logo justify-content-center">
-                        <a href="index.html"><img src="assets/images/logo/logo.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="public/assets/media/logo(600px).png" alt="Logo"/></a>
                     </div>
                 </div>
 
@@ -774,47 +788,6 @@ return <>
     <div className="offcanvas-overlay"></div>
 
 
-    <div className="home1-slider swiper-container">
-        <div className="swiper-wrapper">
-            <div className="home1-slide-item swiper-slide" data-swiper-autoplay="5000" data-bg-image="assets/images/slider/home1/slide-1.webp">
-                <div className="home1-slide1-content">
-                    <span className="bg"></span>
-                    <span className="slide-border"></span>
-                    <span className="icon"><img src="assets/images/slider/home1/slide-1-1.webp" alt="Slide Icon"/></span>
-                    <h2 className="title">Handicraft Shop</h2>
-                    <h3>Just for you</h3>
-                    <div className="link"><a href="shop.html">shop now</a></div>
-                </div>
-            </div>
-            <div className="home1-slide-item swiper-slide" data-swiper-autoplay="5000" data-bg-image="assets/images/slider/home1/slide-2.webp">
-                <div className="home1-slide2-content">
-                    <span className="bg" data-bg-image="assets/images/slider/home1/slide-2-1.webp"></span>
-                    <span className="slide-border"></span>
-                    <span className="icon">
-                        <img src="assets/images/slider/home1/slide-2-2.webp" alt="Slide Icon"/>
-                        <img src="assets/images/slider/home1/slide-2-3.webp" alt="Slide Icon"/>
-                    </span>
-                    <h2 className="title">Newly arrived</h2>
-                    <h3>Sale up to 10%</h3>
-                    <div className="link"><a href="shop.html">shop now</a></div>
-                </div>
-            </div>
-            <div className="home1-slide-item swiper-slide" data-swiper-autoplay="5000" data-bg-image="assets/images/slider/home1/slide-3.webp">
-                <div className="home1-slide3-content">
-                    <h2 className="title">Affection gifts</h2>
-                    <h3>
-                        <img className="left-icon " src="assets/images/slider/home1/slide-2-2.webp" alt="Slide Icon"/>
-                        For friends & family
-                        <img className="right-icon " src="assets/images/slider/home1/slide-2-3.webp" alt="Slide Icon"/>
-                    </h3>
-                    <div className="link"><a href="shop.html">shop now</a></div>
-                </div>
-            </div>
-        </div>
-        <div className="home1-slider-prev swiper-button-prev"><i className="ti-angle-left"></i></div>
-        <div className="home1-slider-next swiper-button-next"><i className="ti-angle-right"></i></div>
-    </div>
-
     <div className="section section-padding">
         <div className="container">
 
@@ -843,7 +816,7 @@ return <>
                 <div className="col-lg-6 col-md-6 col-12 learts-mb-40">
                     <div className="sale-banner2">
                         <div className="inner">
-                            <div className="image"><img src="assets/images/banner/sale/sale-banner2-1.webp" alt=""/></div>
+                            <div className="image"><img src="public/assets/media/Vincent Van Gogh Sorrowing Old Man - At Eternity's Gate 1890, High quality Hand painted oil painting reproduction.jpeg" alt=""/></div>
                             <div className="content row justify-content-between mb-n3">
                                 <div className="col-auto mb-3">
                                     <h2 className="sale-percent">10% off</h2>
@@ -861,83 +834,6 @@ return <>
         </div>
     </div>
 
-    <div className="section section-fluid section-padding pt-0">
-        <div className="container">
-            <div className="category-banner1-carousel">
-
-                <div className="col">
-                    <div className="category-banner1">
-                        <div className="inner">
-                            <a href="shop.html" className="image"><img src="assets/images/banner/category/banner-s1-1.webp" alt=""/></a>
-                            <div className="content">
-                                <h3 className="title">
-                                    <a href="shop.html">Gift ideas</a>
-                                    <span className="number">16</span>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="category-banner1">
-                        <div className="inner">
-                            <a href="shop.html" className="image"><img src="assets/images/banner/category/banner-s1-2.webp" alt=""/></a>
-                            <div className="content">
-                                <h3 className="title">
-                                    <a href="shop.html">Home Decor</a>
-                                    <span className="number">16</span>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="category-banner1">
-                        <div className="inner">
-                            <a href="shop.html" className="image"><img src="assets/images/banner/category/banner-s1-3.webp" alt=""/></a>
-                            <div className="content">
-                                <h3 className="title">
-                                    <a href="shop.html">Kids & Babies</a>
-                                    <span className="number">6</span>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="category-banner1">
-                        <div className="inner">
-                            <a href="shop.html" className="image"><img src="assets/images/banner/category/banner-s1-4.webp" alt=""/></a>
-                            <div className="content">
-                                <h3 className="title">
-                                    <a href="shop.html">Kitchen</a>
-                                    <span className="number">15</span>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="category-banner1">
-                        <div className="inner">
-                            <a href="shop.html" className="image"><img src="assets/images/banner/category/banner-s1-5.webp" alt=""/></a>
-                            <div className="content">
-                                <h3 className="title">
-                                    <a href="shop.html">Kniting & Sewing</a>
-                                    <span className="number">4</span>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
 
     <div className="section section-fluid section-padding pt-0">
         <div className="container">
@@ -1220,135 +1116,7 @@ return <>
                     </div>
                 </div>
 
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s328/product-11.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-11-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Electric Egg Blender</a></h6>
-                            <span className="price">
-                                $200.00
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s328/product-12.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-12-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Cape Cottage Playhouse</a></h6>
-                            <span className="price">
-                                $35.00
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s328/product-13.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-13-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                            <div className="product-options">
-                                <ul className="colors">
-                                    <li>color one</li>
-                                    <li>color two</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Kernel Popcorn Bowl</a></h6>
-                            <span className="price">
-                                $25.00
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <a href="product-details.html" className="image">
-                                <span className="product-badges">
-                                    <span className="outofstock"><i className="far fa-frown"></i></span>
-                                </span>
-                                <img src="assets/images/product/s328/product-14.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-14-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                            <div className="product-options">
-                                <ul className="colors">
-                                    <li>color one</li>
-                                    <li>color two</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Abstract Folded Pots</a></h6>
-                            <span className="price">
-                                $50.00 - $55.00
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s328/product-15.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-15-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Brush & Dustpan Set</a></h6>
-                            <span className="price">
-                                $9.00
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
             </div>
 
