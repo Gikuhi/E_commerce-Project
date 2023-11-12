@@ -13,11 +13,14 @@ import Order_tracking from "./components/Order_tracking.jsx";
 import My_account from "./components/My_account.jsx";
 import Contact_us from "./components/Contact_us.jsx";
 import Coming_soon from "./components/Coming_soon.jsx";
+import Elements_products from "./components/Elements_products.jsx";
+import Elements_products_tabs from "./components/Elements_products_tabs.jsx";
+import Elements_product_sale_banner from "./components/Elements_product_sale_banner.jsx";
 function App() {
 
   return (
     <>
-        <Home/>
+        {/*<Home/>*/}
         {/*<About/>*/}
         {/*<Error/>*/}
         {/*<Checkout/>*/}
@@ -30,7 +33,7 @@ function App() {
       {/*  <Order_tracking/>*/}
       {/*  <My_account/>*/}
       {/*  <Contact_us/>*/}
-      {/*  <Coming_soon/>*/}
+        <Coming_soon/>
 
 
     </>

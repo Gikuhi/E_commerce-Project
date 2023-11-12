@@ -7,74 +7,15 @@ export default function Shop(){
 
                 <div className="col-auto">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
-
 
                 <div className="col-auto me-auto">
                     <nav className="site-main-menu site-main-menu-left menu-height-100 justify-content-center">
                         <ul>
-                            <li className="has-children"><a href="#"><span className="menu-text">Home</span></a>
-                                <ul className="sub-menu mega-menu">
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-01.webp" alt="home-01"/> <a href="index.html"><span className="menu-text">Arts Propelled</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-02.webp" alt="home-02"/> <a href="index-2.html"><span className="menu-text">Decor Thriving</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-03.webp" alt="home-03"/> <a href="index-3.html"><span className="menu-text">Savvy Delight</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-04.webp" alt="home-04"/> <a href="index-4.html"><span className="menu-text">Perfect Escapes</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="index-2.html" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-05.webp" alt="home-05"/> <a href="index-5.html"><span className="menu-text">Kitchen Cozy</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-06.webp" alt="home-06"/> <a href="index-6.html"><span className="menu-text">Dreamy Designs</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-07.webp" alt="home-07"/> <a href="index-7.html"><span className="menu-text">Crispy Recipes</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-08.webp" alt="home-08"/> <a href="index-8.html"><span className="menu-text">Decoholic Chic</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="index-2.html" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-9.webp" alt="home-9"/> <a href="index-9.html"><span className="menu-text">Reblended Dish</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-10.webp" alt="home-10"/> <a href="index-10.html"><span className="menu-text">Craftin House</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-11.webp" alt="home-11"/> <a href="index-11.html"><span className="menu-text">Craftswork Biz</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-1.webp" alt="Home Menu Banner"/></a>
-                                    </li>
-                                </ul>
-                            </li>
                             <li className="has-children"><a href="#"><span className="menu-text">Shop</span></a>
                                 <ul className="sub-menu mega-menu">
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">SHOP PAGES</span></a>
-                                        <ul>
-                                            <li><a href="shop.html"><span className="menu-text">Shop No Sidebar</span></a></li>
-                                            <li><a href="shop-left-sidebar.html"><span className="menu-text">Shop Left Sidebar</span></a></li>
-                                            <li><a href="shop-right-sidebar.html"><span className="menu-text">Shop Right Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-no-gutters.html"><span className="menu-text">Shop Fullwidth No Space</span></a></li>
-                                            <li><a href="shop-fullwidth.html"><span className="menu-text">Shop Fullwidth No Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-left-sidebar.html"><span className="menu-text">Shop Fullwidth Left Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-right-sidebar.html"><span className="menu-text">Shop Fullwidth Right Sidebar</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT PAGES</span></a>
-                                        <ul>
-                                            <li><a href="product-details.html"><span className="menu-text">Basic</span></a></li>
-                                            <li><a href="product-details-fullwidth.html"><span className="menu-text">Fullwidth</span></a></li>
-                                            <li><a href="product-details-sticky.html"><span className="menu-text">Sticky Details</span></a></li>
-                                            <li><a href="product-details-sidebar.html"><span className="menu-text">Width Sidebar</span></a></li>
-                                            <li><a href="product-details-extra-content.html"><span className="menu-text">Extra Content</span></a></li>
-                                            <li><a href="product-details-image-variation.html"><span className="menu-text">Variations Images</span></a></li>
-                                            <li><a href="product-details-group.html"><span className="menu-text">Bought Together</span></a></li>
-                                            <li><a href="product-details-360.html"><span className="menu-text">Product 360</span></a></li>
-                                        </ul>
-                                    </li>
                                     <li>
                                         <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT & Other PAGES</span></a>
                                         <ul>
@@ -88,9 +29,7 @@ export default function Shop(){
                                             <li><a href="lost-password.html"><span className="menu-text">Lost Password</span></a></li>
                                         </ul>
                                     </li>
-                                    <li className="align-self-center">
-                                        <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-2.webp" alt="Shop Menu Banner"/></a>
-                                    </li>
+
                                 </ul>
                             </li>
                             <li className="has-children"><a href="#"><span className="menu-text">Elements</span></a>
@@ -132,7 +71,6 @@ export default function Shop(){
                             <li className="has-children"><a href="#"><span className="menu-text">Pages</span></a>
                                 <ul className="sub-menu">
                                     <li><a href="about-us.html"><span className="menu-text">About us</span></a></li>
-                                    <li><a href="about-us-2.html"><span className="menu-text">About us 02</span></a></li>
                                     <li><a href="contact-us.html"><span className="menu-text">Contact us</span></a></li>
                                     <li><a href="coming-soon.html"><span className="menu-text">Coming Soon</span></a></li>
                                     <li><a href="404.html"><span className="menu-text">Page 404</span></a></li>
@@ -142,6 +80,7 @@ export default function Shop(){
                     </nav>
                 </div>
 
+
                 <div className="col-auto d-none d-xl-block">
                     <div className="header2-search">
                         <form action="#">
@@ -150,6 +89,7 @@ export default function Shop(){
                         </form>
                     </div>
                 </div>
+
 
                 <div className="col-auto">
                     <div className="header-tools justify-content-end">
@@ -170,79 +110,21 @@ export default function Shop(){
 
     </div>
 
-        <div className="sticky-header section bg-white section-fluid d-none d-xl-block">
+    <div className="sticky-header section bg-white section-fluid d-none d-xl-block">
         <div className="container">
             <div className="row align-items-center">
 
                 <div className="col-xl-auto col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
                 <div className="col-auto me-auto d-none d-xl-block">
                     <nav className="site-main-menu site-main-menu-left justify-content-center">
                         <ul>
-                            <li className="has-children"><a href="#"><span className="menu-text">Home</span></a>
-                                <ul className="sub-menu mega-menu">
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-01.webp" alt="home-01"/> <a href="index.html"><span className="menu-text">Arts Propelled</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-02.webp" alt="home-02"/> <a href="index-2.html"><span className="menu-text">Decor Thriving</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-03.webp" alt="home-03"/> <a href="index-3.html"><span className="menu-text">Savvy Delight</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-04.webp" alt="home-04"/> <a href="index-4.html"><span className="menu-text">Perfect Escapes</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="index-2.html" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-05.webp" alt="home-05"/> <a href="index-5.html"><span className="menu-text">Kitchen Cozy</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-06.webp" alt="home-06"/> <a href="index-6.html"><span className="menu-text">Dreamy Designs</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-07.webp" alt="home-07"/> <a href="index-7.html"><span className="menu-text">Crispy Recipes</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-08.webp" alt="home-08"/> <a href="index-8.html"><span className="menu-text">Decoholic Chic</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="index-2.html" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-9.webp" alt="home-9"/> <a href="index-9.html"><span className="menu-text">Reblended Dish</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-10.webp" alt="home-10"/> <a href="index-10.html"><span className="menu-text">Craftin House</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-11.webp" alt="home-11"/> <a href="index-11.html"><span className="menu-text">Craftswork Biz</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-1.webp" alt="Home Menu Banner"/></a>
-                                    </li>
-                                </ul>
-                            </li>
                             <li className="has-children"><a href="#"><span className="menu-text">Shop</span></a>
                                 <ul className="sub-menu mega-menu">
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">SHOP PAGES</span></a>
-                                        <ul>
-                                            <li><a href="shop.html"><span className="menu-text">Shop No Sidebar</span></a></li>
-                                            <li><a href="shop-left-sidebar.html"><span className="menu-text">Shop Left Sidebar</span></a></li>
-                                            <li><a href="shop-right-sidebar.html"><span className="menu-text">Shop Right Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-no-gutters.html"><span className="menu-text">Shop Fullwidth No Space</span></a></li>
-                                            <li><a href="shop-fullwidth.html"><span className="menu-text">Shop Fullwidth No Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-left-sidebar.html"><span className="menu-text">Shop Fullwidth Left Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-right-sidebar.html"><span className="menu-text">Shop Fullwidth Right Sidebar</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT PAGES</span></a>
-                                        <ul>
-                                            <li><a href="product-details.html"><span className="menu-text">Basic</span></a></li>
-                                            <li><a href="product-details-fullwidth.html"><span className="menu-text">Fullwidth</span></a></li>
-                                            <li><a href="product-details-sticky.html"><span className="menu-text">Sticky Details</span></a></li>
-                                            <li><a href="product-details-sidebar.html"><span className="menu-text">Width Sidebar</span></a></li>
-                                            <li><a href="product-details-extra-content.html"><span className="menu-text">Extra Content</span></a></li>
-                                            <li><a href="product-details-image-variation.html"><span className="menu-text">Variations Images</span></a></li>
-                                            <li><a href="product-details-group.html"><span className="menu-text">Bought Together</span></a></li>
-                                            <li><a href="product-details-360.html"><span className="menu-text">Product 360</span></a></li>
-                                        </ul>
-                                    </li>
                                     <li>
                                         <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT & Other PAGES</span></a>
                                         <ul>
@@ -255,9 +137,6 @@ export default function Shop(){
                                             <li><a href="my-account.html"><span className="menu-text">My Account</span></a></li>
                                             <li><a href="lost-password.html"><span className="menu-text">Lost Password</span></a></li>
                                         </ul>
-                                    </li>
-                                    <li className="align-self-center">
-                                        <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-2.webp" alt="Shop Menu Banner"/></a>
                                     </li>
                                 </ul>
                             </li>
@@ -282,7 +161,6 @@ export default function Shop(){
                                     <li>
                                         <a href="#" className="mega-menu-title"><span className="menu-text">Column Three</span></a>
                                         <ul>
-                                            <li><a href="elements-instagram.html"><span className="menu-text">Instagram</span></a></li>
                                             <li><a href="elements-map.html"><span className="menu-text">Google Map</span></a></li>
                                             <li><a href="elements-icon-box.html"><span className="menu-text">Icon Box</span></a></li>
                                         </ul>
@@ -311,6 +189,7 @@ export default function Shop(){
                 </div>
 
 
+
                 <div className="col-auto d-none d-xl-block">
                     <div className="header2-search">
                         <form action="#">
@@ -320,7 +199,8 @@ export default function Shop(){
                     </div>
                 </div>
 
-                
+
+
                 <div className="col-auto">
                     <div className="header-tools justify-content-end">
                         <div className="header-login d-none d-sm-block">
@@ -346,6 +226,7 @@ export default function Shop(){
                         </div>
                     </div>
                 </div>
+
 
             </div>
         </div>
@@ -468,26 +349,26 @@ export default function Shop(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-1.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Walnut Cutting Board</a>
+                            <a href="product-details.html" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-2.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Lucky Wooden Elephant</a>
+                            <a href="product-details.html" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-3.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Fish Cut Out Set</a>
-                            <span className="quantity-price">1 x <span className="amount">$9.00</span></span>
+                            <a href="product-details.html" className="title">Femmes Qui Ont</a>
+                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -500,9 +381,8 @@ export default function Shop(){
             </div>
         </div>
     </div>
-  
-        
-    <div id="offcanvas-cart" className="offcanvas offcanvas-cart">
+
+<div id="offcanvas-cart" className="offcanvas offcanvas-cart">
         <div className="inner">
             <div className="head">
                 <span className="title">Cart</span>
@@ -511,26 +391,26 @@ export default function Shop(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-1.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Walnut Cutting Board</a>
+                            <a href="product-details.html" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-2.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Lucky Wooden Elephant</a>
+                            <a href="product-details.html" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-3.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Fish Cut Out Set</a>
-                            <span className="quantity-price">1 x <span className="amount">$9.00</span></span>
+                            <a href="product-details.html" className="title">Femmes Qui Ont</a>
+                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -539,7 +419,7 @@ export default function Shop(){
             <div className="foot">
                 <div className="sub-total">
                     <strong>Subtotal :</strong>
-                    <span className="amount">$144.00</span>
+                    <span className="amount">$185.00</span>
                 </div>
                 <div className="buttons">
                     <a href="shopping-cart.html" className="btn btn-dark btn-hover-primary">view cart</a>
@@ -836,53 +716,13 @@ export default function Shop(){
                         <h3 className="widget-title product-filter-widget-title">Price filter</h3>
                         <ul className="widget-list product-filter-widget customScroll">
                             <li> <a href="#">All</a></li>
-                            <li> <a href="#"><span className="amount"><span className="cur-symbol">£</span>0.00</span> - <span className="amount"><span className="cur-symbol">£</span>80.00</span></a></li>
-                            <li> <a href="#"><span className="amount"><span className="cur-symbol">£</span>80.00</span> - <span className="amount"><span className="cur-symbol">£</span>160.00</span></a></li>
-                            <li> <a href="#"><span className="amount"><span className="cur-symbol">£</span>160.00</span> - <span className="amount"><span className="cur-symbol">£</span>240.00</span></a></li>
-                            <li> <a href="#"><span className="amount"><span className="cur-symbol">£</span>240.00</span> - <span className="amount"><span className="cur-symbol">£</span>320.00</span></a></li>
-                            <li> <a href="#"><span className="amount"><span className="cur-symbol">£</span>320.00</span> +</a></li>
+                            <li> <a href="#"><span className="amount"><span className="cur-symbol">$</span>0.00</span> - <span className="amount"><span className="cur-symbol">£</span>80.00</span></a></li>
+                            <li> <a href="#"><span className="amount"><span className="cur-symbol">$</span>80.00</span> - <span className="amount"><span className="cur-symbol">£</span>160.00</span></a></li>
+                            <li> <a href="#"><span className="amount"><span className="cur-symbol">$</span>160.00</span> - <span className="amount"><span className="cur-symbol">£</span>240.00</span></a></li>
+                            <li> <a href="#"><span className="amount"><span className="cur-symbol">$</span>240.00</span> - <span className="amount"><span className="cur-symbol">£</span>320.00</span></a></li>
+                            <li> <a href="#"><span className="amount"><span className="cur-symbol">$</span>320.00</span> +</a></li>
                         </ul>
                     </div>
-
-                    <div className="col learts-mb-30">
-                        <h3 className="widget-title product-filter-widget-title">Categories</h3>
-                        <ul className="widget-list product-filter-widget customScroll">
-                            <li><a href="#">Gift ideas</a> <span className="count">16</span></li>
-                            <li><a href="#">Home Decor</a> <span className="count">16</span></li>
-                            <li><a href="#">Kids & Babies</a> <span className="count">6</span></li>
-                            <li><a href="#">Kitchen</a> <span className="count">15</span></li>
-                            <li><a href="#">Kniting & Sewing</a> <span className="count">4</span></li>
-                            <li><a href="#">Pots</a> <span className="count">4</span></li>
-                            <li><a href="#">Toys</a> <span className="count">6</span></li>
-                        </ul>
-                    </div>
-
-                    <div className="col learts-mb-30">
-                        <h3 className="widget-title product-filter-widget-title">Filters by colors</h3>
-                        <ul className="widget-colors product-filter-widget customScroll">
-                            <li><a href="#" className="hintT-top" data-hint="Black"><span data-bg-color="#000000">Black</span></a></li>
-                            <li><a href="#" className="hintT-top" data-hint="White"><span data-bg-color="#FFFFFF">White</span></a></li>
-                            <li><a href="#" className="hintT-top" data-hint="Dark Red"><span data-bg-color="#b2483c">Dark Red</span></a></li>
-                            <li><a href="#" className="hintT-top" data-hint="Flaxen"><span data-bg-color="#d5b85a">Flaxen</span></a></li>
-                            <li><a href="#" className="hintT-top" data-hint="Pine"><span data-bg-color="#01796f">Pine</span></a></li>
-                            <li><a href="#" className="hintT-top" data-hint="Tortilla"><span data-bg-color="#997950">Tortilla</span></a></li>
-                        </ul>
-                    </div>
-
-                    <div className="col learts-mb-30">
-                        <h3 className="widget-title product-filter-widget-title">Brands</h3>
-                        <ul className="widget-list product-filter-widget customScroll">
-                            <li><a href="#">Alexander</a> <span className="count">(2)</span></li>
-                            <li><a href="#">Carmella</a> <span className="count">(4)</span></li>
-                            <li><a href="#">Danielle</a> <span className="count">(7)</span></li>
-                            <li><a href="#">Diana Day</a> <span className="count">(13)</span></li>
-                            <li><a href="#">Emilia</a> <span className="count">(2)</span></li>
-                            <li><a href="#">Gasmine</a> <span className="count">(15)</span></li>
-                            <li><a href="#">Jack &amp; Ella</a> <span className="count">(7)</span></li>
-                            <li><a href="#">Juliette</a> <span className="count">(11)</span></li>
-                        </ul>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -897,13 +737,13 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="product-details.html" className="image">
-                                    <img src="assets/images/product/s328/product-17.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-17-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/Yofukuro.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/Yofukuro.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">3D Attractive Pot</a></h6>
+                                <h6 className="title"><a href="product-details.html">Yofukuro</a></h6>
                                 <span className="price">
                                     $90.00
                                 </span>
@@ -923,13 +763,13 @@ export default function Shop(){
                                     <span className="product-badges">
                                         <span className="outofstock"><i className="far fa-frown"></i></span>
                                     </span>
-                                    <img src="assets/images/product/s328/product-14.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-14-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/c62ab731-b052-4df4-a8f3-42179bc13da0.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/c62ab731-b052-4df4-a8f3-42179bc13da0.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Abstract Folded Pots</a></h6>
+                                <h6 className="title"><a href="product-details.html">The Eye</a></h6>
                                 <span className="price">
                                     $50.00 - $55.00
                                 </span>
@@ -949,15 +789,15 @@ export default function Shop(){
                                     <span className="hot">hot</span>
                                 </span>
                                 <a href="product-details.html" className="image">
-                                    <img src="assets/images/product/s328/product-30.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-30-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/cab3dfee-eb20-4845-ae26-56a511716ec5.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/cab3dfee-eb20-4845-ae26-56a511716ec5.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Adhesive Tape Dispenser</a></h6>
+                                <h6 className="title"><a href="product-details.html">Enlightenment</a></h6>
                                 <span className="price">
-                                    $15.00
+                                    $25.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -972,15 +812,15 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="product-details.html" className="image">
-                                    <img src="assets/images/product/s328/product-9.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-9-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/Color Exercises.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/Color Exercises.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Aluminum Equestrian</a></h6>
+                                <h6 className="title"><a href="product-details.html">Color Exercises</a></h6>
                                 <span className="price">
-                                    $100.00
+                                    $15.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -998,16 +838,16 @@ export default function Shop(){
                                     <span className="product-badges">
                                         <span className="onsale">-20%</span>
                                     </span>
-                                    <img src="assets/images/product/s328/product-25.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-25-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/dde529a1-d557-4193-b637-75cde5994728.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/dde529a1-d557-4193-b637-75cde5994728.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Antique Sewing Scissors</a></h6>
+                                <h6 className="title"><a href="product-details.html">Last Supper</a></h6>
                                 <span className="price">
-                                    <span className="old">$15.00</span>
-                                <span className="new">$12.00</span>
+                                    <span className="old">$70.00</span>
+                                <span className="new">$56.00</span>
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -1025,13 +865,13 @@ export default function Shop(){
                                     <span className="product-badges">
                                         <span className="onsale">-13%</span>
                                     </span>
-                                    <img src="assets/images/product/s328/product-1.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-1-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/e0ddb5be-0254-4ea1-88f9-01cf40a2fe9f.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/e0ddb5be-0254-4ea1-88f9-01cf40a2fe9f.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Boho Beard Mug</a></h6>
+                                <h6 className="title"><a href="product-details.html">Battleship</a></h6>
                                 <span className="price">
                                     <span className="old">$45.00</span>
                                 <span className="new">$39.00</span>
@@ -1049,12 +889,12 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="product-details.html" className="image">
-                                    <img src="assets/images/product/s328/product-31.webp" alt="Product Image"/>
+                                    <img src="../../public/assets/media/GrantWoodFarmersPaintingWallMural.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Bouncer Measuring Cup</a></h6>
+                                <h6 className="title"><a href="product-details.html">Grant Wood Farmers</a></h6>
                                 <span className="price">
                                     $150.00
                                 </span>
@@ -1071,15 +911,15 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="product-details.html" className="image">
-                                    <img src="assets/images/product/s328/product-15.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-15-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/Jean-MichelBasquiat _ Furious Man _ MutualArt.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/Jean-MichelBasquiat _ Furious Man _ MutualArt.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Brush & Dustpan Set</a></h6>
+                                <h6 className="title"><a href="product-details.html">Furious Man</a></h6>
                                 <span className="price">
-                                    $9.00
+                                    $90.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -1094,13 +934,13 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="product-details.html" className="image">
-                                    <img src="assets/images/product/s328/product-12.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-12-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/Long Time Coming Painting.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/Long Time Coming Painting.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Cape Cottage Playhouse</a></h6>
+                                <h6 className="title"><a href="product-details.html">Long Timr Coming</a></h6>
                                 <span className="price">
                                     $35.00
                                 </span>
@@ -1120,19 +960,13 @@ export default function Shop(){
                                     <span className="product-badges">
                                         <span className="outofstock"><i className="far fa-frown"></i></span>
                                     </span>
-                                    <img src="assets/images/product/s328/product-32.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-32-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/que debería poner en el fondo.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/que debería poner en el fondo.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                                <div className="product-options">
-                                    <ul className="colors">
-                                        <li>color one</li>
-                                        <li>color two</li>
-                                    </ul>
-                                </div>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Cleaning Dustpan & Brush</a></h6>
+                                <h6 className="title"><a href="product-details.html">Mr Sun</a></h6>
                                 <span className="price">
                                     $38.00 - $50.00
                                 </span>
@@ -1149,13 +983,13 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="product-details.html" className="image">
-                                    <img src="assets/images/product/s328/product-6.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-6-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/simon-lee-MnnDZX4gAw4-unsplash.jpg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/simon-lee-MnnDZX4gAw4-unsplash.jpg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Clear Silicate Teapot</a></h6>
+                                <h6 className="title"><a href="product-details.html">Simon Lee's Moon</a></h6>
                                 <span className="price">
                                     $140.00
                                 </span>
@@ -1175,12 +1009,12 @@ export default function Shop(){
                                     <span className="product-badges">
                                         <span className="onsale">-13%</span>
                                     </span>
-                                    <img src="assets/images/product/s328/product-19.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/Sunflowers_on_Gold.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Country Feast Set</a></h6>
+                                <h6 className="title"><a href="product-details.html">Sunflowers on Gold</a></h6>
                                 <span className="price">
                                     <span className="old">$45.00</span>
                                 <span className="new">$39.00</span>
@@ -1202,24 +1036,13 @@ export default function Shop(){
                                         <span className="outofstock"><i className="far fa-frown"></i></span>
                                     <span className="hot">hot</span>
                                     </span>
-                                    <img src="assets/images/product/s328/product-8.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-8-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/Reaching.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/Reaching.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                                <div className="product-options">
-                                    <ul className="colors">
-                                        <li>color one</li>
-                                        <li>color two</li>
-                                    </ul>
-                                    <ul className="sizes">
-                                        <li>Large</li>
-                                        <li>Medium</li>
-                                        <li>Small</li>
-                                    </ul>
-                                </div>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Decorative Christmas Fox</a></h6>
+                                <h6 className="title"><a href="product-details.html">Reaching</a></h6>
                                 <span className="price">
                                     $50.00
                                 </span>
@@ -1236,13 +1059,13 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="product-details.html" className="image">
-                                    <img src="assets/images/product/s328/product-28.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-28-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/adrianna-geo-1rBg5YSi00c-unsplash.jpg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/adrianna-geo-1rBg5YSi00c-unsplash.jpg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Digital Camera System</a></h6>
+                                <h6 className="title"><a href="product-details.html">Adrianna Geo</a></h6>
                                 <span className="price">
                                     $350.00
                                 </span>
@@ -1259,13 +1082,13 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="product-details.html" className="image">
-                                    <img src="assets/images/product/s328/product-11.webp" alt="Product Image"/>
-                                    <img className="image-hover " src="assets/images/product/s328/product-11-hover.webp" alt="Product Image"/>
+                                    <img src="public/assets/media/Sorrow-JacksonEvilOriginals_OpenSea.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/assets/media/Sorrow-JacksonEvilOriginals_OpenSea.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
                             <div className="product-info">
-                                <h6 className="title"><a href="product-details.html">Electric Egg Blender</a></h6>
+                                <h6 className="title"><a href="product-details.html">The Devil Cries</a></h6>
                                 <span className="price">
                                     $200.00
                                 </span>
@@ -1294,8 +1117,7 @@ export default function Shop(){
 
                 <div className="col-lg-6 learts-mb-40">
                     <div className="widget-about">
-                        <img src="assets/images/logo/logo-2.webp" alt=""/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque recusandae commodi mollitia facere iure nisi, laudantium quis quas perferendis a minus dolores.</p>
+                        <img src="public/assets/media/logo(600px).png" alt=""/>
                     </div>
                 </div>
 
@@ -1335,7 +1157,7 @@ export default function Shop(){
 
     <div className="footer2-copyright section">
         <div className="container">
-            <p className="copyright text-center">&copy; 2023 learts. All Rights Reserved</p>
+            <p className="copyright text-center">&copy; 2023 Arttherapy. All Rights Reserved</p>
         </div>
     </div>
     <div className="quickViewModal modal fade" id="quickViewModal">

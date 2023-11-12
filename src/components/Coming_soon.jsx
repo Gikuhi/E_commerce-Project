@@ -4,7 +4,7 @@ export default function Coming_soon(){
         <div className="container">
             <div className="coming-soon-content">
                 <div className="logo">
-                    <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt=""/></a>
+                    <a href="index.html"><img src="public/assets/media/logo(600px).png" alt=""/></a>
                 </div>
                 <h2 className="title">Coming soon</h2>
                 <div className="countdown3" data-countdown="2024/01/01"></div>

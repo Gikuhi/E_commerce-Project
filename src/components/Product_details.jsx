@@ -6,74 +6,15 @@ export default function Product_details(){
 
                 <div className="col-auto">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
-
 
                 <div className="col-auto me-auto">
                     <nav className="site-main-menu site-main-menu-left menu-height-100 justify-content-center">
                         <ul>
-                            <li className="has-children"><a href="#"><span className="menu-text">Home</span></a>
-                                <ul className="sub-menu mega-menu">
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-01.webp" alt="home-01"/> <a href="index.html"><span className="menu-text">Arts Propelled</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-02.webp" alt="home-02"/> <a href="index-2.html"><span className="menu-text">Decor Thriving</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-03.webp" alt="home-03"/> <a href="index-3.html"><span className="menu-text">Savvy Delight</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-04.webp" alt="home-04"/> <a href="index-4.html"><span className="menu-text">Perfect Escapes</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="index-2.html" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-05.webp" alt="home-05"/> <a href="index-5.html"><span className="menu-text">Kitchen Cozy</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-06.webp" alt="home-06"/> <a href="index-6.html"><span className="menu-text">Dreamy Designs</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-07.webp" alt="home-07"/> <a href="index-7.html"><span className="menu-text">Crispy Recipes</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-08.webp" alt="home-08"/> <a href="index-8.html"><span className="menu-text">Decoholic Chic</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="index-2.html" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-9.webp" alt="home-9"/> <a href="index-9.html"><span className="menu-text">Reblended Dish</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-10.webp" alt="home-10"/> <a href="index-10.html"><span className="menu-text">Craftin House</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-11.webp" alt="home-11"/> <a href="index-11.html"><span className="menu-text">Craftswork Biz</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-1.webp" alt="Home Menu Banner"/></a>
-                                    </li>
-                                </ul>
-                            </li>
                             <li className="has-children"><a href="#"><span className="menu-text">Shop</span></a>
                                 <ul className="sub-menu mega-menu">
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">SHOP PAGES</span></a>
-                                        <ul>
-                                            <li><a href="shop.html"><span className="menu-text">Shop No Sidebar</span></a></li>
-                                            <li><a href="shop-left-sidebar.html"><span className="menu-text">Shop Left Sidebar</span></a></li>
-                                            <li><a href="shop-right-sidebar.html"><span className="menu-text">Shop Right Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-no-gutters.html"><span className="menu-text">Shop Fullwidth No Space</span></a></li>
-                                            <li><a href="shop-fullwidth.html"><span className="menu-text">Shop Fullwidth No Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-left-sidebar.html"><span className="menu-text">Shop Fullwidth Left Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-right-sidebar.html"><span className="menu-text">Shop Fullwidth Right Sidebar</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT PAGES</span></a>
-                                        <ul>
-                                            <li><a href="product-details.html"><span className="menu-text">Basic</span></a></li>
-                                            <li><a href="product-details-fullwidth.html"><span className="menu-text">Fullwidth</span></a></li>
-                                            <li><a href="product-details-sticky.html"><span className="menu-text">Sticky Details</span></a></li>
-                                            <li><a href="product-details-sidebar.html"><span className="menu-text">Width Sidebar</span></a></li>
-                                            <li><a href="product-details-extra-content.html"><span className="menu-text">Extra Content</span></a></li>
-                                            <li><a href="product-details-image-variation.html"><span className="menu-text">Variations Images</span></a></li>
-                                            <li><a href="product-details-group.html"><span className="menu-text">Bought Together</span></a></li>
-                                            <li><a href="product-details-360.html"><span className="menu-text">Product 360</span></a></li>
-                                        </ul>
-                                    </li>
                                     <li>
                                         <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT & Other PAGES</span></a>
                                         <ul>
@@ -87,9 +28,7 @@ export default function Product_details(){
                                             <li><a href="lost-password.html"><span className="menu-text">Lost Password</span></a></li>
                                         </ul>
                                     </li>
-                                    <li className="align-self-center">
-                                        <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-2.webp" alt="Shop Menu Banner"/></a>
-                                    </li>
+
                                 </ul>
                             </li>
                             <li className="has-children"><a href="#"><span className="menu-text">Elements</span></a>
@@ -131,7 +70,6 @@ export default function Product_details(){
                             <li className="has-children"><a href="#"><span className="menu-text">Pages</span></a>
                                 <ul className="sub-menu">
                                     <li><a href="about-us.html"><span className="menu-text">About us</span></a></li>
-                                    <li><a href="about-us-2.html"><span className="menu-text">About us 02</span></a></li>
                                     <li><a href="contact-us.html"><span className="menu-text">Contact us</span></a></li>
                                     <li><a href="coming-soon.html"><span className="menu-text">Coming Soon</span></a></li>
                                     <li><a href="404.html"><span className="menu-text">Page 404</span></a></li>
@@ -141,6 +79,7 @@ export default function Product_details(){
                     </nav>
                 </div>
 
+
                 <div className="col-auto d-none d-xl-block">
                     <div className="header2-search">
                         <form action="#">
@@ -149,6 +88,7 @@ export default function Product_details(){
                         </form>
                     </div>
                 </div>
+
 
                 <div className="col-auto">
                     <div className="header-tools justify-content-end">
@@ -169,79 +109,21 @@ export default function Product_details(){
 
     </div>
 
-        <div className="sticky-header section bg-white section-fluid d-none d-xl-block">
+    <div className="sticky-header section bg-white section-fluid d-none d-xl-block">
         <div className="container">
             <div className="row align-items-center">
 
                 <div className="col-xl-auto col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
                 <div className="col-auto me-auto d-none d-xl-block">
                     <nav className="site-main-menu site-main-menu-left justify-content-center">
                         <ul>
-                            <li className="has-children"><a href="#"><span className="menu-text">Home</span></a>
-                                <ul className="sub-menu mega-menu">
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-01.webp" alt="home-01"/> <a href="index.html"><span className="menu-text">Arts Propelled</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-02.webp" alt="home-02"/> <a href="index-2.html"><span className="menu-text">Decor Thriving</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-03.webp" alt="home-03"/> <a href="index-3.html"><span className="menu-text">Savvy Delight</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-04.webp" alt="home-04"/> <a href="index-4.html"><span className="menu-text">Perfect Escapes</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="index-2.html" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-05.webp" alt="home-05"/> <a href="index-5.html"><span className="menu-text">Kitchen Cozy</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-06.webp" alt="home-06"/> <a href="index-6.html"><span className="menu-text">Dreamy Designs</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-07.webp" alt="home-07"/> <a href="index-7.html"><span className="menu-text">Crispy Recipes</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-08.webp" alt="home-08"/> <a href="index-8.html"><span className="menu-text">Decoholic Chic</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="index-2.html" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-9.webp" alt="home-9"/> <a href="index-9.html"><span className="menu-text">Reblended Dish</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-10.webp" alt="home-10"/> <a href="index-10.html"><span className="menu-text">Craftin House</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-11.webp" alt="home-11"/> <a href="index-11.html"><span className="menu-text">Craftswork Biz</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-1.webp" alt="Home Menu Banner"/></a>
-                                    </li>
-                                </ul>
-                            </li>
                             <li className="has-children"><a href="#"><span className="menu-text">Shop</span></a>
                                 <ul className="sub-menu mega-menu">
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">SHOP PAGES</span></a>
-                                        <ul>
-                                            <li><a href="shop.html"><span className="menu-text">Shop No Sidebar</span></a></li>
-                                            <li><a href="shop-left-sidebar.html"><span className="menu-text">Shop Left Sidebar</span></a></li>
-                                            <li><a href="shop-right-sidebar.html"><span className="menu-text">Shop Right Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-no-gutters.html"><span className="menu-text">Shop Fullwidth No Space</span></a></li>
-                                            <li><a href="shop-fullwidth.html"><span className="menu-text">Shop Fullwidth No Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-left-sidebar.html"><span className="menu-text">Shop Fullwidth Left Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-right-sidebar.html"><span className="menu-text">Shop Fullwidth Right Sidebar</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT PAGES</span></a>
-                                        <ul>
-                                            <li><a href="product-details.html"><span className="menu-text">Basic</span></a></li>
-                                            <li><a href="product-details-fullwidth.html"><span className="menu-text">Fullwidth</span></a></li>
-                                            <li><a href="product-details-sticky.html"><span className="menu-text">Sticky Details</span></a></li>
-                                            <li><a href="product-details-sidebar.html"><span className="menu-text">Width Sidebar</span></a></li>
-                                            <li><a href="product-details-extra-content.html"><span className="menu-text">Extra Content</span></a></li>
-                                            <li><a href="product-details-image-variation.html"><span className="menu-text">Variations Images</span></a></li>
-                                            <li><a href="product-details-group.html"><span className="menu-text">Bought Together</span></a></li>
-                                            <li><a href="product-details-360.html"><span className="menu-text">Product 360</span></a></li>
-                                        </ul>
-                                    </li>
                                     <li>
                                         <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT & Other PAGES</span></a>
                                         <ul>
@@ -254,9 +136,6 @@ export default function Product_details(){
                                             <li><a href="my-account.html"><span className="menu-text">My Account</span></a></li>
                                             <li><a href="lost-password.html"><span className="menu-text">Lost Password</span></a></li>
                                         </ul>
-                                    </li>
-                                    <li className="align-self-center">
-                                        <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-2.webp" alt="Shop Menu Banner"/></a>
                                     </li>
                                 </ul>
                             </li>
@@ -281,7 +160,6 @@ export default function Product_details(){
                                     <li>
                                         <a href="#" className="mega-menu-title"><span className="menu-text">Column Three</span></a>
                                         <ul>
-                                            <li><a href="elements-instagram.html"><span className="menu-text">Instagram</span></a></li>
                                             <li><a href="elements-map.html"><span className="menu-text">Google Map</span></a></li>
                                             <li><a href="elements-icon-box.html"><span className="menu-text">Icon Box</span></a></li>
                                         </ul>
@@ -310,6 +188,7 @@ export default function Product_details(){
                 </div>
 
 
+
                 <div className="col-auto d-none d-xl-block">
                     <div className="header2-search">
                         <form action="#">
@@ -318,6 +197,7 @@ export default function Product_details(){
                         </form>
                     </div>
                 </div>
+
 
 
                 <div className="col-auto">
@@ -345,6 +225,7 @@ export default function Product_details(){
                         </div>
                     </div>
                 </div>
+
 
             </div>
         </div>
@@ -467,26 +348,26 @@ export default function Product_details(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-1.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Walnut Cutting Board</a>
+                            <a href="product-details.html" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-2.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Lucky Wooden Elephant</a>
+                            <a href="product-details.html" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-3.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Fish Cut Out Set</a>
-                            <span className="quantity-price">1 x <span className="amount">$9.00</span></span>
+                            <a href="product-details.html" className="title">Femmes Qui Ont</a>
+                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -500,8 +381,7 @@ export default function Product_details(){
         </div>
     </div>
 
-
-    <div id="offcanvas-cart" className="offcanvas offcanvas-cart">
+<div id="offcanvas-cart" className="offcanvas offcanvas-cart">
         <div className="inner">
             <div className="head">
                 <span className="title">Cart</span>
@@ -510,26 +390,26 @@ export default function Product_details(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-1.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Walnut Cutting Board</a>
+                            <a href="product-details.html" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-2.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Lucky Wooden Elephant</a>
+                            <a href="product-details.html" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-3.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Fish Cut Out Set</a>
-                            <span className="quantity-price">1 x <span className="amount">$9.00</span></span>
+                            <a href="product-details.html" className="title">Femmes Qui Ont</a>
+                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -538,7 +418,7 @@ export default function Product_details(){
             <div className="foot">
                 <div className="sub-total">
                     <strong>Subtotal :</strong>
-                    <span className="amount">$144.00</span>
+                    <span className="amount">$185.00</span>
                 </div>
                 <div className="buttons">
                     <a href="shopping-cart.html" className="btn btn-dark btn-hover-primary">view cart</a>
@@ -781,33 +661,14 @@ export default function Product_details(){
                             {"src": "assets/images/product/single/1/product-zoom-3.webp", "w": 700, "h": 1100},
                             {"src": "assets/images/product/single/1/product-zoom-4.webp", "w": 700, "h": 1100}
                         ]'><i className="fas fa-expand"></i></button>
-                        <a href="https://www.youtube.com/watch?v=1jSsy7DtYgc" className="product-video-popup video-popup hintT-left" data-hint="Click to see video"><i className="fas fa-play"></i></a>
                         <div className="product-gallery-slider">
-                            <div className="product-zoom" data-image="assets/images/product/single/1/product-zoom-1.webp">
-                                <img src="assets/images/product/single/1/product-1.webp" alt=""/>
+                            <div className="product-zoom" data-image="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg">
+                                <img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt=""/>
                             </div>
-                            <div className="product-zoom" data-image="assets/images/product/single/1/product-zoom-2.webp">
-                                <img src="assets/images/product/single/1/product-2.webp" alt=""/>
-                            </div>
-                            <div className="product-zoom" data-image="assets/images/product/single/1/product-zoom-3.webp">
-                                <img src="assets/images/product/single/1/product-3.webp" alt=""/>
-                            </div>
-                            <div className="product-zoom" data-image="assets/images/product/single/1/product-zoom-4.webp">
-                                <img src="assets/images/product/single/1/product-4.webp" alt=""/>
-                            </div>
-                        </div>
-                        <div className="product-thumb-slider">
+                        <div className="item">
                             <div className="item">
-                                <img src="assets/images/product/single/1/product-thumb-1.webp" alt=""/>
+                                <img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt=""/>
                             </div>
-                            <div className="item">
-                                <img src="assets/images/product/single/1/product-thumb-2.webp" alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src="assets/images/product/single/1/product-thumb-3.webp" alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src="assets/images/product/single/1/product-thumb-4.webp" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -825,57 +686,15 @@ export default function Product_details(){
                             </span>
                             <a href="#reviews" className="review-link">(<span className="count">3</span> customer reviews)</a>
                         </div>
-                        <h3 className="product-title">Cleaning Dustpan & Brush</h3>
-                        <div className="product-price">£38.00 – £50.00</div>
+                        <h3 className="product-title">Jesus & Mary</h3>
+                        <div className="product-price">$100.00</div>
                         <div className="product-description">
-                            <p>Easy clip-on handle – Hold the brush and dustpan together for storage; the dustpan edge is serrated to allow easy scraping off the hair without entanglement. High-quality bristles – no burr damage, no scratches, thick and durable, comfortable to remove dust and smaller particles.</p>
-                        </div>
-                        <div className="product-variations">
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td className="label"><span>Size</span></td>
-                                        <td className="value">
-                                            <div className="product-sizes">
-                                                <a href="#">Large</a>
-                                                <a href="#">Medium</a>
-                                                <a href="#">Small</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td className="label"><span>Color</span></td>
-                                        <td className="value">
-                                            <div className="product-colors">
-                                                <a href="#" data-bg-color="#000000"></a>
-                                                <a href="#" data-bg-color="#ffffff"></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td className="label"><span>Quantity</span></td>
-                                        <td className="value">
-                                            <div className="product-quantity">
-                                                <span className="qty-btn minus"><i className="ti-minus"></i></span>
-                                                <input type="text" className="input-qty" defaultValue="1"/>
-                                                <span className="qty-btn plus"><i className="ti-plus"></i></span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <p>Old oil painting of Mary holding Jesus after being crucified on the cross.</p>
                         </div>
                         <div className="product-buttons">
                             <a href="#" className="btn btn-icon btn-outline-body btn-hover-dark hintT-top" data-hint="Add to Wishlist"><i className="far fa-heart"></i></a>
                             <a href="#" className="btn btn-dark btn-outline-hover-dark"><i className="fas fa-shopping-cart"></i> Add to Cart</a>
                             <a href="#" className="btn btn-icon btn-outline-body btn-hover-dark hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                        </div>
-                        <div className="product-brands">
-                            <span className="title">Brands</span>
-                            <div className="brands">
-                                <a href="#"><img src="assets/images/brands/brand-3.webp" alt=""/></a>
-                                <a href="#"><img src="assets/images/brands/brand-8.webp" alt=""/></a>
-                            </div>
                         </div>
                         <div className="product-meta">
                             <table>
@@ -885,24 +704,13 @@ export default function Product_details(){
                                         <td className="value">0404019</td>
                                     </tr>
                                     <tr>
-                                        <td className="label"><span>Category</span></td>
-                                        <td className="value">
-                                            <ul className="product-category">
-                                                <li><a href="#">Kitchen</a></li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                    <tr>
                                         <td className="label"><span>Tags</span></td>
                                         <td className="value">
                                             <ul className="product-tags">
-                                                <li><a href="#">handmade</a></li>
-                                                <li><a href="#">learts</a></li>
-                                                <li><a href="#">mug</a></li>
-                                                <li><a href="#">product</a></li>
-                                                <li><a href="#">learts</a></li>
+                                                <li><a href="#">Jesus</a></li>
+                                                <li><a href="#">Oil painting</a></li>
                                             </ul>
-                                        </td>
+                                            </td>
                                     </tr>
                                     <tr>
                                         <td className="label"><span>Share on</span></td>
@@ -932,61 +740,20 @@ export default function Product_details(){
 
             <ul className="nav product-info-tab-list">
                 <li><a className="active" data-bs-toggle="tab" href="#tab-description">Description</a></li>
-                <li><a data-bs-toggle="tab" href="#tab-pwb_tab">Brand</a></li>
-                <li><a data-bs-toggle="tab" href="#tab-additional_information">Additional information</a></li>
                 <li><a data-bs-toggle="tab" href="#tab-reviews">Reviews (3)</a></li>
             </ul>
             <div className="tab-content product-infor-tab-content">
                 <div className="tab-pane fade show active" id="tab-description">
                     <div className="row">
                         <div className="col-lg-10 col-12 mx-auto">
-                            <p>Easy clip-on handle – Hold the brush and dustpan together for storage; the dustpan edge is serrated to allow easy scraping off the hair without entanglement. High-quality bristles – no burr damage, no scratches, thick and durable, comfortable to remove dust and smaller particles. Rubber lip – The rubber lip on the front of the dustpan helps to remove all dust at once.</p>
+                        <p>Mary mother of Jesus holding on to Jesus after being crucified on the cross.</p>
                         </div>
                     </div>
                 </div>
-                <div className="tab-pane fade" id="tab-pwb_tab">
-                    <div className="row learts-mb-n30">
-                        <div className="col-12 learts-mb-30">
-                            <div className="row learts-mb-n10">
-                                <div className="col-lg-2 col-md-3 col-12 learts-mb-10"><img src="assets/images/brands/brand-3.webp" alt=""/></div>
-                                <div className="col learts-mb-10">
-                                    <p>We’ve worked with numerous industries and famous fashion brands around the world. We have also created tremendous impacts on fashion manufacturing and online sales. When we partner with an eCommerce agency, we connect every activity to set the trend and win customers’ trust. We make sure our customers are always happy with our products.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 learts-mb-30">
-                            <div className="row learts-mb-n10">
-                                <div className="col-lg-2 col-md-3 col-12 learts-mb-10"><img src="assets/images/brands/brand-8.webp" alt=""/></div>
-                                <div className="col learts-mb-10">
-                                    <p>Prior to Houdini, there have been many clothing brands that achieved such a roaring success. However, there’s no other brand that can obtain such a precious position like us. We have successfully built our site to make more people know about our products as well as our motto. We’ve been the inspiration for many other small and medium-sized businesses.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="tab-pane fade" id="tab-additional_information">
-                    <div className="row">
-                        <div className="col-lg-8 col-md-10 col-12 mx-auto">
-                            <div className="table-responsive">
-                                <table className="table table-bordered">
-                                    <tbody>
-                                        <tr>
-                                            <td>Size</td>
-                                            <td>Large, Medium, Small</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Color</td>
-                                            <td>Black, White</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div className="tab-pane fade" id="tab-reviews">
                     <div className="product-review-wrapper">
-                        <span className="title">3 reviews for Cleaning Dustpan & Brush</span>
+                        <span className="title">3 reviews for Jesus & Mary</span>
                         <ul className="product-review-list">
                             <li>
                                 <div className="product-review">
@@ -999,9 +766,9 @@ export default function Product_details(){
                                         </div>
                                         <div className="meta">
                                             <h5 className="title">Edna Watson</h5>
-                                            <span className="date">November 27, 2020</span>
+                                            <span className="date">November 20, 2023</span>
                                         </div>
-                                        <p>Thanks for always keeping your WordPress themes up to date. Your level of support and dedication is second to none.</p>
+                                        <p>The best art piece to put in my hallway.</p>
                                     </div>
                                 </div>
                             </li>
@@ -1016,9 +783,9 @@ export default function Product_details(){
                                         </div>
                                         <div className="meta">
                                             <h5 className="title">Scott James</h5>
-                                            <span className="date">November 27, 2020</span>
+                                            <span className="date">October 27, 2023</span>
                                         </div>
-                                        <p>Thanks for always keeping your WordPress themes up to date. Your level of support and dedication is second to none.</p>
+                                        <p>Received it in mint condition.</p>
                                     </div>
                                 </div>
                             </li>
@@ -1033,9 +800,9 @@ export default function Product_details(){
                                         </div>
                                         <div className="meta">
                                             <h5 className="title">Owen Christ</h5>
-                                            <span className="date">November 27, 2020</span>
+                                            <span className="date">November 12, 2023</span>
                                         </div>
-                                        <p>Good Product!</p>
+                                        <p>Good Painting!</p>
                                     </div>
                                 </div>
                             </li>
@@ -1065,253 +832,13 @@ export default function Product_details(){
         </div>
     </div>
 
-            <div className="section section-padding">
-        <div className="container"></div>
-    </div>
-
-            <div className="section-title2 text-center">
-                <h2 className="title">You Might Also Like</h2>
-            </div>
-
-            <div className="product-carousel">
-
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <a href="product-details.html" className="image">
-                                <span className="product-badges">
-                                    <span className="onsale">-13%</span>
-                                </span>
-                                <img src="assets/images/product/s270/product-1.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s270/product-1-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Boho Beard Mug</a></h6>
-                            <span className="price">
-                                <span className="old">$45.00</span>
-                            <span className="new">$39.00</span>
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s270/product-2.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s270/product-2-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Motorized Tricycle</a></h6>
-                            <span className="price">
-                                $35.00
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <span className="product-badges">
-                                <span className="hot">hot</span>
-                            </span>
-                            <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s270/product-3.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s270/product-3-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Walnut Cutting Board</a></h6>
-                            <span className="price">
-                                $100.00
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <a href="product-details.html" className="image">
-                                <span className="product-badges">
-                                    <span className="onsale">-27%</span>
-                                </span>
-                                <img src="assets/images/product/s270/product-4.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s270/product-4-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Pizza Plate Tray</a></h6>
-                            <span className="price">
-                                <span className="old">$30.00</span>
-                            <span className="new">$22.00</span>
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s270/product-5.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s270/product-5-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                            <div className="product-options">
-                                <ul className="colors">
-                                    <li>color one</li>
-                                    <li>color two</li>
-                                    <li>color three</li>
-                                </ul>
-                                <ul className="sizes">
-                                    <li>Large</li>
-                                    <li>Medium</li>
-                                    <li>Small</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Minimalist Ceramic Pot</a></h6>
-                            <span className="price">
-                                $120.00
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s270/product-6.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s270/product-6-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Clear Silicate Teapot</a></h6>
-                            <span className="price">
-                                $140.00
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <a href="product-details.html" className="image">
-                                <span className="product-badges">
-                                    <span className="hot">hot</span>
-                                </span>
-                                <img src="assets/images/product/s270/product-7.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s270/product-7-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Lucky Wooden Elephant</a></h6>
-                            <span className="price">
-                                $35.00
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col">
-                    <div className="product">
-                        <div className="product-thumb">
-                            <a href="product-details.html" className="image">
-                                <span className="product-badges">
-                                    <span className="outofstock"><i className="far fa-frown"></i></span>
-                                <span className="hot">hot</span>
-                                </span>
-                                <img src="assets/images/product/s270/product-8.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s270/product-8-hover.webp" alt="Product Image"/>
-                            </a>
-                            <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                            <div className="product-options">
-                                <ul className="colors">
-                                    <li>color one</li>
-                                    <li>color two</li>
-                                </ul>
-                                <ul className="sizes">
-                                    <li>Large</li>
-                                    <li>Medium</li>
-                                    <li>Small</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Decorative Christmas Fox</a></h6>
-                            <span className="price">
-                                $50.00
-                            </span>
-                            <div className="product-buttons">
-                                <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Add to Cart"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="product-button hintT-top" data-hint="Compare"><i className="fas fa-random"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-
-            <div className="footer2-section section section-padding">
+           <div className="footer2-section section section-padding">
         <div className="container">
             <div className="row learts-mb-n40">
 
                 <div className="col-lg-6 learts-mb-40">
                     <div className="widget-about">
-                        <img src="assets/images/logo/logo-2.webp" alt=""/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque recusandae commodi mollitia facere iure nisi, laudantium quis quas perferendis a minus dolores.</p>
+                        <img src="public/assets/media/logo(600px).png" alt=""/>
                     </div>
                 </div>
 
@@ -1349,146 +876,137 @@ export default function Product_details(){
         </div>
     </div>
 
-            <div className="footer2-copyright section">
+    <div className="footer2-copyright section">
         <div className="container">
-            <p className="copyright text-center">&copy; 2023 learts. All Rights Reserved</p>
+            <p className="copyright text-center">&copy; 2023 Arttherapy. All Rights Reserved</p>
         </div>
     </div>
 
-            <div className="quickViewModal modal fade" id="quickViewModal">
-        <div className="modal-dialog modal-dialog-centered">
-            <div className="modal-content">
-                <button className="close" data-bs-dismiss="modal">&times;</button>
-                <div className="row learts-mb-n30">
+    {/*        <div className="quickViewModal modal fade" id="quickViewModal">*/}
+    {/*    <div className="modal-dialog modal-dialog-centered">*/}
+    {/*        <div className="modal-content">*/}
+    {/*            <button className="close" data-bs-dismiss="modal">&times;</button>*/}
+    {/*            <div className="row learts-mb-n30">*/}
 
-                    <div className="col-lg-6 col-12 learts-mb-30">
-                        <div className="product-images">
-                            <div className="product-gallery-slider-quickview">
-                                <div className="product-zoom" data-image="assets/images/product/single/1/product-zoom-1.webp">
-                                    <img src="assets/images/product/single/1/product-1.webp" alt=""/>
-                                </div>
-                                <div className="product-zoom" data-image="assets/images/product/single/1/product-zoom-2.webp">
-                                    <img src="assets/images/product/single/1/product-2.webp" alt=""/>
-                                </div>
-                                <div className="product-zoom" data-image="assets/images/product/single/1/product-zoom-3.webp">
-                                    <img src="assets/images/product/single/1/product-3.webp" alt=""/>
-                                </div>
-                                <div className="product-zoom" data-image="assets/images/product/single/1/product-zoom-4.webp">
-                                    <img src="assets/images/product/single/1/product-4.webp" alt=""/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    {/*                <div className="col-lg-6 col-12 learts-mb-30">*/}
+    {/*                    <div className="product-images">*/}
+    {/*                        <div className="product-gallery-slider-quickview">*/}
+    {/*                            <div className="product-zoom" data-image="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg">*/}
+    {/*                                <img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt=""/>*/}
+    {/*                            </div>*/}
+    {/*                        </div>*/}
+    {/*                    </div>*/}
+    {/*                </div>*/}
 
-                    <div className="col-lg-6 col-12 overflow-hidden position-relative learts-mb-30">
-                        <div className="product-summery customScroll">
-                            <div className="product-ratings">
-                                <span className="star-rating">
-                                <span className="rating-active" >ratings</span>
-                                </span>
-                                <a href="#reviews" className="review-link">(<span className="count">3</span> customer reviews)</a>
-                            </div>
-                            <h3 className="product-title">Cleaning Dustpan & Brush</h3>
-                            <div className="product-price">£38.00 – £50.00</div>
-                            <div className="product-description">
-                                <p>Easy clip-on handle – Hold the brush and dustpan together for storage; the dustpan edge is serrated to allow easy scraping off the hair without entanglement. High-quality bristles – no burr damage, no scratches, thick and durable, comfortable to remove dust and smaller particles.</p>
-                            </div>
-                            <div className="product-variations">
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td className="label"><span>Size</span></td>
-                                            <td className="value">
-                                                <div className="product-sizes">
-                                                    <a href="#">Large</a>
-                                                    <a href="#">Medium</a>
-                                                    <a href="#">Small</a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td className="label"><span>Color</span></td>
-                                            <td className="value">
-                                                <div className="product-colors">
-                                                    <a href="#" data-bg-color="#000000"></a>
-                                                    <a href="#" data-bg-color="#ffffff"></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td className="label"><span>Quantity</span></td>
-                                            <td className="value">
-                                                <div className="product-quantity">
-                                                    <span className="qty-btn minus"><i className="ti-minus"></i></span>
-                                                    <input type="text" className="input-qty" defaultValue="1"/>
-                                                    <span className="qty-btn plus"><i className="ti-plus"></i></span>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div className="product-buttons">
-                                <a href="#" className="btn btn-icon btn-outline-body btn-hover-dark"><i className="far fa-heart"></i></a>
-                                <a href="#" className="btn btn-dark btn-outline-hover-dark"><i className="fas fa-shopping-cart"></i> Add to Cart</a>
-                                <a href="#" className="btn btn-icon btn-outline-body btn-hover-dark"><i className="fas fa-random"></i></a>
-                            </div>
-                            <div className="product-brands">
-                                <span className="title">Brands</span>
-                                <div className="brands">
-                                    <a href="#"><img src="assets/images/brands/brand-3.webp" alt=""/></a>
-                                    <a href="#"><img src="assets/images/brands/brand-8.webp" alt=""/></a>
-                                </div>
-                            </div>
-                            <div className="product-meta mb-0">
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td className="label"><span>SKU</span></td>
-                                            <td className="value">0404019</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="label"><span>Category</span></td>
-                                            <td className="value">
-                                                <ul className="product-category">
-                                                    <li><a href="#">Kitchen</a></li>
-                                                </ul>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td className="label"><span>Tags</span></td>
-                                            <td className="value">
-                                                <ul className="product-tags">
-                                                    <li><a href="#">handmade</a></li>
-                                                    <li><a href="#">learts</a></li>
-                                                    <li><a href="#">mug</a></li>
-                                                    <li><a href="#">product</a></li>
-                                                    <li><a href="#">learts</a></li>
-                                                </ul>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td className="label"><span>Share on</span></td>
-                                            <td className="va">
-                                                <div className="product-share">
-                                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
-                                                    <a href="#"><i className="fab fa-twitter"></i></a>
-                                                    <a href="#"><i className="fab fa-google-plus-g"></i></a>
-                                                    <a href="#"><i className="fab fa-pinterest"></i></a>
-                                                    <a href="#"><i className="far fa-envelope"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+    {/*                <div className="col-lg-6 col-12 overflow-hidden position-relative learts-mb-30">*/}
+    {/*                    <div className="product-summery customScroll">*/}
+    {/*                        <div className="product-ratings">*/}
+    {/*                            <span className="star-rating">*/}
+    {/*                            <span className="rating-active" >ratings</span>*/}
+    {/*                            </span>*/}
+    {/*                            <a href="#reviews" className="review-link">(<span className="count">3</span> customer reviews)</a>*/}
+    {/*                        </div>*/}
+    {/*                        <h3 className="product-title">Cleaning Dustpan & Brush</h3>*/}
+    {/*                        <div className="product-price">£38.00 – £50.00</div>*/}
+    {/*                        <div className="product-description">*/}
+    {/*                            <p>Easy clip-on handle – Hold the brush and dustpan together for storage; the dustpan edge is serrated to allow easy scraping off the hair without entanglement. High-quality bristles – no burr damage, no scratches, thick and durable, comfortable to remove dust and smaller particles.</p>*/}
+    {/*                        </div>*/}
+    {/*                        <div className="product-variations">*/}
+    {/*                            <table>*/}
+    {/*                                <tbody>*/}
+    {/*                                    <tr>*/}
+    {/*                                        <td className="label"><span>Size</span></td>*/}
+    {/*                                        <td className="value">*/}
+    {/*                                            <div className="product-sizes">*/}
+    {/*                                                <a href="#">Large</a>*/}
+    {/*                                                <a href="#">Medium</a>*/}
+    {/*                                                <a href="#">Small</a>*/}
+    {/*                                            </div>*/}
+    {/*                                        </td>*/}
+    {/*                                    </tr>*/}
+    {/*                                    <tr>*/}
+    {/*                                        <td className="label"><span>Color</span></td>*/}
+    {/*                                        <td className="value">*/}
+    {/*                                            <div className="product-colors">*/}
+    {/*                                                <a href="#" data-bg-color="#000000"></a>*/}
+    {/*                                                <a href="#" data-bg-color="#ffffff"></a>*/}
+    {/*                                            </div>*/}
+    {/*                                        </td>*/}
+    {/*                                    </tr>*/}
+    {/*                                    <tr>*/}
+    {/*                                        <td className="label"><span>Quantity</span></td>*/}
+    {/*                                        <td className="value">*/}
+    {/*                                            <div className="product-quantity">*/}
+    {/*                                                <span className="qty-btn minus"><i className="ti-minus"></i></span>*/}
+    {/*                                                <input type="text" className="input-qty" defaultValue="1"/>*/}
+    {/*                                                <span className="qty-btn plus"><i className="ti-plus"></i></span>*/}
+    {/*                                            </div>*/}
+    {/*                                        </td>*/}
+    {/*                                    </tr>*/}
+    {/*                                </tbody>*/}
+    {/*                            </table>*/}
+    {/*                        </div>*/}
+    {/*                        <div className="product-buttons">*/}
+    {/*                            <a href="#" className="btn btn-icon btn-outline-body btn-hover-dark"><i className="far fa-heart"></i></a>*/}
+    {/*                            <a href="#" className="btn btn-dark btn-outline-hover-dark"><i className="fas fa-shopping-cart"></i> Add to Cart</a>*/}
+    {/*                            <a href="#" className="btn btn-icon btn-outline-body btn-hover-dark"><i className="fas fa-random"></i></a>*/}
+    {/*                        </div>*/}
+    {/*                        <div className="product-brands">*/}
+    {/*                            <span className="title">Brands</span>*/}
+    {/*                            <div className="brands">*/}
+    {/*                                <a href="#"><img src="assets/images/brands/brand-3.webp" alt=""/></a>*/}
+    {/*                                <a href="#"><img src="assets/images/brands/brand-8.webp" alt=""/></a>*/}
+    {/*                            </div>*/}
+    {/*                        </div>*/}
+    {/*                        <div className="product-meta mb-0">*/}
+    {/*                            <table>*/}
+    {/*                                <tbody>*/}
+    {/*                                    <tr>*/}
+    {/*                                        <td className="label"><span>SKU</span></td>*/}
+    {/*                                        <td className="value">0404019</td>*/}
+    {/*                                    </tr>*/}
+    {/*                                    <tr>*/}
+    {/*                                        <td className="label"><span>Category</span></td>*/}
+    {/*                                        <td className="value">*/}
+    {/*                                            <ul className="product-category">*/}
+    {/*                                                <li><a href="#">Kitchen</a></li>*/}
+    {/*                                            </ul>*/}
+    {/*                                        </td>*/}
+    {/*                                    </tr>*/}
+    {/*                                    <tr>*/}
+    {/*                                        <td className="label"><span>Tags</span></td>*/}
+    {/*                                        <td className="value">*/}
+    {/*                                            <ul className="product-tags">*/}
+    {/*                                                <li><a href="#">handmade</a></li>*/}
+    {/*                                                <li><a href="#">learts</a></li>*/}
+    {/*                                                <li><a href="#">mug</a></li>*/}
+    {/*                                                <li><a href="#">product</a></li>*/}
+    {/*                                                <li><a href="#">learts</a></li>*/}
+    {/*                                            </ul>*/}
+    {/*                                        </td>*/}
+    {/*                                    </tr>*/}
+    {/*                                    <tr>*/}
+    {/*                                        <td className="label"><span>Share on</span></td>*/}
+    {/*                                        <td className="va">*/}
+    {/*                                            <div className="product-share">*/}
+    {/*                                                <a href="#"><i className="fab fa-facebook-f"></i></a>*/}
+    {/*                                                <a href="#"><i className="fab fa-twitter"></i></a>*/}
+    {/*                                                <a href="#"><i className="fab fa-google-plus-g"></i></a>*/}
+    {/*                                                <a href="#"><i className="fab fa-pinterest"></i></a>*/}
+    {/*                                                <a href="#"><i className="far fa-envelope"></i></a>*/}
+    {/*                                            </div>*/}
+    {/*                                        </td>*/}
+    {/*                                    </tr>*/}
+    {/*                                </tbody>*/}
+    {/*                            </table>*/}
+    {/*                        </div>*/}
+    {/*                    </div>*/}
+    {/*                </div>*/}
 
-                </div>
-            </div>
-        </div>
-    </div>
+    {/*            </div>*/}
+    {/*        </div>*/}
+    {/*    </div>*/}
+    {/*</div>*/}
 
             <div className="pswp" tabIndex="-1" role="dialog" aria-hidden="true">
 

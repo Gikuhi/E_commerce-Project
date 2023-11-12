@@ -1,19 +1,7 @@
-import {Dimensions, Image} from 'react-native';
 
-const dimensions = Dimensions.get('window');
-const imageWidth = dimensions.width;
-const imageHeight = dimensions.height;
 
 export default function Home(){
 return <>
-
-    <Image
-     style={{height: imageHeight, width: imageWidth}}
-     resizeMode="contain"
-     source={{
-       uri: 'public/assets/media/logo(600px).png',
-     }}
-   />
 
     <div className="topbar-section section bg-success">
         <div className="container">
@@ -84,66 +72,8 @@ return <>
             <div className="container">
                 <nav className="site-main-menu justify-content-center">
                     <ul>
-                        <li className="has-children"><a href="#"><span className="menu-text">Home</span></a>
-                            <ul className="sub-menu mega-menu">
-                                <li>
-                                    <a href="#" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                    <ul>
-                                        <li> <img className="mmh_img " src="assets/images/demo/menu/home-01.webp" alt="home-01"/> <a href="index.html"><span className="menu-text">Arts Propelled</span></a></li>
-                                        <li> <img className="mmh_img " src="assets/images/demo/menu/home-02.webp" alt="home-02"/> <a href="index-2.html"><span className="menu-text">Decor Thriving</span></a></li>
-                                        <li> <img className="mmh_img " src="assets/images/demo/menu/home-03.webp" alt="home-03"/> <a href="index-3.html"><span className="menu-text">Savvy Delight</span></a></li>
-                                        <li> <img className="mmh_img " src="assets/images/demo/menu/home-04.webp" alt="home-04"/> <a href="index-4.html"><span className="menu-text">Perfect Escapes</span></a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="index-2.html" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                    <ul>
-                                        <li> <img className="mmh_img " src="assets/images/demo/menu/home-05.webp" alt="home-05"/> <a href="index-5.html"><span className="menu-text">Kitchen Cozy</span></a></li>
-                                        <li> <img className="mmh_img " src="assets/images/demo/menu/home-06.webp" alt="home-06"/> <a href="index-6.html"><span className="menu-text">Dreamy Designs</span></a></li>
-                                        <li> <img className="mmh_img " src="assets/images/demo/menu/home-07.webp" alt="home-07"/> <a href="index-7.html"><span className="menu-text">Crispy Recipes</span></a></li>
-                                        <li> <img className="mmh_img " src="assets/images/demo/menu/home-08.webp" alt="home-08"/> <a href="index-8.html"><span className="menu-text">Decoholic Chic</span></a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="index-2.html" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                    <ul>
-                                        <li> <img className="mmh_img " src="assets/images/demo/menu/home-9.webp" alt="home-9"/> <a href="index-9.html"><span className="menu-text">Reblended Dish</span></a></li>
-                                        <li> <img className="mmh_img " src="assets/images/demo/menu/home-10.webp" alt="home-10"/> <a href="index-10.html"><span className="menu-text">Craftin House</span></a></li>
-                                        <li> <img className="mmh_img " src="assets/images/demo/menu/home-11.webp" alt="home-11"/> <a href="index-11.html"><span className="menu-text">Craftswork Biz</span></a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-1.webp" alt="Home Menu Banner"/></a>
-                                </li>
-                            </ul>
-                        </li>
                         <li className="has-children"><a href="#"><span className="menu-text">Shop</span></a>
                             <ul className="sub-menu mega-menu">
-                                <li>
-                                    <a href="#" className="mega-menu-title"><span className="menu-text">SHOP PAGES</span></a>
-                                    <ul>
-                                        <li><a href="shop.html"><span className="menu-text">Shop No Sidebar</span></a></li>
-                                        <li><a href="shop-left-sidebar.html"><span className="menu-text">Shop Left Sidebar</span></a></li>
-                                        <li><a href="shop-right-sidebar.html"><span className="menu-text">Shop Right Sidebar</span></a></li>
-                                        <li><a href="shop-fullwidth-no-gutters.html"><span className="menu-text">Shop Fullwidth No Space</span></a></li>
-                                        <li><a href="shop-fullwidth.html"><span className="menu-text">Shop Fullwidth No Sidebar</span></a></li>
-                                        <li><a href="shop-fullwidth-left-sidebar.html"><span className="menu-text">Shop Fullwidth Left Sidebar</span></a></li>
-                                        <li><a href="shop-fullwidth-right-sidebar.html"><span className="menu-text">Shop Fullwidth Right Sidebar</span></a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT PAGES</span></a>
-                                    <ul>
-                                        <li><a href="product-details.html"><span className="menu-text">Basic</span></a></li>
-                                        <li><a href="product-details-fullwidth.html"><span className="menu-text">Fullwidth</span></a></li>
-                                        <li><a href="product-details-sticky.html"><span className="menu-text">Sticky Details</span></a></li>
-                                        <li><a href="product-details-sidebar.html"><span className="menu-text">Width Sidebar</span></a></li>
-                                        <li><a href="product-details-extra-content.html"><span className="menu-text">Extra Content</span></a></li>
-                                        <li><a href="product-details-image-variation.html"><span className="menu-text">Variations Images</span></a></li>
-                                        <li><a href="product-details-group.html"><span className="menu-text">Bought Together</span></a></li>
-                                        <li><a href="product-details-360.html"><span className="menu-text">Product 360</span></a></li>
-                                    </ul>
-                                </li>
                                 <li>
                                     <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT & Other PAGES</span></a>
                                     <ul>
@@ -183,7 +113,6 @@ return <>
                                 <li>
                                     <a href="#" className="mega-menu-title"><span className="menu-text">Column Three</span></a>
                                     <ul>
-                                        <li><a href="elements-instagram.html"><span className="menu-text">Instagram</span></a></li>
                                         <li><a href="elements-map.html"><span className="menu-text">Google Map</span></a></li>
                                         <li><a href="elements-icon-box.html"><span className="menu-text">Icon Box</span></a></li>
                                     </ul>
@@ -201,7 +130,6 @@ return <>
                         <li className="has-children"><a href="#"><span className="menu-text">Pages</span></a>
                             <ul className="sub-menu">
                                 <li><a href="about-us.html"><span className="menu-text">About us</span></a></li>
-                                <li><a href="about-us-2.html"><span className="menu-text">About us 02</span></a></li>
                                 <li><a href="contact-us.html"><span className="menu-text">Contact us</span></a></li>
                                 <li><a href="coming-soon.html"><span className="menu-text">Coming Soon</span></a></li>
                                 <li><a href="404.html"><span className="menu-text">Page 404</span></a></li>
@@ -220,73 +148,16 @@ return <>
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
                 <div className="col d-none d-xl-block">
                     <nav className="site-main-menu justify-content-center">
                         <ul>
-                            <li className="has-children"><a href="#"><span className="menu-text">Home</span></a>
-                                <ul className="sub-menu mega-menu">
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-01.webp" alt="home-01"/> <a href="index.html"><span className="menu-text">Arts Propelled</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-02.webp" alt="home-02"/> <a href="index-2.html"><span className="menu-text">Decor Thriving</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-03.webp" alt="home-03"/> <a href="index-3.html"><span className="menu-text">Savvy Delight</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-04.webp" alt="home-04"/> <a href="index-4.html"><span className="menu-text">Perfect Escapes</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="index-2.html" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-05.webp" alt="home-05"/> <a href="index-5.html"><span className="menu-text">Kitchen Cozy</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-06.webp" alt="home-06"/> <a href="index-6.html"><span className="menu-text">Dreamy Designs</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-07.webp" alt="home-07"/> <a href="index-7.html"><span className="menu-text">Crispy Recipes</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-08.webp" alt="home-08"/> <a href="index-8.html"><span className="menu-text">Decoholic Chic</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="index-2.html" className="mega-menu-title"><span className="menu-text">HOME GROUP</span></a>
-                                        <ul>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-9.webp" alt="home-9"/> <a href="index-9.html"><span className="menu-text">Reblended Dish</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-10.webp" alt="home-10"/> <a href="index-10.html"><span className="menu-text">Craftin House</span></a></li>
-                                            <li> <img className="mmh_img " src="assets/images/demo/menu/home-11.webp" alt="home-11"/> <a href="index-11.html"><span className="menu-text">Craftswork Biz</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-1.webp" alt="Home Menu Banner"/></a>
-                                    </li>
-                                </ul>
-                            </li>
+
                             <li className="has-children"><a href="#"><span className="menu-text">Shop</span></a>
                                 <ul className="sub-menu mega-menu">
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">SHOP PAGES</span></a>
-                                        <ul>
-                                            <li><a href="shop.html"><span className="menu-text">Shop No Sidebar</span></a></li>
-                                            <li><a href="shop-left-sidebar.html"><span className="menu-text">Shop Left Sidebar</span></a></li>
-                                            <li><a href="shop-right-sidebar.html"><span className="menu-text">Shop Right Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-no-gutters.html"><span className="menu-text">Shop Fullwidth No Space</span></a></li>
-                                            <li><a href="shop-fullwidth.html"><span className="menu-text">Shop Fullwidth No Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-left-sidebar.html"><span className="menu-text">Shop Fullwidth Left Sidebar</span></a></li>
-                                            <li><a href="shop-fullwidth-right-sidebar.html"><span className="menu-text">Shop Fullwidth Right Sidebar</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT PAGES</span></a>
-                                        <ul>
-                                            <li><a href="product-details.html"><span className="menu-text">Basic</span></a></li>
-                                            <li><a href="product-details-fullwidth.html"><span className="menu-text">Fullwidth</span></a></li>
-                                            <li><a href="product-details-sticky.html"><span className="menu-text">Sticky Details</span></a></li>
-                                            <li><a href="product-details-sidebar.html"><span className="menu-text">Width Sidebar</span></a></li>
-                                            <li><a href="product-details-extra-content.html"><span className="menu-text">Extra Content</span></a></li>
-                                            <li><a href="product-details-image-variation.html"><span className="menu-text">Variations Images</span></a></li>
-                                            <li><a href="product-details-group.html"><span className="menu-text">Bought Together</span></a></li>
-                                            <li><a href="product-details-360.html"><span className="menu-text">Product 360</span></a></li>
-                                        </ul>
-                                    </li>
                                     <li>
                                         <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT & Other PAGES</span></a>
                                         <ul>
@@ -300,9 +171,7 @@ return <>
                                             <li><a href="lost-password.html"><span className="menu-text">Lost Password</span></a></li>
                                         </ul>
                                     </li>
-                                    <li className="align-self-center">
-                                        <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-2.webp" alt="Shop Menu Banner"/></a>
-                                    </li>
+
                                 </ul>
                             </li>
                             <li className="has-children"><a href="#"><span className="menu-text">Elements</span></a>
@@ -326,7 +195,6 @@ return <>
                                     <li>
                                         <a href="#" className="mega-menu-title"><span className="menu-text">Column Three</span></a>
                                         <ul>
-                                            <li><a href="elements-instagram.html"><span className="menu-text">Instagram</span></a></li>
                                             <li><a href="elements-map.html"><span className="menu-text">Google Map</span></a></li>
                                             <li><a href="elements-icon-box.html"><span className="menu-text">Icon Box</span></a></li>
                                         </ul>
@@ -344,7 +212,6 @@ return <>
                             <li className="has-children"><a href="#"><span className="menu-text">Pages</span></a>
                                 <ul className="sub-menu">
                                     <li><a href="about-us.html"><span className="menu-text">About us</span></a></li>
-                                    <li><a href="about-us-2.html"><span className="menu-text">About us 02</span></a></li>
                                     <li><a href="contact-us.html"><span className="menu-text">Contact us</span></a></li>
                                     <li><a href="coming-soon.html"><span className="menu-text">Coming Soon</span></a></li>
                                     <li><a href="404.html"><span className="menu-text">Page 404</span></a></li>
@@ -505,26 +372,26 @@ return <>
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-1.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Walnut Cutting Board</a>
+                            <a href="product-details.html" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-2.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Lucky Wooden Elephant</a>
+                            <a href="product-details.html" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-3.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Fish Cut Out Set</a>
-                            <span className="quantity-price">1 x <span className="amount">$9.00</span></span>
+                            <a href="product-details.html" className="title">Femmes Qui Ont</a>
+                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -547,26 +414,26 @@ return <>
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-1.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Walnut Cutting Board</a>
+                            <a href="product-details.html" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-2.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Lucky Wooden Elephant</a>
+                            <a href="product-details.html" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="assets/images/product/cart-product-3.webp" alt="Cart product Image"/></a>
+                        <a href="product-details.html" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Fish Cut Out Set</a>
-                            <span className="quantity-price">1 x <span className="amount">$9.00</span></span>
+                            <a href="product-details.html" className="title">Femmes Qui Ont</a>
+                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -575,7 +442,7 @@ return <>
             <div className="foot">
                 <div className="sub-total">
                     <strong>Subtotal :</strong>
-                    <span className="amount">$144.00</span>
+                    <span className="amount">$185.00</span>
                 </div>
                 <div className="buttons">
                     <a href="shopping-cart.html" className="btn btn-dark btn-hover-primary">view cart</a>
@@ -852,16 +719,16 @@ return <>
                                 <span className="product-badges">
                                     <span className="onsale">-13%</span>
                                 </span>
-                                <img src="assets/images/product/s328/product-1.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-1-hover.webp" alt="Product Image"/>
+                                <img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Product Image"/>
                             </a>
                             <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
                         <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Boho Beard Mug</a></h6>
+                            <h6 className="title"><a href="product-details.html">Jesus & Mary</a></h6>
                             <span className="price">
-                                <span className="old">$45.00</span>
-                            <span className="new">$39.00</span>
+                                <span className="old">$100.00</span>
+                            <span className="new">$55.00</span>
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -876,13 +743,13 @@ return <>
                     <div className="product">
                         <div className="product-thumb">
                             <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s328/product-2.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-2-hover.webp" alt="Product Image"/>
+                                <img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Product Image"/>
                             </a>
                             <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
                         <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Motorized Tricycle</a></h6>
+                            <h6 className="title"><a href="product-details.html">The Gateway</a></h6>
                             <span className="price">
                                 $35.00
                             </span>
@@ -902,15 +769,15 @@ return <>
                                 <span className="hot">hot</span>
                             </span>
                             <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s328/product-3.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-3-hover.webp" alt="Product Image"/>
+                                <img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Product Image"/>
                             </a>
                             <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
                         <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Walnut Cutting Board</a></h6>
+                            <h6 className="title"><a href="product-details.html">Femmes Qui Ont</a></h6>
                             <span className="price">
-                                $100.00
+                                $50.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -928,16 +795,16 @@ return <>
                                 <span className="product-badges">
                                     <span className="onsale">-27%</span>
                                 </span>
-                                <img src="assets/images/product/s328/product-4.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-4-hover.webp" alt="Product Image"/>
+                                <img src="public/assets/media/50 Scary Paintings That Aren’t Easy To Look At.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/assets/media/50 Scary Paintings That Aren’t Easy To Look At.jpeg" alt="Product Image"/>
                             </a>
                             <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
                         <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Pizza Plate Tray</a></h6>
+                            <h6 className="title"><a href="product-details.html">Father's Cry</a></h6>
                             <span className="price">
-                                <span className="old">$30.00</span>
-                            <span className="new">$22.00</span>
+                                <span className="old">$50.00</span>
+                            <span className="new">$25.00</span>
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -952,25 +819,14 @@ return <>
                     <div className="product">
                         <div className="product-thumb">
                             <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s328/product-5.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-5-hover.webp" alt="Product Image"/>
+                                <img src="public/assets/media/94a77fae-cd90-436d-b900-a6483bc7dadf.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/assets/media/94a77fae-cd90-436d-b900-a6483bc7dadf.jpeg" alt="Product Image"/>
                             </a>
                             <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                            <div className="product-options">
-                                <ul className="colors">
-                                    <li>color one</li>
-                                    <li>color two</li>
-                                    <li>color three</li>
-                                </ul>
-                                <ul className="sizes">
-                                    <li>Large</li>
-                                    <li>Medium</li>
-                                    <li>Small</li>
-                                </ul>
-                            </div>
+
                         </div>
                         <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Minimalist Ceramic Pot</a></h6>
+                            <h6 className="title"><a href="product-details.html">The Sad Jester</a></h6>
                             <span className="price">
                                 $120.00
                             </span>
@@ -987,15 +843,15 @@ return <>
                     <div className="product">
                         <div className="product-thumb">
                             <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s328/product-6.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-6-hover.webp" alt="Product Image"/>
+                                <img src="public/assets/media/ab49cb00-ca93-4e24-84ab-0c86a756a3ab.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/assets/media/ab49cb00-ca93-4e24-84ab-0c86a756a3ab.jpeg" alt="Product Image"/>
                             </a>
                             <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
                         <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Clear Silicate Teapot</a></h6>
+                            <h6 className="title"><a href="product-details.html">Angel</a></h6>
                             <span className="price">
-                                $140.00
+                                $80.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -1013,15 +869,15 @@ return <>
                                 <span className="product-badges">
                                     <span className="hot">hot</span>
                                 </span>
-                                <img src="assets/images/product/s328/product-7.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-7-hover.webp" alt="Product Image"/>
+                                <img src="public/assets/media/birmingham-museums-trust-5F3u0j6s6pM-unsplash.jpg" alt="Product Image"/>
+                                <img className="image-hover " src="public/assets/media/birmingham-museums-trust-5F3u0j6s6pM-unsplash.jpg" alt="Product Image"/>
                             </a>
                             <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
                         <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Lucky Wooden Elephant</a></h6>
+                            <h6 className="title"><a href="product-details.html">Birmingham Trust 1</a></h6>
                             <span className="price">
-                                $35.00
+                                $55.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -1040,26 +896,16 @@ return <>
                                     <span className="outofstock"><i className="far fa-frown"></i></span>
                                 <span className="hot">hot</span>
                                 </span>
-                                <img src="assets/images/product/s328/product-8.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-8-hover.webp" alt="Product Image"/>
+                                <img src="public/assets/media/birmingham-museums-trust-SRM-zKf1cDo-unsplash.jpg" alt="Product Image"/>
+                                <img className="image-hover " src="public/assets/media/birmingham-museums-trust-SRM-zKf1cDo-unsplash.jpg" alt="Product Image"/>
                             </a>
                             <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
-                            <div className="product-options">
-                                <ul className="colors">
-                                    <li>color one</li>
-                                    <li>color two</li>
-                                </ul>
-                                <ul className="sizes">
-                                    <li>Large</li>
-                                    <li>Medium</li>
-                                    <li>Small</li>
-                                </ul>
-                            </div>
+
                         </div>
                         <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Decorative Christmas Fox</a></h6>
+                            <h6 className="title"><a href="product-details.html">Birmingham Trust 2</a></h6>
                             <span className="price">
-                                $50.00
+                                $55.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -1074,13 +920,13 @@ return <>
                     <div className="product">
                         <div className="product-thumb">
                             <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s328/product-9.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-9-hover.webp" alt="Product Image"/>
+                                <img src="public/assets/media/boston-public-library-4yPHCb1SPR4-unsplash.jpg" alt="Product Image"/>
+                                <img className="image-hover " src="public/assets/media/boston-public-library-4yPHCb1SPR4-unsplash.jpg" alt="Product Image"/>
                             </a>
                             <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
                         <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Aluminum Equestrian</a></h6>
+                            <h6 className="title"><a href="product-details.html">Boston Streets</a></h6>
                             <span className="price">
                                 $100.00
                             </span>
@@ -1097,15 +943,15 @@ return <>
                     <div className="product">
                         <div className="product-thumb">
                             <a href="product-details.html" className="image">
-                                <img src="assets/images/product/s328/product-10.webp" alt="Product Image"/>
-                                <img className="image-hover " src="assets/images/product/s328/product-10-hover.webp" alt="Product Image"/>
+                                <img src="public/assets/media/c8b5ff6f-cffc-42c5-914a-a626cc2ea5b8.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/assets/media/c8b5ff6f-cffc-42c5-914a-a626cc2ea5b8.jpeg" alt="Product Image"/>
                             </a>
                             <a href="wishlist.html" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
                         <div className="product-info">
-                            <h6 className="title"><a href="product-details.html">Fish Cut Out Set</a></h6>
+                            <h6 className="title"><a href="product-details.html">Golden Love</a></h6>
                             <span className="price">
-                                $9.00
+                                $90.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -1129,7 +975,7 @@ return <>
             <div className="row text-center row-cols-1">
 
                 <div className="footer1-logo col text-center">
-                    <img src="assets/images/logo/logo.webp" alt=""/>
+                    <img src="public/assets/media/logo(600px).png" alt=""/>
                 </div>
 
                 <div className="footer1-menu col">
@@ -1164,7 +1010,7 @@ return <>
                     </ul>
                 </div>
                 <div className="footer1-copyright col">
-                    <p className="copyright">&copy; 2023 learts. All Rights Reserved | <strong>(+00) 123 567990</strong> | <a href="mailto:contact@learts.com">contact@learts.com</a></p>
+                    <p className="copyright">&copy; 2023 Arttherapy. All Rights Reserved | <strong>(+254) 717 577640</strong> | <a href="mailto:contact@arttherapy.com">contact@arttherapy.com</a></p>
                 </div>
 
             </div>
