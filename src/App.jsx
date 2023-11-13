@@ -1,4 +1,6 @@
 import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Home from "./components/Home.jsx";
 import About from "./components/About.jsx";
 import Error from "./components/Error.jsx";
@@ -20,21 +22,34 @@ function App() {
 
   return (
     <>
-        {/*<Home/>*/}
-        {/*<About/>*/}
-        {/*<Error/>*/}
-        {/*<Checkout/>*/}
-      {/*<Login_register/>*/}
-      {/*  <Shop/>*/}
-      {/*  <Lost_password/>*/}
-      {/*  <Shopping_cart/>*/}
-      {/*  <Wishlist/>*/}
+        <BrowserRouter>
+           <Routes>
+            <Route path = "/"  element = {<Home/>} />
+              <Route path ="/about" element={<About/>} />
+              <Route path ="*" element={<Error/>} />
+              <Route path ="/checkout" element={<Checkout/>} />
+              <Route path ="/login_register" element={<Login_register/>} />
+              <Route path ="/shop" element={<Shop/>} />
+              <Route path ="/lost_password" element={<Lost_password/>} />
+              <Route path ="/shopping_cart" element={<Shopping_cart/>} />
+              <Route path ="/wishlist" element={<Wishlist/>} />
+              <Route path ="/product_details" element={<Product_details/>} />
+              <Route path ="/Order_tracking" element={<Order_tracking/>} />
+              <Route path ="/my_account" element={<My_account/>} />
+              <Route path ="/contact_us" element={<Contact_us/>} />
+              <Route path ="/coming_soon" element={<Coming_soon/>} />
+
+
+
+
       {/*  <Product_details/>*/}
       {/*  <Order_tracking/>*/}
       {/*  <My_account/>*/}
       {/*  <Contact_us/>*/}
-        <Coming_soon/>
+      {/*  <Coming_soon/>*/}
 
+        </Routes>
+        </BrowserRouter>
 
     </>
   )
