@@ -789,7 +789,7 @@ export default function Elements_team(){
                             </div>
                         </div>
                         <div className="content">
-                            <h6 className="name">Albert McKinney</h6>
+                            <h6 className="name">Richard Gikuhi</h6>
                             <span className="title">CEO & CO-FOUNDER</span>
                         </div>
                     </div>
@@ -806,8 +806,8 @@ export default function Elements_team(){
                             </div>
                         </div>
                         <div className="content">
-                            <h6 className="name">Etta Schneider</h6>
-                            <span className="title">Ceramics</span>
+                            <h6 className="name">Isaac Kihu</h6>
+                            <span className="title">CEO & CO-FOUNDER</span>
                         </div>
                     </div>
                 </div>
@@ -824,7 +824,7 @@ export default function Elements_team(){
                         </div>
                         <div className="content">
                             <h6 className="name">Roger Collins</h6>
-                            <span className="title">Wood</span>
+                            <span className="title">Art Director</span>
                         </div>
                     </div>
                 </div>

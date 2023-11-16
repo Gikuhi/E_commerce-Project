@@ -783,7 +783,7 @@ export default function Elements_testimonials(){
                     <div className="testimonial-slider">
                         <div className="col">
                             <div className="testimonial2">
-                                <p>There's nothing would satisfy me much more than a worry-free clean and responsive theme for my high-traffic site.</p>
+                                <p>There is nothing would satisfy me much more than a worry-free clean and responsive theme for my high-traffic site.</p>
                                 <div className="author">
                                     <img src="assets/images/testimonial/testimonial-1.webp" alt=""/>
                                     <div className="content">

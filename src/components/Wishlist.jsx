@@ -1,79 +1,43 @@
 export default function Wishlist(){
     return <>
 
-        <div className="header-section section section-fluid bg-white d-none d-xl-block">
+     <div className="header-section section section-fluid bg-white d-none d-xl-block">
         <div className="container">
             <div className="row align-items-center">
 
                 <div className="col-auto">
                     <div className="header-logo">
-                        <a href="index.html"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
                 <div className="col-auto me-auto">
                     <nav className="site-main-menu site-main-menu-left menu-height-100 justify-content-center">
                         <ul>
-                            <li className="has-children"><a href="#"><span className="menu-text">Shop</span></a>
+                            <li className="has-children"><a href="/shop"><span className="menu-text">Shop</span></a>
                                 <ul className="sub-menu mega-menu">
                                     <li>
                                         <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT & Other PAGES</span></a>
                                         <ul>
-                                            <li><a href="product-details-background.html"><span className="menu-text">Product with Background</span></a></li>
-                                            <li><a href="shopping-cart.html"><span className="menu-text">Shopping Cart</span></a></li>
-                                            <li><a href="checkout.html"><span className="menu-text">Checkout</span></a></li>
-                                            <li><a href="order-tracking.html"><span className="menu-text">Order Tracking</span></a></li>
-                                            <li><a href="wishlist.html"><span className="menu-text">Wishlist</span></a></li>
-                                            <li><a href="login-register.html"><span className="menu-text">Customer Login</span></a></li>
-                                            <li><a href="my-account.html"><span className="menu-text">My Account</span></a></li>
-                                            <li><a href="lost-password.html"><span className="menu-text">Lost Password</span></a></li>
+                                            <li><a href="/product_details"><span className="menu-text">Product with Background</span></a></li>
+                                            <li><a href="/shopping_cart"><span className="menu-text">Shopping Cart</span></a></li>
+                                            <li><a href="/checkout"><span className="menu-text">Checkout</span></a></li>
+                                            <li><a href="/order_tracking"><span className="menu-text">Order Tracking</span></a></li>
+                                            <li><a href="/wishlist"><span className="menu-text">Wishlist</span></a></li>
+                                            <li><a href="/login_register"><span className="menu-text">Customer Login</span></a></li>
+                                            <li><a href="/my_account"><span className="menu-text">My Account</span></a></li>
+                                            <li><a href="/lost_password"><span className="menu-text">Lost Password</span></a></li>
                                         </ul>
                                     </li>
 
                                 </ul>
                             </li>
-                            <li className="has-children"><a href="#"><span className="menu-text">Elements</span></a>
-                                <ul className="sub-menu mega-menu">
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">Column One</span></a>
-                                        <ul>
-                                            <li><a href="elements-products.html"><span className="menu-text">Product Styles</span></a></li>
-                                            <li><a href="elements-products-tabs.html"><span className="menu-text">Product Tabs</span></a></li>
-                                            <li><a href="elements-product-sale-banner.html"><span className="menu-text">Product & Sale Banner</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">Column Two</span></a>
-                                        <ul>
-                                            <li><a href="elements-category-banner.html"><span className="menu-text">Category Banner</span></a></li>
-                                            <li><a href="elements-team.html"><span className="menu-text">Team Member</span></a></li>
-                                            <li><a href="elements-testimonials.html"><span className="menu-text">Testimonials</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">Column Three</span></a>
-                                        <ul>
-                                            <li><a href="elements-instagram.html"><span className="menu-text">Instagram</span></a></li>
-                                            <li><a href="elements-map.html"><span className="menu-text">Google Map</span></a></li>
-                                            <li><a href="elements-icon-box.html"><span className="menu-text">Icon Box</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">Column Four</span></a>
-                                        <ul>
-                                            <li><a href="elements-buttons.html"><span className="menu-text">Buttons</span></a></li>
-                                            <li><a href="elements-faq.html"><span className="menu-text">FAQs / Toggles</span></a></li>
-                                            <li><a href="elements-brands.html"><span className="menu-text">Brands</span></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
                             <li className="has-children"><a href="#"><span className="menu-text">Pages</span></a>
                                 <ul className="sub-menu">
-                                    <li><a href="about-us.html"><span className="menu-text">About us</span></a></li>
-                                    <li><a href="contact-us.html"><span className="menu-text">Contact us</span></a></li>
-                                    <li><a href="coming-soon.html"><span className="menu-text">Coming Soon</span></a></li>
-                                    <li><a href="404.html"><span className="menu-text">Page 404</span></a></li>
+                                    <li><a href="/about"><span className="menu-text">About us</span></a></li>
+                                    <li><a href="/contact_us"><span className="menu-text">Contact us</span></a></li>
+                                    <li><a href="/coming_soon"><span className="menu-text">Coming Soon</span></a></li>
+                                    <li><a href="*"><span className="menu-text">Page 404</span></a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -94,7 +58,7 @@ export default function Wishlist(){
                 <div className="col-auto">
                     <div className="header-tools justify-content-end">
                         <div className="header-login">
-                            <a href="my-account.html"><i className="far fa-user"></i></a>
+                            <a href="/my_account"><i className="far fa-user"></i></a>
                         </div>
                         <div className="header-wishlist">
                             <a href="#offcanvas-wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
@@ -116,7 +80,7 @@ export default function Wishlist(){
 
                 <div className="col-xl-auto col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -128,60 +92,25 @@ export default function Wishlist(){
                                     <li>
                                         <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT & Other PAGES</span></a>
                                         <ul>
-                                            <li><a href="product-details-background.html"><span className="menu-text">Product with Background</span></a></li>
-                                            <li><a href="shopping-cart.html"><span className="menu-text">Shopping Cart</span></a></li>
-                                            <li><a href="checkout.html"><span className="menu-text">Checkout</span></a></li>
-                                            <li><a href="order-tracking.html"><span className="menu-text">Order Tracking</span></a></li>
-                                            <li><a href="wishlist.html"><span className="menu-text">Wishlist</span></a></li>
-                                            <li><a href="login-register.html"><span className="menu-text">Customer Login</span></a></li>
-                                            <li><a href="my-account.html"><span className="menu-text">My Account</span></a></li>
-                                            <li><a href="lost-password.html"><span className="menu-text">Lost Password</span></a></li>
+                                            <li><a href="/product_details"><span className="menu-text">Product with Background</span></a></li>
+                                            <li><a href="/shopping_cart"><span className="menu-text">Shopping Cart</span></a></li>
+                                            <li><a href="/checkout"><span className="menu-text">Checkout</span></a></li>
+                                            <li><a href="/order_tracking"><span className="menu-text">Order Tracking</span></a></li>
+                                            <li><a href="/wishlist"><span className="menu-text">Wishlist</span></a></li>
+                                            <li><a href="/login_register"><span className="menu-text">Customer Login</span></a></li>
+                                            <li><a href="/my_account"><span className="menu-text">My Account</span></a></li>
+                                            <li><a href="/lost_password"><span className="menu-text">Lost Password</span></a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
-                            <li className="has-children"><a href="#"><span className="menu-text">Elements</span></a>
-                                <ul className="sub-menu mega-menu">
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">Column One</span></a>
-                                        <ul>
-                                            <li><a href="elements-products.html"><span className="menu-text">Product Styles</span></a></li>
-                                            <li><a href="elements-products-tabs.html"><span className="menu-text">Product Tabs</span></a></li>
-                                            <li><a href="elements-product-sale-banner.html"><span className="menu-text">Product & Sale Banner</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">Column Two</span></a>
-                                        <ul>
-                                            <li><a href="elements-category-banner.html"><span className="menu-text">Category Banner</span></a></li>
-                                            <li><a href="elements-team.html"><span className="menu-text">Team Member</span></a></li>
-                                            <li><a href="elements-testimonials.html"><span className="menu-text">Testimonials</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">Column Three</span></a>
-                                        <ul>
-                                            <li><a href="elements-map.html"><span className="menu-text">Google Map</span></a></li>
-                                            <li><a href="elements-icon-box.html"><span className="menu-text">Icon Box</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">Column Four</span></a>
-                                        <ul>
-                                            <li><a href="elements-buttons.html"><span className="menu-text">Buttons</span></a></li>
-                                            <li><a href="elements-faq.html"><span className="menu-text">FAQs / Toggles</span></a></li>
-                                            <li><a href="elements-brands.html"><span className="menu-text">Brands</span></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
+
                             <li className="has-children"><a href="#"><span className="menu-text">Pages</span></a>
                                 <ul className="sub-menu">
-                                    <li><a href="about-us.html"><span className="menu-text">About us</span></a></li>
-                                    <li><a href="about-us-2.html"><span className="menu-text">About us 02</span></a></li>
-                                    <li><a href="contact-us.html"><span className="menu-text">Contact us</span></a></li>
-                                    <li><a href="coming-soon.html"><span className="menu-text">Coming Soon</span></a></li>
-                                    <li><a href="404.html"><span className="menu-text">Page 404</span></a></li>
+                                    <li><a href="/about"><span className="menu-text">About us</span></a></li>
+                                    <li><a href="/contact_us"><span className="menu-text">Contact us</span></a></li>
+                                    <li><a href="/coming_soon"><span className="menu-text">Coming Soon</span></a></li>
+                                    <li><a href="*"><span className="menu-text">Page 404</span></a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -204,7 +133,7 @@ export default function Wishlist(){
                 <div className="col-auto">
                     <div className="header-tools justify-content-end">
                         <div className="header-login d-none d-sm-block">
-                            <a href="my-account.html"><i className="far fa-user"></i></a>
+                            <a href="/my_account"><i className="far fa-user"></i></a>
                         </div>
                         <div className="header-search d-none d-sm-block d-xl-none">
                             <a href="#offcanvas-search" className="offcanvas-toggle"><i className="fas fa-search"></i></a>
@@ -273,7 +202,7 @@ export default function Wishlist(){
         </div>
     </div>
 
-    <div className="mobile-header sticky-header bg-white section d-xl-none">
+        <div className="mobile-header sticky-header bg-white section d-xl-none">
         <div className="container">
             <div className="row align-items-center">
 
@@ -313,7 +242,7 @@ export default function Wishlist(){
         </div>
     </div>
 
-    <div id="offcanvas-search" className="offcanvas offcanvas-search">
+        <div id="offcanvas-search" className="offcanvas offcanvas-search">
         <div className="inner">
             <div className="offcanvas-search-form">
                 <button className="offcanvas-close">×</button>
@@ -349,25 +278,25 @@ export default function Wishlist(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="product-details.html" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Jesus & Mary</a>
+                            <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">The Gateway</a>
+                            <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Femmes Qui Ont</a>
+                            <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
@@ -376,7 +305,7 @@ export default function Wishlist(){
             </div>
             <div className="foot">
                 <div className="buttons">
-                    <a href="wishlist.html" className="btn btn-dark btn-hover-primary">view wishlist</a>
+                    <a href="/wishlist" className="btn btn-dark btn-hover-primary">view wishlist</a>
                 </div>
             </div>
         </div>
@@ -391,25 +320,25 @@ export default function Wishlist(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="product-details.html" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Jesus & Mary</a>
+                            <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">The Gateway</a>
+                            <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
                     <li>
-                        <a href="product-details.html" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
-                            <a href="product-details.html" className="title">Femmes Qui Ont</a>
+                            <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
@@ -422,8 +351,8 @@ export default function Wishlist(){
                     <span className="amount">$185.00</span>
                 </div>
                 <div className="buttons">
-                    <a href="shopping-cart.html" className="btn btn-dark btn-hover-primary">view cart</a>
-                    <a href="checkout.html" className="btn btn-outline-dark">checkout</a>
+                    <a href="/shopping_cart" className="btn btn-dark btn-hover-primary">view cart</a>
+                    <a href="/checkout" className="btn btn-outline-dark">checkout</a>
                 </div>
                 <p className="minicart-message">Free Shipping on All Orders Over $100!</p>
             </div>
@@ -637,10 +566,10 @@ export default function Wishlist(){
                 <div className="col">
 
                     <div className="page-title">
-                        <h1 className="title">Wishlist</h1>
+                        <h1 className="title">About us</h1>
                         <ul className="breadcrumb">
-                            <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li className="breadcrumb-item active">Wishlist</li>
+                            <li className="breadcrumb-item"><a href="/">Home</a></li>
+                            <li className="breadcrumb-item active"><a href="/about">About us</a></li>
                         </ul>
                     </div>
 
@@ -663,22 +592,22 @@ export default function Wishlist(){
                     </thead>
                     <tbody>
                         <tr>
-                            <td className="thumbnail"><a href="product-details.html"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="wishlist-product-1"/></a></td>
-                            <td className="name"> <a href="product-details.html">Jesus & Mary</a></td>
+                            <td className="thumbnail"><a href="/product_details"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="wishlist-product-1"/></a></td>
+                            <td className="name"> <a href="/product_details">Jesus & Mary</a></td>
                             <td className="price"><span>$100.00</span></td>
                             <td className="add-to-cart"><a href="#" className="btn btn-light btn-hover-dark"><i className="fas fa-shopping-cart mr-2"></i>Add to Cart</a></td>
                             <td className="remove"><a href="#" className="btn">×</a></td>
                         </tr>
                         <tr>
-                            <td className="thumbnail"><a href="product-details.html"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="wishlist-product-2"/></a></td>
-                            <td className="name"> <a href="product-details.html">The Gateway</a></td>
+                            <td className="thumbnail"><a href="/product_details"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="wishlist-product-2"/></a></td>
+                            <td className="name"> <a href="/product_details">The Gateway</a></td>
                             <td className="price"><span>$35.00</span></td>
                             <td className="add-to-cart"><a href="#" className="btn btn-light btn-hover-dark"><i className="fas fa-shopping-cart mr-2"></i>Add to Cart</a></td>
                             <td className="remove"><a href="#" className="btn">×</a></td>
                         </tr>
                         <tr>
-                            <td className="thumbnail"><a href="product-details.html"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="wishlist-product-3"/></a></td>
-                            <td className="name"> <a href="product-details.html">Femmes Qui Ont</a></td>
+                            <td className="thumbnail"><a href="/product_details"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="wishlist-product-3"/></a></td>
+                            <td className="name"> <a href="/product_details">Femmes Qui Ont</a></td>
                             <td className="price"><span>$50.00</span></td>
                             <td className="add-to-cart"><a href="#" className="btn btn-light btn-hover-dark"><i className="fas fa-shopping-cart mr-2"></i>Add to Cart</a></td>
                             <td className="remove"><a href="#" className="btn">×</a></td>
@@ -687,8 +616,8 @@ export default function Wishlist(){
                 </table>
                 <div className="row">
                     <div className="col text-center mb-n3">
-                        <a className="btn btn-light btn-hover-dark mr-3 mb-3" href="shop.html">Continue Shopping</a>
-                        <a className="btn btn-dark btn-outline-hover-dark mb-3" href="shopping-cart.html">View Cart</a>
+                        <a className="btn btn-light btn-hover-dark mr-3 mb-3" href="/shop">Continue Shopping</a>
+                        <a className="btn btn-dark btn-outline-hover-dark mb-3" href="/shopping_cart">View Cart</a>
                     </div>
                 </div>
             </form>
