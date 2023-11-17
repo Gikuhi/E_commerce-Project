@@ -266,7 +266,7 @@ return <>
         </div>
     </div>
 
-    <div id="offcanvas-search" className="offcanvas offcanvas-search">
+        <div id="offcanvas-search" className="offcanvas offcanvas-search">
         <div className="inner">
             <div className="offcanvas-search-form">
                 <button className="offcanvas-close">×</button>
@@ -276,13 +276,9 @@ return <>
                         <div className="col-lg-4 col-12 mb-3">
                             <select className="search-select select2-basic">
                                 <option value="0">All Categories</option>
-                                <option value="kids-babies">Kids &amp; Babies</option>
                                 <option value="home-decor">Home Decor</option>
                                 <option value="gift-ideas">Gift ideas</option>
-                                <option value="kitchen">Kitchen</option>
-                                <option value="toys">Toys</option>
-                                <option value="kniting-sewing">Kniting &amp; Sewing</option>
-                                <option value="pots">Pots</option>
+
                             </select>
                         </div>
                     </div>

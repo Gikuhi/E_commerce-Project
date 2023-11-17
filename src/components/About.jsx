@@ -252,13 +252,9 @@ return <>
                         <div className="col-lg-4 col-12 mb-3">
                             <select className="search-select select2-basic">
                                 <option value="0">All Categories</option>
-                                <option value="kids-babies">Kids &amp; Babies</option>
                                 <option value="home-decor">Home Decor</option>
                                 <option value="gift-ideas">Gift ideas</option>
-                                <option value="kitchen">Kitchen</option>
-                                <option value="toys">Toys</option>
-                                <option value="kniting-sewing">Kniting &amp; Sewing</option>
-                                <option value="pots">Pots</option>
+
                             </select>
                         </div>
                     </div>

@@ -4,10 +4,10 @@ export default function Coming_soon(){
         <div className="container">
             <div className="coming-soon-content">
                 <div className="logo">
-                    <a href="index.html"><img src="public/assets/media/logo(600px).png" alt=""/></a>
+                    <a href="/"><img src="public/assets/media/logo(600px).png" alt=""/></a>
                 </div>
                 <h2 className="title">Coming soon</h2>
-                <div className="countdown3" data-countdown="2024/01/01"></div>
+                <div className="countdown3" data-countdown="2024/06/12"></div>
                 <div className="coming-soon-subscribe">
                     <form id="mc-form" className="mc-form widget-subscibe">
                         <input id="mc-email" className="bg-light" autoComplete="off" type="email" placeholder="Enter your e-mail address"/>
