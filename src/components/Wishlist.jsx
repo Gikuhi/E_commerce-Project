@@ -1,4 +1,5 @@
 export default function Wishlist(){
+    document.title = "Wishlist"
     return <>
 
      <div className="header-section section section-fluid bg-white d-none d-xl-block">

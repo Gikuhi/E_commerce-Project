@@ -1,4 +1,5 @@
 export default function My_account(){
+    document.title = "My Account"
     return <>
      <div className="header-section section section-fluid bg-white d-none d-xl-block">
         <div className="container">

@@ -72,7 +72,7 @@ return <>
             <div className="container">
                 <nav className="site-main-menu justify-content-center">
                     <ul>
-                        <li className="has-children"><a href="shop.jsx"><span className="menu-text">Shop</span></a>
+                        <li className="has-children"><a href="/shop"><span className="menu-text">Shop</span></a>
                             <ul className="sub-menu mega-menu">
                                 <li>
                                     <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT & Other PAGES</span></a>

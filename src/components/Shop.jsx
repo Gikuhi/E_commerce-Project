@@ -1,4 +1,5 @@
 export default function Shop(){
+    document.title = "Shop"
     return <>
         
     <div className="header-section section section-fluid bg-white d-none d-xl-block">

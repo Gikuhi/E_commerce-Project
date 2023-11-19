@@ -1,4 +1,6 @@
 export default function Contact_us(){
+    document.title = "Contact Us"
+
     return <>
 
      <div className="header-section section section-fluid bg-white d-none d-xl-block">

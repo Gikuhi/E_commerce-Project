@@ -1,5 +1,7 @@
 
 export default function About(){
+
+    document.title = "About"
 return <>
     <div className="header-section section section-fluid bg-white d-none d-xl-block">
         <div className="container">

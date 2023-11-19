@@ -1,6 +1,8 @@
 
 
 export default function Error(){
+
+    document.title = "Error"
     return <>
     <div className="header-section header-transparent header-menu-center section section-fluid bg-white d-none d-xl-block">
         <div className="container">

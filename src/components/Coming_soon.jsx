@@ -1,4 +1,7 @@
 export default function Coming_soon(){
+
+    document.title = "Coming Soon"
+
     return <>
         <div className="coming-soon-section section section-padding" data-bg-image="assets/images/bg/coming-soon-bg.webp">
         <div className="container">

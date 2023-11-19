@@ -1,4 +1,5 @@
 export default function Product_details(){
+    document.title = "Product"
     return <>
    <div className="header-section section section-fluid bg-white d-none d-xl-block">
         <div className="container">

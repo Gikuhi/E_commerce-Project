@@ -1,4 +1,5 @@
 export default function Shopping_cart(){
+    document.title = "Cart"
     return <>
     <div className="header-section section section-fluid bg-white d-none d-xl-block">
         <div className="container">

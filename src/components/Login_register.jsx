@@ -1,4 +1,6 @@
 export default function Login_register(){
+
+    document.title = "Login & Register"
     return <>
         <div className="header-section section section-fluid bg-white d-none d-xl-block">
         <div className="container">
