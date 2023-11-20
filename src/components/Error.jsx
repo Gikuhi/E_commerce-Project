@@ -32,9 +32,9 @@ export default function Error(){
                                             <li><a href="/lost_password"><span className="menu-text">Lost Password</span></a></li>
                                         </ul>
                                     </li>
-                                    <li className="align-self-center">
-                                        <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-2.webp" alt="Shop Menu Banner"/></a>
-                                    </li>
+                                    {/*<li className="align-self-center">*/}
+                                    {/*    <a href="#" className="menu-banner"><img src="assets/images/banner/menu-banner-2.webp" alt="Shop Menu Banner"/></a>*/}
+                                    {/*</li>*/}
                                 </ul>
                             </li>
 
