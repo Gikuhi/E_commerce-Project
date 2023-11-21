@@ -12,7 +12,6 @@ return <>
                 <div className="col-auto d-none d-md-block">
                     <div className="topbar-menu">
                         <ul>
-                            <li><a href="#" className="text-white"><i className="fa fa-map-marker-alt"></i>Store Location</a></li>
                             <li><a href="/order_tracking" className="text-white"><i className="fa fa-truck"></i>Order Status</a></li>
                         </ul>
                     </div>
@@ -48,14 +47,21 @@ return <>
                     </div>
                 </div>
 
+
                 <div className="col">
                     <div className="header-tools justify-content-end">
+                        <div className="header2-search">
+                        <form action="#">
+                            <input type="text" placeholder="Search..."/>
+                            <button className="btn"><i className="fas fa-search"></i></button>
+                        </form>
+                        </div>
                         <div className="header-login">
                             <a href="/login_register"><i className="far fa-user"></i></a>
                         </div>
-                        <div className="header-search">
-                            <a href="#offcanvas-search" className="offcanvas-toggle"><i className="fas fa-search"></i></a>
-                        </div>
+                        {/*<div className="header-search">*/}
+                        {/*    <a href="#offcanvas-search" className="offcanvas-toggle"><i className="fas fa-search"></i></a>*/}
+                        {/*</div>*/}
                         <div className="header-wishlist">
                             <a href="#offcanvas-wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
                         </div>
@@ -124,16 +130,16 @@ return <>
                             <li className="has-children"><a href="#"><span className="menu-text">Shop</span></a>
                                 <ul className="sub-menu mega-menu">
                                     <li>
-                                        <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCT & Other PAGES</span></a>
+                                        <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCTS</span></a>
                                         <ul>
-                                            <li><a href="product-details-background.html"><span className="menu-text">Product with Background</span></a></li>
-                                            <li><a href="shopping-cart.html"><span className="menu-text">Shopping Cart</span></a></li>
-                                            <li><a href="checkout.html"><span className="menu-text">Checkout</span></a></li>
-                                            <li><a href="order-tracking.html"><span className="menu-text">Order Tracking</span></a></li>
-                                            <li><a href="wishlist.html"><span className="menu-text">Wishlist</span></a></li>
-                                            <li><a href="login-register.html"><span className="menu-text">Customer Login</span></a></li>
-                                            <li><a href="my-account.html"><span className="menu-text">My Account</span></a></li>
-                                            <li><a href="lost-password.html"><span className="menu-text">Lost Password</span></a></li>
+                                            <li><a href="/product_details"><span className="menu-text">Product with Background</span></a></li>
+                                            <li><a href="/shopping_cart"><span className="menu-text">Shopping Cart</span></a></li>
+                                            <li><a href="/checkout"><span className="menu-text">Checkout</span></a></li>
+                                            <li><a href="/order_tracking"><span className="menu-text">Order Tracking</span></a></li>
+                                            <li><a href="/wishlist"><span className="menu-text">Wishlist</span></a></li>
+                                            <li><a href="/login_register"><span className="menu-text">Customer Login</span></a></li>
+                                            <li><a href="/my_account"><span className="menu-text">My Account</span></a></li>
+                                            <li><a href="/lost_password"><span className="menu-text">Lost Password</span></a></li>
                                         </ul>
                                     </li>
 
@@ -153,12 +159,18 @@ return <>
 
                 <div className="col-auto">
                     <div className="header-tools justify-content-end">
+                        <div className="header2-search">
+                        <form action="#">
+                            <input type="text" placeholder="Search..."/>
+                            <button className="btn"><i className="fas fa-search"></i></button>
+                        </form>
+                        </div>
                         <div className="header-login">
                             <a href="/login_register"><i className="far fa-user"></i></a>
                         </div>
-                        <div className="header-search d-none d-sm-block">
-                            <a href="#offcanvas-search" className="offcanvas-toggle"><i className="fas fa-search"></i></a>
-                        </div>
+                        {/*<div className="header-search d-none d-sm-block">*/}
+                        {/*    <a href="#offcanvas-search" className="offcanvas-toggle"><i className="fas fa-search"></i></a>*/}
+                        {/*</div>*/}
                         <div className="header-wishlist">
                             <a href="/wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
                         </div>
@@ -270,7 +282,7 @@ return <>
         <div className="inner">
             <div className="offcanvas-search-form">
                 <button className="offcanvas-close">×</button>
-                <form action="#">
+                <form action="#offcanvas-search">
                     <div className="row mb-n3">
                         <div className="col-lg-8 col-12 mb-3"><input type="text" placeholder="Search Products..."/></div>
                         <div className="col-lg-4 col-12 mb-3">

@@ -1,6 +1,9 @@
 
 
 export default function Error(){
+        function goBack() {
+            window.history.back();
+        }
 
     document.title = "Error"
     return <>
@@ -53,12 +56,16 @@ export default function Error(){
 
                 <div className="col">
                     <div className="header-tools justify-content-end">
+                        <div className="header2-search">
+                        <form action="#">
+                            <input type="text" placeholder="Search..."/>
+                            <button className="btn"><i className="fas fa-search"></i></button>
+                        </form>
+                        </div>
                         <div className="header-login">
                             <a href="/my_account"><i className="far fa-user"></i></a>
                         </div>
-                        <div className="header-search d-none d-sm-block">
-                            <a href="#offcanvas-search" className="offcanvas-toggle"><i className="fas fa-search"></i></a>
-                        </div>
+
                         <div className="header-wishlist">
                             <a href="#offcanvas-wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
                         </div>
@@ -131,6 +138,12 @@ export default function Error(){
 
                 <div className="col-auto">
                     <div className="header-tools justify-content-end">
+                        <div className="header2-search">
+                        <form action="#">
+                            <input type="text" placeholder="Search..."/>
+                            <button className="btn"><i className="fas fa-search"></i></button>
+                        </form>
+                        </div>
                         <div className="header-login d-none d-sm-block">
                             <a href="/my_account"><i className="far fa-user"></i></a>
                         </div>
@@ -563,7 +576,8 @@ export default function Error(){
                 <h2 className="sub-title">Page not found!</h2>
                 <p>You could either go back or go to homepage</p>
                 <div className="buttons">
-                    <a className="btn btn-primary btn-outline-hover-dark" href="/">Go back</a>
+                    <button className="btn btn-dark btn-outline-hover-dark" onClick={goBack}>Go Back</button>
+                    {/*<a className="btn btn-primary btn-outline-hover-dark" href="/">Go back</a>*/}
                     <a className="btn btn-dark btn-outline-hover-dark" href="/">Homepage</a>
                 </div>
             </div>
