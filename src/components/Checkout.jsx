@@ -279,7 +279,7 @@ export default function Checkout(){
                         <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
-                            <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -287,7 +287,7 @@ export default function Checkout(){
                         <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
-                            <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -295,7 +295,7 @@ export default function Checkout(){
                         <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
-                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -321,7 +321,7 @@ export default function Checkout(){
                         <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
-                            <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -329,7 +329,7 @@ export default function Checkout(){
                         <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
-                            <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -337,7 +337,7 @@ export default function Checkout(){
                         <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
-                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -346,13 +346,13 @@ export default function Checkout(){
             <div className="foot">
                 <div className="sub-total">
                     <strong>Subtotal :</strong>
-                    <span className="amount">$185.00</span>
+                    <span className="amount">Ksh18500.00</span>
                 </div>
                 <div className="buttons">
                     <a href="/shopping_cart" className="btn btn-dark btn-hover-primary">view cart</a>
                     <a href="/checkout" className="btn btn-outline-dark">checkout</a>
                 </div>
-                <p className="minicart-message">Free Shipping on All Orders Over $100!</p>
+                <p className="minicart-message">Free Shipping on All Orders Over Ksh10000!</p>
             </div>
         </div>
     </div>
@@ -984,21 +984,21 @@ export default function Checkout(){
                             <tbody>
                                 <tr>
                                     <td className="name">Jesus & Mary&nbsp; <strong className="quantity">×&nbsp;1</strong></td>
-                                    <td className="total"><span>$100.00</span></td>
+                                    <td className="total"><span>Ksh10000.00</span></td>
                                 </tr>
                                 <tr>
                                     <td className="name">The Gateway&nbsp; <strong className="quantity">×&nbsp;1</strong></td>
-                                    <td className="total"><span>$22.00</span></td>
+                                    <td className="total"><span>Ksh2200.00</span></td>
                                 </tr>
                                 <tr>
                                     <td className="name">Minimalist Ceramic Pot - Pearl river, Large&nbsp; <strong className="quantity">×&nbsp;1</strong></td>
-                                    <td className="total"><span>$120.00</span></td>
+                                    <td className="total"><span>Ksh12000.00</span></td>
                                 </tr>
                             </tbody>
                             <tfoot>
                                 <tr className="subtotal">
                                     <th>Subtotal</th>
-                                    <td><span>$185.00</span></td>
+                                    <td><span>Ksh18500.00</span></td>
                                 </tr>
                                 <tr className="total">
                                     <th>Total</th>

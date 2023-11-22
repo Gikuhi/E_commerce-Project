@@ -278,7 +278,7 @@ export default function Shop(){
                         <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
-                            <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -286,7 +286,7 @@ export default function Shop(){
                         <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
-                            <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -294,7 +294,7 @@ export default function Shop(){
                         <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
-                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -320,7 +320,7 @@ export default function Shop(){
                         <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
-                            <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -328,7 +328,7 @@ export default function Shop(){
                         <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
-                            <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -336,7 +336,7 @@ export default function Shop(){
                         <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
-                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -345,13 +345,13 @@ export default function Shop(){
             <div className="foot">
                 <div className="sub-total">
                     <strong>Subtotal :</strong>
-                    <span className="amount">$185.00</span>
+                    <span className="amount">Ksh18500.00</span>
                 </div>
                 <div className="buttons">
                     <a href="/shopping_cart" className="btn btn-dark btn-hover-primary">view cart</a>
                     <a href="/checkout" className="btn btn-outline-dark">checkout</a>
                 </div>
-                <p className="minicart-message">Free Shipping on All Orders Over $100!</p>
+                <p className="minicart-message">Free Shipping on All Orders Over Ksh10000!</p>
             </div>
         </div>
     </div>
@@ -642,11 +642,11 @@ export default function Shop(){
                         <h3 className="widget-title product-filter-widget-title">Price filter</h3>
                         <ul className="widget-list product-filter-widget customScroll">
                             <li> <a href="#">All</a></li>
-                            <li> <a href="#"><span className="amount"><span className="cur-symbol">$</span>0.00</span> - <span className="amount"><span className="cur-symbol">£</span>80.00</span></a></li>
-                            <li> <a href="#"><span className="amount"><span className="cur-symbol">$</span>80.00</span> - <span className="amount"><span className="cur-symbol">£</span>160.00</span></a></li>
-                            <li> <a href="#"><span className="amount"><span className="cur-symbol">$</span>160.00</span> - <span className="amount"><span className="cur-symbol">£</span>240.00</span></a></li>
-                            <li> <a href="#"><span className="amount"><span className="cur-symbol">$</span>240.00</span> - <span className="amount"><span className="cur-symbol">£</span>320.00</span></a></li>
-                            <li> <a href="#"><span className="amount"><span className="cur-symbol">$</span>320.00</span> +</a></li>
+                            <li> <a href="#"><span className="amount"><span className="cur-symbol">Ksh</span>0.00</span> - <span className="amount"><span className="cur-symbol">£</span>80.00</span></a></li>
+                            <li> <a href="#"><span className="amount"><span className="cur-symbol">Ksh</span>8000.00</span> - <span className="amount"><span className="cur-symbol">£</span>160.00</span></a></li>
+                            <li> <a href="#"><span className="amount"><span className="cur-symbol">Ksh</span>16000.00</span> - <span className="amount"><span className="cur-symbol">£</span>240.00</span></a></li>
+                            <li> <a href="#"><span className="amount"><span className="cur-symbol">Ksh</span>24000.00</span> - <span className="amount"><span className="cur-symbol">£</span>320.00</span></a></li>
+                            <li> <a href="#"><span className="amount"><span className="cur-symbol">Ksh</span>32000.00</span> +</a></li>
                         </ul>
                     </div>
                 </div>
@@ -671,7 +671,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="product_details">Yofukuro</a></h6>
                                 <span className="price">
-                                    $90.00
+                                    Ksh9000.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -697,7 +697,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="product_details">The Eye</a></h6>
                                 <span className="price">
-                                    $50.00 - $55.00
+                                    Ksh5000.00 - Ksh5500.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -723,7 +723,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">Enlightenment</a></h6>
                                 <span className="price">
-                                    $25.00
+                                    Ksh2500.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -746,7 +746,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">Color Exercises</a></h6>
                                 <span className="price">
-                                    $15.00
+                                    Ksh1500.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -772,8 +772,8 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">Last Supper</a></h6>
                                 <span className="price">
-                                    <span className="old">$70.00</span>
-                                <span className="new">$56.00</span>
+                                    <span className="old">Ksh7000.00</span>
+                                <span className="new">Ksh5600.00</span>
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -799,8 +799,8 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">Battleship</a></h6>
                                 <span className="price">
-                                    <span className="old">$45.00</span>
-                                <span className="new">$39.00</span>
+                                    <span className="old">Ksh4500.00</span>
+                                <span className="new">Ksh3900.00</span>
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -822,7 +822,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">Grant Wood Farmers</a></h6>
                                 <span className="price">
-                                    $150.00
+                                    Ksh15000.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -845,7 +845,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">Furious Man</a></h6>
                                 <span className="price">
-                                    $90.00
+                                    Ksh9000.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -868,7 +868,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">Long Timr Coming</a></h6>
                                 <span className="price">
-                                    $35.00
+                                    Ksh3500.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -894,7 +894,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">Mr Sun</a></h6>
                                 <span className="price">
-                                    $38.00 - $50.00
+                                    Ksh3800.00 - Ksh5000.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -917,7 +917,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">Simon Lee's Moon</a></h6>
                                 <span className="price">
-                                    $140.00
+                                    Ksh14000.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -942,8 +942,8 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">Sunflowers on Gold</a></h6>
                                 <span className="price">
-                                    <span className="old">$45.00</span>
-                                <span className="new">$39.00</span>
+                                    <span className="old">Ksh4500.00</span>
+                                <span className="new">Ksh3900.00</span>
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -970,7 +970,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">Reaching</a></h6>
                                 <span className="price">
-                                    $50.00
+                                    Ksh5000.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -993,7 +993,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">Adrianna Geo</a></h6>
                                 <span className="price">
-                                    $350.00
+                                    Ksh35000.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -1016,7 +1016,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="/product_details">The Devil Cries</a></h6>
                                 <span className="price">
-                                    $200.00
+                                    Ksh20000.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>

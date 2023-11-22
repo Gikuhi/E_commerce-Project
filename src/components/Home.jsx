@@ -7,7 +7,7 @@ return <>
         <div className="container">
             <div className="row justify-content-between align-items-center">
                 <div className="col-md-auto col-12">
-                    <p className="text-white text-center text-md-left my-2">Free shipping for orders over $59 !</p>
+                    <p className="text-white text-center text-md-left my-2">Free shipping for orders over Ksh5900 !</p>
                 </div>
                 <div className="col-auto d-none d-md-block">
                     <div className="topbar-menu">
@@ -313,7 +313,7 @@ return <>
                         <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
-                            <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -321,7 +321,7 @@ return <>
                         <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
-                            <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -329,7 +329,7 @@ return <>
                         <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
-                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -355,7 +355,7 @@ return <>
                         <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
-                            <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -363,7 +363,7 @@ return <>
                         <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
-                            <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -371,7 +371,7 @@ return <>
                         <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
-                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -380,13 +380,13 @@ return <>
             <div className="foot">
                 <div className="sub-total">
                     <strong>Subtotal :</strong>
-                    <span className="amount">$185.00</span>
+                    <span className="amount">Ksh18500.00</span>
                 </div>
                 <div className="buttons">
                     <a href="/shopping_cart" className="btn btn-dark btn-hover-primary">view cart</a>
                     <a href="/checkout" className="btn btn-outline-dark">checkout</a>
                 </div>
-                <p className="minicart-message">Free Shipping on All Orders Over $100!</p>
+                <p className="minicart-message">Free Shipping on All Orders Over Ksh10000!</p>
             </div>
         </div>
     </div>
@@ -468,8 +468,8 @@ return <>
                         <div className="product-info">
                             <h6 className="title"><a href="/product_detaails">Jesus & Mary</a></h6>
                             <span className="price">
-                                <span className="old">$100.00</span>
-                            <span className="new">$55.00</span>
+                                <span className="old">Ksh10000.00</span>
+                            <span className="new">Ksh5500.00</span>
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -492,7 +492,7 @@ return <>
                         <div className="product-info">
                             <h6 className="title"><a href="/product_detaails">The Gateway</a></h6>
                             <span className="price">
-                                $35.00
+                                Ksh3500.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -518,7 +518,7 @@ return <>
                         <div className="product-info">
                             <h6 className="title"><a href="product-details.html">Femmes Qui Ont</a></h6>
                             <span className="price">
-                                $50.00
+                                Ksh5000.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -544,8 +544,8 @@ return <>
                         <div className="product-info">
                             <h6 className="title"><a href="product-details.html">Father's Cry</a></h6>
                             <span className="price">
-                                <span className="old">$50.00</span>
-                            <span className="new">$25.00</span>
+                                <span className="old">Ksh5000.00</span>
+                            <span className="new">Ksh2500.00</span>
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -569,7 +569,7 @@ return <>
                         <div className="product-info">
                             <h6 className="title"><a href="product-details.html">The Sad Jester</a></h6>
                             <span className="price">
-                                $120.00
+                                Ksh12000.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -592,7 +592,7 @@ return <>
                         <div className="product-info">
                             <h6 className="title"><a href="product-details.html">Angel</a></h6>
                             <span className="price">
-                                $80.00
+                                Ksh8000.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -618,7 +618,7 @@ return <>
                         <div className="product-info">
                             <h6 className="title"><a href="product-details.html">Birmingham Trust 1</a></h6>
                             <span className="price">
-                                $55.00
+                                Ksh5500.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -646,7 +646,7 @@ return <>
                         <div className="product-info">
                             <h6 className="title"><a href="product-details.html">Birmingham Trust 2</a></h6>
                             <span className="price">
-                                $55.00
+                                Ksh5500.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -669,7 +669,7 @@ return <>
                         <div className="product-info">
                             <h6 className="title"><a href="product-details.html">Boston Streets</a></h6>
                             <span className="price">
-                                $100.00
+                                Ksh10000.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>
@@ -692,7 +692,7 @@ return <>
                         <div className="product-info">
                             <h6 className="title"><a href="product-details.html">Golden Love</a></h6>
                             <span className="price">
-                                $90.00
+                                Ksh9000.00
                             </span>
                             <div className="product-buttons">
                                 <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>

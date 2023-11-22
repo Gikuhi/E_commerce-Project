@@ -278,7 +278,7 @@ export default function Wishlist(){
                         <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
-                            <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -286,7 +286,7 @@ export default function Wishlist(){
                         <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
-                            <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -294,7 +294,7 @@ export default function Wishlist(){
                         <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
-                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -320,7 +320,7 @@ export default function Wishlist(){
                         <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
-                            <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -328,7 +328,7 @@ export default function Wishlist(){
                         <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
-                            <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -336,7 +336,7 @@ export default function Wishlist(){
                         <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
-                            <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
+                            <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
                             <a href="#" className="remove">×</a>
                         </div>
                     </li>
@@ -345,13 +345,13 @@ export default function Wishlist(){
             <div className="foot">
                 <div className="sub-total">
                     <strong>Subtotal :</strong>
-                    <span className="amount">$185.00</span>
+                    <span className="amount">Ksh18500.00</span>
                 </div>
                 <div className="buttons">
                     <a href="/shopping_cart" className="btn btn-dark btn-hover-primary">view cart</a>
                     <a href="/checkout" className="btn btn-outline-dark">checkout</a>
                 </div>
-                <p className="minicart-message">Free Shipping on All Orders Over $100!</p>
+                <p className="minicart-message">Free Shipping on All Orders Over Ksh10000!</p>
             </div>
         </div>
     </div>
@@ -591,21 +591,21 @@ export default function Wishlist(){
                         <tr>
                             <td className="thumbnail"><a href="/product_details"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="wishlist-product-1"/></a></td>
                             <td className="name"> <a href="/product_details">Jesus & Mary</a></td>
-                            <td className="price"><span>$100.00</span></td>
+                            <td className="price"><span>Ksh10000.00</span></td>
                             <td className="add-to-cart"><a href="#" className="btn btn-light btn-hover-dark"><i className="fas fa-shopping-cart mr-2"></i>Add to Cart</a></td>
                             <td className="remove"><a href="#" className="btn">×</a></td>
                         </tr>
                         <tr>
                             <td className="thumbnail"><a href="/product_details"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="wishlist-product-2"/></a></td>
                             <td className="name"> <a href="/product_details">The Gateway</a></td>
-                            <td className="price"><span>$35.00</span></td>
+                            <td className="price"><span>Ksh3500.00</span></td>
                             <td className="add-to-cart"><a href="#" className="btn btn-light btn-hover-dark"><i className="fas fa-shopping-cart mr-2"></i>Add to Cart</a></td>
                             <td className="remove"><a href="#" className="btn">×</a></td>
                         </tr>
                         <tr>
                             <td className="thumbnail"><a href="/product_details"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="wishlist-product-3"/></a></td>
                             <td className="name"> <a href="/product_details">Femmes Qui Ont</a></td>
-                            <td className="price"><span>$50.00</span></td>
+                            <td className="price"><span>Ksh5000.00</span></td>
                             <td className="add-to-cart"><a href="#" className="btn btn-light btn-hover-dark"><i className="fas fa-shopping-cart mr-2"></i>Add to Cart</a></td>
                             <td className="remove"><a href="#" className="btn">×</a></td>
                         </tr>
