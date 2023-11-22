@@ -1002,7 +1002,7 @@ export default function Checkout(){
                                 </tr>
                                 <tr className="total">
                                     <th>Total</th>
-                                    <td><strong><span>£185.00</span></strong></td>
+                                    <td><strong><span>Ksh18500.00</span></strong></td>
                                 </tr>
                             </tfoot>
                         </table>
