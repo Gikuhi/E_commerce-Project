@@ -697,7 +697,7 @@ export default function Shop(){
                             <div className="product-info">
                                 <h6 className="title"><a href="product_details">The Eye</a></h6>
                                 <span className="price">
-                                    Ksh5000.00 - Ksh5500.00
+                                    Ksh5500.00
                                 </span>
                                 <div className="product-buttons">
                                     <a href="#quickViewModal" data-bs-toggle="modal" className="product-button hintT-top" data-hint="Quick View"><i className="fas fa-search"></i></a>

@@ -43,7 +43,7 @@ return <>
 
                 <div className="col">
                     <div className="header-logo justify-content-center">
-                        <a href="/"><img src="public/assets/media/logo(600px).png" alt="Logo"/></a>
+                        <a href="/"><img src="public/media/logo(600px).png" alt="Logo"/></a>
                     </div>
                 </div>
 
@@ -119,7 +119,7 @@ return <>
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="/"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="public/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -202,7 +202,7 @@ return <>
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -244,7 +244,7 @@ return <>
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -310,7 +310,7 @@ return <>
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
@@ -318,7 +318,7 @@ return <>
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
@@ -326,7 +326,7 @@ return <>
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
@@ -352,7 +352,7 @@ return <>
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
@@ -360,7 +360,7 @@ return <>
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
@@ -368,7 +368,7 @@ return <>
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
@@ -411,7 +411,7 @@ return <>
                 <div className="col-lg-5 col-md-6 col-12 me-auto learts-mb-40">
                     <div className="sale-banner1" data-bg-image="assets/images/banner/sale/sale-banner1-1.webp">
                         <div className="inner">
-                            <img src="assets/images/banner/sale/sale-banner1-1.1.webp" alt="Sale Banner Icon"/>
+                            <img src="images/banner/sale/sale-banner1-1.1.webp" alt="Sale Banner Icon"/>
                             <span className="title">Spring sale</span>
                             <h2 className="sale-percent">
                                 <span className="number">40</span> % off
@@ -424,7 +424,7 @@ return <>
                 <div className="col-lg-6 col-md-6 col-12 learts-mb-40">
                     <div className="sale-banner2">
                         <div className="inner">
-                            <div className="image"><img src="public/assets/media/Vincent Van Gogh Sorrowing Old Man - At Eternity's Gate 1890, High quality Hand painted oil painting reproduction.jpeg" alt=""/></div>
+                            <div className="image"><img src="public/media/Vincent Van Gogh Sorrowing Old Man - At Eternity's Gate 1890, High quality Hand painted oil painting reproduction.jpeg" alt=""/></div>
                             <div className="content row justify-content-between mb-n3">
                                 <div className="col-auto mb-3">
                                     <h2 className="sale-percent">10% off</h2>
@@ -460,8 +460,8 @@ return <>
                                 <span className="product-badges">
                                     <span className="onsale">-13%</span>
                                 </span>
-                                <img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Product Image"/>
-                                <img className="image-hover " src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Product Image"/>
+                                <img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Product Image"/>
                             </a>
                             <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
@@ -484,8 +484,8 @@ return <>
                     <div className="product">
                         <div className="product-thumb">
                             <a href="/product_details" className="image">
-                                <img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Product Image"/>
-                                <img className="image-hover " src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Product Image"/>
+                                <img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Product Image"/>
                             </a>
                             <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
@@ -510,8 +510,8 @@ return <>
                                 <span className="hot">hot</span>
                             </span>
                             <a href="/product_details" className="image">
-                                <img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Product Image"/>
-                                <img className="image-hover " src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Product Image"/>
+                                <img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Product Image"/>
                             </a>
                             <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
@@ -536,8 +536,8 @@ return <>
                                 <span className="product-badges">
                                     <span className="onsale">-27%</span>
                                 </span>
-                                <img src="public/assets/media/50 Scary Paintings That Aren’t Easy To Look At.jpeg" alt="Product Image"/>
-                                <img className="image-hover " src="public/assets/media/50 Scary Paintings That Aren’t Easy To Look At.jpeg" alt="Product Image"/>
+                                <img src="public/media/50 Scary Paintings That Aren’t Easy To Look At.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/media/50 Scary Paintings That Aren’t Easy To Look At.jpeg" alt="Product Image"/>
                             </a>
                             <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
@@ -560,8 +560,8 @@ return <>
                     <div className="product">
                         <div className="product-thumb">
                             <a href="/product_details" className="image">
-                                <img src="public/assets/media/94a77fae-cd90-436d-b900-a6483bc7dadf.jpeg" alt="Product Image"/>
-                                <img className="image-hover " src="public/assets/media/94a77fae-cd90-436d-b900-a6483bc7dadf.jpeg" alt="Product Image"/>
+                                <img src="public/media/94a77fae-cd90-436d-b900-a6483bc7dadf.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/media/94a77fae-cd90-436d-b900-a6483bc7dadf.jpeg" alt="Product Image"/>
                             </a>
                             <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
 
@@ -584,8 +584,8 @@ return <>
                     <div className="product">
                         <div className="product-thumb">
                             <a href="/product_details" className="image">
-                                <img src="public/assets/media/ab49cb00-ca93-4e24-84ab-0c86a756a3ab.jpeg" alt="Product Image"/>
-                                <img className="image-hover " src="public/assets/media/ab49cb00-ca93-4e24-84ab-0c86a756a3ab.jpeg" alt="Product Image"/>
+                                <img src="public/media/ab49cb00-ca93-4e24-84ab-0c86a756a3ab.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/media/ab49cb00-ca93-4e24-84ab-0c86a756a3ab.jpeg" alt="Product Image"/>
                             </a>
                             <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
@@ -610,8 +610,8 @@ return <>
                                 <span className="product-badges">
                                     <span className="hot">hot</span>
                                 </span>
-                                <img src="public/assets/media/birmingham-museums-trust-5F3u0j6s6pM-unsplash.jpg" alt="Product Image"/>
-                                <img className="image-hover " src="public/assets/media/birmingham-museums-trust-5F3u0j6s6pM-unsplash.jpg" alt="Product Image"/>
+                                <img src="public/media/birmingham-museums-trust-5F3u0j6s6pM-unsplash.jpg" alt="Product Image"/>
+                                <img className="image-hover " src="public/media/birmingham-museums-trust-5F3u0j6s6pM-unsplash.jpg" alt="Product Image"/>
                             </a>
                             <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
@@ -637,8 +637,8 @@ return <>
                                     <span className="outofstock"><i className="far fa-frown"></i></span>
                                 <span className="hot">hot</span>
                                 </span>
-                                <img src="public/assets/media/birmingham-museums-trust-SRM-zKf1cDo-unsplash.jpg" alt="Product Image"/>
-                                <img className="image-hover " src="public/assets/media/birmingham-museums-trust-SRM-zKf1cDo-unsplash.jpg" alt="Product Image"/>
+                                <img src="public/media/birmingham-museums-trust-SRM-zKf1cDo-unsplash.jpg" alt="Product Image"/>
+                                <img className="image-hover " src="public/media/birmingham-museums-trust-SRM-zKf1cDo-unsplash.jpg" alt="Product Image"/>
                             </a>
                             <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
 
@@ -661,8 +661,8 @@ return <>
                     <div className="product">
                         <div className="product-thumb">
                             <a href="/product_details" className="image">
-                                <img src="public/assets/media/boston-public-library-4yPHCb1SPR4-unsplash.jpg" alt="Product Image"/>
-                                <img className="image-hover " src="public/assets/media/boston-public-library-4yPHCb1SPR4-unsplash.jpg" alt="Product Image"/>
+                                <img src="public/media/boston-public-library-4yPHCb1SPR4-unsplash.jpg" alt="Product Image"/>
+                                <img className="image-hover " src="public/media/boston-public-library-4yPHCb1SPR4-unsplash.jpg" alt="Product Image"/>
                             </a>
                             <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
@@ -684,8 +684,8 @@ return <>
                     <div className="product">
                         <div className="product-thumb">
                             <a href="/product_details" className="image">
-                                <img src="public/assets/media/c8b5ff6f-cffc-42c5-914a-a626cc2ea5b8.jpeg" alt="Product Image"/>
-                                <img className="image-hover " src="public/assets/media/c8b5ff6f-cffc-42c5-914a-a626cc2ea5b8.jpeg" alt="Product Image"/>
+                                <img src="public/media/c8b5ff6f-cffc-42c5-914a-a626cc2ea5b8.jpeg" alt="Product Image"/>
+                                <img className="image-hover " src="public/media/c8b5ff6f-cffc-42c5-914a-a626cc2ea5b8.jpeg" alt="Product Image"/>
                             </a>
                             <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                         </div>
@@ -716,7 +716,7 @@ return <>
             <div className="row text-center row-cols-1">
 
                 <div className="footer1-logo col text-center">
-                    <img src="public/assets/media/logo(600px).png" alt=""/>
+                    <img src="public/media/logo(600px).png" alt=""/>
                 </div>
 
                 <div className="footer1-menu col">
