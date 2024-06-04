@@ -8,7 +8,7 @@ export default function Shop(){
 
                 <div className="col-auto">
                     <div className="header-logo">
-                        <a href="/"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="public/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 

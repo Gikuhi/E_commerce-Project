@@ -7,7 +7,7 @@ export default function Product_details(){
 
                 <div className="col-auto">
                     <div className="header-logo">
-                        <a href="/"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="public/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -80,7 +80,7 @@ export default function Product_details(){
 
                 <div className="col-xl-auto col">
                     <div className="header-logo">
-                        <a href="/"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="public/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -168,7 +168,7 @@ export default function Product_details(){
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -208,7 +208,7 @@ export default function Product_details(){
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -274,7 +274,7 @@ export default function Product_details(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
@@ -282,7 +282,7 @@ export default function Product_details(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
@@ -290,7 +290,7 @@ export default function Product_details(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
@@ -316,7 +316,7 @@ export default function Product_details(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
@@ -324,7 +324,7 @@ export default function Product_details(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
@@ -332,7 +332,7 @@ export default function Product_details(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
@@ -588,11 +588,11 @@ export default function Product_details(){
                         ]'><i className="fas fa-expand"></i></button>
                         <div className="product-gallery-slider">
                             <div className="product-zoom" data-image="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg">
-                                <img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt=""/>
+                                <img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt=""/>
                             </div>
                         <div className="item">
                             <div className="item">
-                                <img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt=""/>
+                                <img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt=""/>
                             </div>
                             </div>
                         </div>
@@ -682,7 +682,7 @@ export default function Product_details(){
                         <ul className="product-review-list">
                             <li>
                                 <div className="product-review">
-                                    <div className="thumb"><img src="assets/images/review/review-1.webp" alt=""/></div>
+                                    <div className="thumb"><img src="images/review/review-1.webp" alt=""/></div>
                                     <div className="content">
                                         <div className="ratings">
                                             <span className="star-rating">
@@ -699,7 +699,7 @@ export default function Product_details(){
                             </li>
                             <li>
                                 <div className="product-review">
-                                    <div className="thumb"><img src="assets/images/review/review-2.webp" alt=""/></div>
+                                    <div className="thumb"><img src="images/review/review-2.webp" alt=""/></div>
                                     <div className="content">
                                         <div className="ratings">
                                             <span className="star-rating">
@@ -716,7 +716,7 @@ export default function Product_details(){
                             </li>
                             <li>
                                 <div className="product-review">
-                                    <div className="thumb"><img src="assets/images/review/review-3.webp" alt=""/></div>
+                                    <div className="thumb"><img src="images/review/review-3.webp" alt=""/></div>
                                     <div className="content">
                                         <div className="ratings">
                                             <span className="star-rating">
@@ -763,7 +763,7 @@ export default function Product_details(){
 
                 <div className="col-lg-6 learts-mb-40">
                     <div className="widget-about">
-                        <img src="public/assets/media/logo(600px).png" alt=""/>
+                        <img src="public/media/logo(600px).png" alt=""/>
                     </div>
                 </div>
 
@@ -817,7 +817,7 @@ export default function Product_details(){
                         <div className="product-images">
                             <div className="product-gallery-slider-quickview">
                                 <div className="product-zoom" data-image="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg">
-                                    <img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt=""/>
+                                    <img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -879,8 +879,8 @@ export default function Product_details(){
                             <div className="product-brands">
                                 <span className="title">Brands</span>
                                 <div className="brands">
-                                    <a href="#"><img src="assets/images/brands/brand-3.webp" alt=""/></a>
-                                    <a href="#"><img src="assets/images/brands/brand-8.webp" alt=""/></a>
+                                    <a href="#"><img src="images/brands/brand-3.webp" alt=""/></a>
+                                    <a href="#"><img src="images/brands/brand-8.webp" alt=""/></a>
                                 </div>
                             </div>
                             <div className="product-meta mb-0">

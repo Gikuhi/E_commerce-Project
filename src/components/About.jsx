@@ -9,7 +9,7 @@ return <>
 
                 <div className="col-auto">
                     <div className="header-logo">
-                        <a href="/"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="public/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -82,7 +82,7 @@ return <>
 
                 <div className="col-xl-auto col">
                     <div className="header-logo">
-                        <a href="/"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="public/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -170,7 +170,7 @@ return <>
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -210,7 +210,7 @@ return <>
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -276,7 +276,7 @@ return <>
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
@@ -284,7 +284,7 @@ return <>
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
@@ -292,7 +292,7 @@ return <>
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
@@ -318,7 +318,7 @@ return <>
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
@@ -326,7 +326,7 @@ return <>
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
@@ -334,7 +334,7 @@ return <>
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
@@ -591,7 +591,7 @@ return <>
                     </div>
                 </div>
                 <div className="col-md-6 col-12 text-center learts-mb-30">
-                    <img src="public/assets/media/Hibiscus.jpeg" alt=""/>
+                    <img src="public/media/Hibiscus.jpeg" alt=""/>
                 </div>
 
             </div>
@@ -630,7 +630,7 @@ return <>
                         <div className="inner">
                             <div className="content">
                                 <h6 className="title">SECURE PAYMENT</h6>
-                                <img className="img-hover-color " src="assets/images/others/pay.webp" alt=""/>
+                                <img className="img-hover-color " src="images/others/pay.webp" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -657,7 +657,7 @@ return <>
                     <div className="testimonial">
                         <p>There is nothing would satisfy me much more than a worry-free clean and responsive theme from using a high-traffic site.</p>
                         <div className="author">
-                            <img src="assets/images/testimonial/testimonial-1.webp" alt=""/>
+                            <img src="images/testimonial/testimonial-1.webp" alt=""/>
                             <div className="content">
                                 <h6 className="name">Anais Coulon</h6>
                                 <span className="title">Actor</span>
@@ -669,7 +669,7 @@ return <>
                     <div className="testimonial">
                         <p>Really good design/documentation, pretty much everything is nicely setup. The best choice for my Home.</p>
                         <div className="author">
-                            <img src="assets/images/testimonial/testimonial-2.webp" alt=""/>
+                            <img src="images/testimonial/testimonial-2.webp" alt=""/>
                             <div className="content">
                                 <h6 className="name">Ian Schneider</h6>
                                 <span className="title">Actor</span>
@@ -681,7 +681,7 @@ return <>
                     <div className="testimonial">
                         <p>My family loves one of the paintings I bought from here.</p>
                         <div className="author">
-                            <img src="assets/images/testimonial/testimonial-3.webp" alt=""/>
+                            <img src="images/testimonial/testimonial-3.webp" alt=""/>
                             <div className="content">
                                 <h6 className="name">Florence Polla</h6>
                                 <span className="title">Customer</span>
@@ -693,7 +693,7 @@ return <>
                     <div className="testimonial">
                         <p>Thanks for always keeping your site up to date. Your level of support is second to none.</p>
                         <div className="author">
-                            <img src="assets/images/testimonial/testimonial-4.webp" alt=""/>
+                            <img src="images/testimonial/testimonial-4.webp" alt=""/>
                             <div className="content">
                                 <h6 className="name">Sally Ramsey</h6>
                                 <span className="title">Reporter</span>
@@ -751,7 +751,7 @@ return <>
 
                 <div className="col-lg-6 learts-mb-40">
                     <div className="widget-about">
-                        <img src="public/assets/media/logo(600px).png" alt=""/>
+                        <img src="public/media/logo(600px).png" alt=""/>
                     </div>
                 </div>
 

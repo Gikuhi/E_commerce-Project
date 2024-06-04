@@ -7,7 +7,7 @@ export default function Shopping_cart(){
 
                 <div className="col-auto">
                     <div className="header-logo">
-                        <a href="/"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="public/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -80,7 +80,7 @@ export default function Shopping_cart(){
 
                 <div className="col-xl-auto col">
                     <div className="header-logo">
-                        <a href="/"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="public/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -168,7 +168,7 @@ export default function Shopping_cart(){
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -208,7 +208,7 @@ export default function Shopping_cart(){
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -274,7 +274,7 @@ export default function Shopping_cart(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
@@ -282,7 +282,7 @@ export default function Shopping_cart(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
@@ -290,7 +290,7 @@ export default function Shopping_cart(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
@@ -316,7 +316,7 @@ export default function Shopping_cart(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
@@ -324,7 +324,7 @@ export default function Shopping_cart(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
@@ -332,7 +332,7 @@ export default function Shopping_cart(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
@@ -589,7 +589,7 @@ export default function Shopping_cart(){
                     </thead>
                     <tbody>
                         <tr>
-                            <td className="thumbnail"><a href="/product_details"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="cart-product-1"/></a></td>
+                            <td className="thumbnail"><a href="/product_details"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="cart-product-1"/></a></td>
                             <td className="name"> <a href="/product_details">Jesus & Mary</a></td>
                             <td className="price"><span>Ksh10000.00</span></td>
                             <td className="quantity">
@@ -603,7 +603,7 @@ export default function Shopping_cart(){
                             <td className="remove"><a href="#" className="btn">×</a></td>
                         </tr>
                         <tr>
-                            <td className="thumbnail"><a href="/product_details"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="cart-product-2"/></a></td>
+                            <td className="thumbnail"><a href="/product_details"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="cart-product-2"/></a></td>
                             <td className="name"> <a href="/product_details">The Gateway</a></td>
                             <td className="price"><span>Ksh3500.00</span></td>
                             <td className="quantity">
@@ -617,7 +617,7 @@ export default function Shopping_cart(){
                             <td className="remove"><a href="#" className="btn">×</a></td>
                         </tr>
                         <tr>
-                            <td className="thumbnail"><a href="/product_details"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="cart-product-3"/></a></td>
+                            <td className="thumbnail"><a href="/product_details"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="cart-product-3"/></a></td>
                             <td className="name"> <a href="/product_details">Femmes Qui Ont</a></td>
                             <td className="price"><span>Ksh5000.00</span></td>
                             <td className="quantity">
@@ -672,7 +672,7 @@ export default function Shopping_cart(){
 
                 <div className="col-lg-6 learts-mb-40">
                     <div className="widget-about">
-                        <img src="public/assets/media/logo(600px).png" alt=""/>
+                        <img src="public/media/logo(600px).png" alt=""/>
                     </div>
                 </div>
 
