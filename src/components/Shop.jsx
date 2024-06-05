@@ -81,7 +81,7 @@ export default function Shop(){
 
                 <div className="col-xl-auto col">
                     <div className="header-logo">
-                        <a href="/"><img src="public/assets/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="public/media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -169,7 +169,7 @@ export default function Shop(){
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -209,7 +209,7 @@ export default function Shop(){
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -275,7 +275,7 @@ export default function Shop(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
@@ -283,7 +283,7 @@ export default function Shop(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
@@ -291,7 +291,7 @@ export default function Shop(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
@@ -317,7 +317,7 @@ export default function Shop(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
@@ -325,7 +325,7 @@ export default function Shop(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh3500.00</span></span>
@@ -333,7 +333,7 @@ export default function Shop(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/assets/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh5000.00</span></span>
@@ -663,8 +663,8 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="/product_details" className="image">
-                                    <img src="public/assets/media/Yofukuro.jpeg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/Yofukuro.jpeg" alt="Product Image"/>
+                                    <img src="public/media/Yofukuro.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/Yofukuro.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -690,7 +690,7 @@ export default function Shop(){
                                         <span className="outofstock"><i className="far fa-frown"></i></span>
                                     </span>
                                     <img src="public/assets/media/c62ab731-b052-4df4-a8f3-42179bc13da0.jpeg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/c62ab731-b052-4df4-a8f3-42179bc13da0.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/c62ab731-b052-4df4-a8f3-42179bc13da0.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -715,8 +715,8 @@ export default function Shop(){
                                     <span className="hot">hot</span>
                                 </span>
                                 <a href="product_details" className="image">
-                                    <img src="public/assets/media/cab3dfee-eb20-4845-ae26-56a511716ec5.jpeg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/cab3dfee-eb20-4845-ae26-56a511716ec5.jpeg" alt="Product Image"/>
+                                    <img src="public/media/cab3dfee-eb20-4845-ae26-56a511716ec5.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/cab3dfee-eb20-4845-ae26-56a511716ec5.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -738,8 +738,8 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="/product_details" className="image">
-                                    <img src="public/assets/media/Color Exercises.jpeg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/Color Exercises.jpeg" alt="Product Image"/>
+                                    <img src="public/media/Color Exercises.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/Color Exercises.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -764,8 +764,8 @@ export default function Shop(){
                                     <span className="product-badges">
                                         <span className="onsale">-20%</span>
                                     </span>
-                                    <img src="public/assets/media/dde529a1-d557-4193-b637-75cde5994728.jpeg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/dde529a1-d557-4193-b637-75cde5994728.jpeg" alt="Product Image"/>
+                                    <img src="public/media/dde529a1-d557-4193-b637-75cde5994728.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/dde529a1-d557-4193-b637-75cde5994728.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="?wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -791,8 +791,8 @@ export default function Shop(){
                                     <span className="product-badges">
                                         <span className="onsale">-13%</span>
                                     </span>
-                                    <img src="public/assets/media/e0ddb5be-0254-4ea1-88f9-01cf40a2fe9f.jpeg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/e0ddb5be-0254-4ea1-88f9-01cf40a2fe9f.jpeg" alt="Product Image"/>
+                                    <img src="public/media/e0ddb5be-0254-4ea1-88f9-01cf40a2fe9f.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/e0ddb5be-0254-4ea1-88f9-01cf40a2fe9f.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -815,7 +815,7 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="/product_details" className="image">
-                                    <img src="../../public/assets/media/GrantWoodFarmersPaintingWallMural.jpeg" alt="Product Image"/>
+                                    <img src="../../public/media/GrantWoodFarmersPaintingWallMural.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -837,8 +837,8 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="/product_details" className="image">
-                                    <img src="public/assets/media/Jean-MichelBasquiat _ Furious Man _ MutualArt.jpeg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/Jean-MichelBasquiat _ Furious Man _ MutualArt.jpeg" alt="Product Image"/>
+                                    <img src="public/media/Jean-MichelBasquiat _ Furious Man _ MutualArt.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/Jean-MichelBasquiat _ Furious Man _ MutualArt.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -861,7 +861,7 @@ export default function Shop(){
                             <div className="product-thumb">
                                 <a href="/product_details" className="image">
                                     <img src="public/assets/media/Long Time Coming Painting.jpeg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/Long Time Coming Painting.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/Long Time Coming Painting.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -886,8 +886,8 @@ export default function Shop(){
                                     <span className="product-badges">
                                         <span className="outofstock"><i className="far fa-frown"></i></span>
                                     </span>
-                                    <img src="public/assets/media/que debería poner en el fondo.jpeg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/que debería poner en el fondo.jpeg" alt="Product Image"/>
+                                    <img src="public/media/que debería poner en el fondo.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/que debería poner en el fondo.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -910,7 +910,7 @@ export default function Shop(){
                             <div className="product-thumb">
                                 <a href="/product_details" className="image">
                                     <img src="public/assets/media/simon-lee-MnnDZX4gAw4-unsplash.jpg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/simon-lee-MnnDZX4gAw4-unsplash.jpg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/simon-lee-MnnDZX4gAw4-unsplash.jpg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -935,7 +935,7 @@ export default function Shop(){
                                     <span className="product-badges">
                                         <span className="onsale">-13%</span>
                                     </span>
-                                    <img src="public/assets/media/Sunflowers_on_Gold.jpeg" alt="Product Image"/>
+                                    <img src="public/media/Sunflowers_on_Gold.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -962,8 +962,8 @@ export default function Shop(){
                                         <span className="outofstock"><i className="far fa-frown"></i></span>
                                     <span className="hot">hot</span>
                                     </span>
-                                    <img src="public/assets/media/Reaching.jpeg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/Reaching.jpeg" alt="Product Image"/>
+                                    <img src="public/media/Reaching.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/Reaching.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -985,8 +985,8 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="/product_details" className="image">
-                                    <img src="public/assets/media/adrianna-geo-1rBg5YSi00c-unsplash.jpg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/adrianna-geo-1rBg5YSi00c-unsplash.jpg" alt="Product Image"/>
+                                    <img src="public/media/adrianna-geo-1rBg5YSi00c-unsplash.jpg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/adrianna-geo-1rBg5YSi00c-unsplash.jpg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -1008,8 +1008,8 @@ export default function Shop(){
                         <div className="product">
                             <div className="product-thumb">
                                 <a href="/product_details" className="image">
-                                    <img src="public/assets/media/Sorrow-JacksonEvilOriginals_OpenSea.jpeg" alt="Product Image"/>
-                                    <img className="image-hover " src="public/assets/media/Sorrow-JacksonEvilOriginals_OpenSea.jpeg" alt="Product Image"/>
+                                    <img src="public/media/Sorrow-JacksonEvilOriginals_OpenSea.jpeg" alt="Product Image"/>
+                                    <img className="image-hover " src="public/media/Sorrow-JacksonEvilOriginals_OpenSea.jpeg" alt="Product Image"/>
                                 </a>
                                 <a href="/wishlist" className="add-to-wishlist hintT-left" data-hint="Add to wishlist"><i className="far fa-heart"></i></a>
                             </div>
@@ -1043,7 +1043,7 @@ export default function Shop(){
 
                 <div className="col-lg-6 learts-mb-40">
                     <div className="widget-about">
-                        <img src="public/assets/media/logo(600px).png" alt=""/>
+                        <img src="public/media/logo(600px).png" alt=""/>
                     </div>
                 </div>
 
