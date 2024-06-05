@@ -43,7 +43,7 @@ return <>
 
                 <div className="col">
                     <div className="header-logo justify-content-center">
-                        <a href="/"><img src="public/media/logo(600px).png" alt="Logo"/></a>
+                        <a href="/"><img src="media/logo(600px).png" alt="Logo"/></a>
                     </div>
                 </div>
 
