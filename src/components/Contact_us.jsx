@@ -9,7 +9,7 @@ export default function Contact_us(){
 
                 <div className="col-auto">
                     <div className="header-logo">
-                        <a href="/"><img src="public/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -82,7 +82,7 @@ export default function Contact_us(){
 
                 <div className="col-xl-auto col">
                     <div className="header-logo">
-                        <a href="/"><img src="public/media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
@@ -276,7 +276,7 @@ export default function Contact_us(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
@@ -284,7 +284,7 @@ export default function Contact_us(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
@@ -292,7 +292,7 @@ export default function Contact_us(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
@@ -318,7 +318,7 @@ export default function Contact_us(){
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">$100.00</span></span>
@@ -326,7 +326,7 @@ export default function Contact_us(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="media/2f5a3e4b-e789-48cf-813e-73f6caa6ea97.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">The Gateway</a>
                             <span className="quantity-price">1 x <span className="amount">$35.00</span></span>
@@ -334,7 +334,7 @@ export default function Contact_us(){
                         </div>
                     </li>
                     <li>
-                        <a href="/product_details" className="image"><img src="public/media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="media/5 femmes qui ont marqué l'Histoire de l'Art _ Rise Art.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Femmes Qui Ont</a>
                             <span className="quantity-price">1 x <span className="amount">$50.00</span></span>
@@ -645,7 +645,7 @@ export default function Contact_us(){
 
                 <div className="col-lg-6 learts-mb-40">
                     <div className="widget-about">
-                        <img src="public/media/logo(600px).png" alt=""/>
+                        <img src="media/logo(600px).png" alt=""/>
                     </div>
                 </div>
 
