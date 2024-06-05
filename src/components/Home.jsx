@@ -202,7 +202,7 @@ return <>
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Logo"/></a>
                     </div>
                 </div>
 
@@ -310,7 +310,7 @@ return <>
             <div className="body customScroll">
                 <ul className="minicart-product-list">
                     <li>
-                        <a href="/product_details" className="image"><img src="public/media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
+                        <a href="/product_details" className="image"><img src="media/0faaceb4-98ed-419e-8927-bfbc9f464af2.jpeg" alt="Cart product Image"/></a>
                         <div className="content">
                             <a href="/product_details" className="title">Jesus & Mary</a>
                             <span className="quantity-price">1 x <span className="amount">Ksh10000.00</span></span>
@@ -424,7 +424,7 @@ return <>
                 <div className="col-lg-6 col-md-6 col-12 learts-mb-40">
                     <div className="sale-banner2">
                         <div className="inner">
-                            <div className="image"><img src="public/media/Vincent Van Gogh Sorrowing Old Man - At Eternity's Gate 1890, High quality Hand painted oil painting reproduction.jpeg" alt=""/></div>
+                            <div className="image"><img src="media/Vincent Van Gogh Sorrowing Old Man - At Eternity's Gate 1890, High quality Hand painted oil painting reproduction.jpeg" alt=""/></div>
                             <div className="content row justify-content-between mb-n3">
                                 <div className="col-auto mb-3">
                                     <h2 className="sale-percent">10% off</h2>
