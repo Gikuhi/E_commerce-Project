@@ -63,10 +63,10 @@ return <>
                         {/*    <a href="#offcanvas-search" className="offcanvas-toggle"><i className="fas fa-search"></i></a>*/}
                         {/*</div>*/}
                         <div className="header-wishlist">
-                            <a href="#offcanvas-wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
+                            <a href="/wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
                         </div>
                         <div className="header-cart">
-                            <a href="#offcanvas-cart" className="offcanvas-toggle"><span className="cart-count">3</span><i className="fas fa-shopping-cart"></i></a>
+                            <a href="/shopping_cart" className="offcanvas-toggle"><span className="cart-count">3</span><i className="fas fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
