@@ -216,10 +216,10 @@ return <>
                             <a href="#offcanvas-search" className="offcanvas-toggle"><i className="fas fa-search"></i></a>
                         </div>
                         <div className="header-wishlist d-none d-sm-block">
-                            <a href="#offcanvas-wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
+                            <a href="/wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
                         </div>
                         <div className="header-cart">
-                            <a href="#offcanvas-cart" className="offcanvas-toggle"><span className="cart-count">3</span><i className="fas fa-shopping-cart"></i></a>
+                            <a href="/shopping_cart" className="offcanvas-toggle"><span className="cart-count">3</span><i className="fas fa-shopping-cart"></i></a>
                         </div>
                         <div className="mobile-menu-toggle">
                             <a href="#offcanvas-mobile-menu" className="offcanvas-toggle">
@@ -230,6 +230,37 @@ return <>
                                 </svg>
                             </a>
                         </div>
+                        <div id="offcanvas-mobile-menu" className="offcanvas offcanvas-mobile-menu">
+                     <nav className="site-main-menu">
+                    <ul>
+            <li className="has-children"><a href="#"><span className="menu-text">Shop</span></a>
+                <ul className="sub-menu mega-menu">
+                    <li>
+                        <a href="#" className="mega-menu-title"><span className="menu-text">PRODUCTS</span></a>
+                        <ul>
+                            <li><a href="/product_details"><span className="menu-text">Product with Background</span></a></li>
+                            <li><a href="/shopping_cart"><span className="menu-text">Shopping Cart</span></a></li>
+                            <li><a href="/checkout"><span className="menu-text">Checkout</span></a></li>
+                            <li><a href="/order_tracking"><span className="menu-text">Order Tracking</span></a></li>
+                            <li><a href="/wishlist"><span className="menu-text">Wishlist</span></a></li>
+                            <li><a href="/login_register"><span className="menu-text">Customer Login</span></a></li>
+                            <li><a href="/my_account"><span className="menu-text">My Account</span></a></li>
+                            <li><a href="/lost_password"><span className="menu-text">Lost Password</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li className="has-children"><a href="#"><span className="menu-text">Pages</span></a>
+                <ul className="sub-menu">
+                    <li><a href="/about"><span className="menu-text">About us</span></a></li>
+                    <li><a href="/contact_us"><span className="menu-text">Contact us</span></a></li>
+                    <li><a href="/coming_soon"><span className="menu-text">Coming Soon</span></a></li>
+                    <li><a href="*"><span className="menu-text">Page 404</span></a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
                     </div>
                 </div>
 
