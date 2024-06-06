@@ -61,10 +61,10 @@ export default function Lost_password(){
                             <a href="/my_account"><i className="far fa-user"></i></a>
                         </div>
                         <div className="header-wishlist">
-                            <a href="#offcanvas-wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
+                            <a href="/wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
                         </div>
                         <div className="header-cart">
-                            <a href="#offcanvas-cart" className="offcanvas-toggle"><span className="cart-count">3</span><i className="fas fa-shopping-cart"></i></a>
+                            <a href="/shopping_cart" className="offcanvas-toggle"><span className="cart-count">3</span><i className="fas fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -139,10 +139,10 @@ export default function Lost_password(){
                             <a href="#offcanvas-search" className="offcanvas-toggle"><i className="fas fa-search"></i></a>
                         </div>
                         <div className="header-wishlist d-none d-sm-block">
-                            <a href="#offcanvas-wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
+                            <a href="/wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
                         </div>
                         <div className="header-cart">
-                            <a href="#offcanvas-cart" className="offcanvas-toggle"><span className="cart-count">3</span><i className="fas fa-shopping-cart"></i></a>
+                            <a href="/shopping_cart" className="offcanvas-toggle"><span className="cart-count">3</span><i className="fas fa-shopping-cart"></i></a>
                         </div>
                         <div className="mobile-menu-toggle d-xl-none">
                             <a href="#" className="offcanvas-toggle">
@@ -168,23 +168,23 @@ export default function Lost_password(){
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="/"><img src="media/logo(600px).png" alt="Learts Logo"/></a>
                     </div>
                 </div>
 
                 <div className="col-auto">
                     <div className="header-tools justify-content-end">
                         <div className="header-login d-none d-sm-block">
-                            <a href="my-account.html"><i className="far fa-user"></i></a>
+                            <a href="/my_account"><i className="far fa-user"></i></a>
                         </div>
                         <div className="header-search d-none d-sm-block">
                             <a href="#offcanvas-search" className="offcanvas-toggle"><i className="fas fa-search"></i></a>
                         </div>
                         <div className="header-wishlist d-none d-sm-block">
-                            <a href="#offcanvas-wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
+                            <a href="/wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
                         </div>
                         <div className="header-cart">
-                            <a href="#offcanvas-cart" className="offcanvas-toggle"><span className="cart-count">3</span><i className="fas fa-shopping-cart"></i></a>
+                            <a href="/shopping_cart" className="offcanvas-toggle"><span className="cart-count">3</span><i className="fas fa-shopping-cart"></i></a>
                         </div>
                         <div className="mobile-menu-toggle">
                             <a href="#offcanvas-mobile-menu" className="offcanvas-toggle">
