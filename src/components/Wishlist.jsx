@@ -62,10 +62,10 @@ export default function Wishlist(){
                             <a href="/my_account"><i className="far fa-user"></i></a>
                         </div>
                         <div className="header-wishlist">
-                            <a href="#offcanvas-wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
+                            <a href="/wishlist" className="offcanvas-toggle"><span className="wishlist-count">3</span><i className="far fa-heart"></i></a>
                         </div>
                         <div className="header-cart">
-                            <a href="#offcanvas-cart" className="offcanvas-toggle"><span className="cart-count">3</span><i className="fas fa-shopping-cart"></i></a>
+                            <a href="/shopping_cart" className="offcanvas-toggle"><span className="cart-count">3</span><i className="fas fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ export default function Wishlist(){
 
                 <div className="col-xl-auto col">
                     <div className="header-logo">
-                        <a href="/"><img src="media/logo(600px).png" alt="Learts Logo"/></a>
+                        <a href="/"><img src="media/logo(600px).png" alt="Logo"/></a>
                     </div>
                 </div>
 
@@ -169,7 +169,7 @@ export default function Wishlist(){
 
                 <div className="col">
                     <div className="header-logo">
-                        <a href="index.html"><img src="images/logo/logo-2.webp" alt="Learts Logo"/></a>
+                        <a href="/"><img src="media/logo(600px).png" alt="Logo"/></a>
                     </div>
                 </div>
 
